@@ -1,5 +1,8 @@
+from agents.demo import run_demo
+
+
 def main():
-    print("Hello from darwinbox-technicalscreen!")
+    run_demo()
 
 
 if __name__ == "__main__":

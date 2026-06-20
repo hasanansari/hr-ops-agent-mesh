@@ -7,3 +7,4 @@ chroma_db/
 .DS_Store
 node_modules/
 traces/*.json
+.claude/
