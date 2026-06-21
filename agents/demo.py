@@ -30,6 +30,12 @@ def run_demo() -> None:
         for entry in result["trace"]:
             print(f"  [{entry.agent}] in={entry.input} -> out={entry.output}")
 
+        anomaly_result = result.get("anomaly_result")
+        if anomaly_result:
+            print("  sample high-confidence anomalies (auto-triggered for Action Agent):")
+            for anomaly in anomaly_result["high_confidence_anomalies"][:3]:
+                print(f"    {anomaly}")
+
 
 if __name__ == "__main__":
     run_demo()

@@ -1,0 +1,801 @@
+employee_id,name,department,level,title,tenure_months,monthly_salary,overtime_hours_week,mandatory_training_completed,leave_taken_qtr,leave_long_weekend_count,leave_balance_days,performance_rating,attendance_rate
+EMP-0001,Karim Silva,Customer Support,1,Support Associate,31,5290.02,4.9,True,7,1,17,2,0.908
+EMP-0002,Mira Nair,Operations,2,Ops Analyst,39,11848.03,5.2,True,7,1,17,3,1.0
+EMP-0003,Sofia Iyer,HR,1,HR Associate,33,6334.41,3.9,False,2,0,22,4,0.958
+EMP-0004,Lena Mehta,Sales,1,SDR,25,6853.88,6.1,True,4,0,20,3,0.946
+EMP-0005,Nisha Gomes,Customer Support,2,Support Specialist,44,7574.69,4.0,False,6,1,18,5,0.944
+EMP-0006,Ivan Patel,Operations,1,Ops Associate,21,6000.48,4.5,True,8,2,16,3,0.926
+EMP-0007,Bilal Silva,HR,1,HR Associate,18,6855.04,4.9,True,6,0,18,3,0.969
+EMP-0008,Mira Nair,Operations,3,Ops Manager,49,11114.33,5.2,True,5,1,19,4,0.963
+EMP-0009,Noor Costa,Sales,3,Senior AE,51,12875.65,0.0,True,18,12,6,3,0.941
+EMP-0010,Lena Hassan,Operations,4,Senior Ops Manager,50,13973.77,6.7,True,2,0,22,4,0.893
+EMP-0011,Maya Haddad,Sales,3,Senior AE,43,12446.79,4.5,True,7,0,17,4,0.946
+EMP-0012,Priya Reddy,HR,1,HR Associate,22,10881.21,0.2,True,2,0,22,4,0.966
+EMP-0013,Nisha Nair,Operations,5,Ops Director,76,17986.26,3.4,True,21,12,3,4,0.948
+EMP-0014,Nisha Iyer,Product,1,Associate PM,33,8682.89,2.1,True,3,0,21,2,0.979
+EMP-0015,Zara Hassan,Operations,3,Ops Manager,42,10917.08,4.2,True,6,0,18,4,0.956
+EMP-0016,Ravi Gomes,Finance,3,Finance Manager,42,14358.89,0.0,True,18,12,6,2,0.907
+EMP-0017,Farah Silva,Product,4,Group PM,46,20584.31,0.7,True,3,0,21,5,0.946
+EMP-0018,Aarav Malik,Product,2,Product Manager,46,11213.13,2.5,True,2,0,22,3,0.994
+EMP-0019,Yusuf Pinto,Sales,5,Sales Director,47,20898.56,3.6,True,3,0,21,3,0.963
+EMP-0020,Aisha Silva,Operations,2,Ops Analyst,31,8383.65,3.1,False,9,1,15,3,0.919
+EMP-0021,Tariq Joshi,Customer Support,3,Senior Specialist,50,9868.14,6.4,True,7,0,17,4,1.0
+EMP-0022,Mateo Costa,Sales,2,Account Executive,23,8918.42,0.7,True,3,0,21,2,0.985
+EMP-0023,Elena Patel,Engineering,1,Associate Engineer,25,8376.72,0.5,True,5,1,19,4,1.0
+EMP-0024,Mateo Rao,Engineering,2,Engineer,72,12710.37,0.5,True,0,0,24,4,0.927
+EMP-0025,Elena Nair,Finance,2,Senior Analyst,33,10550.89,2.6,True,8,0,16,3,0.954
+EMP-0026,Ivan Reddy,Product,1,Associate PM,15,8014.71,1.8,True,4,0,20,5,0.965
+EMP-0027,Sami Nair,Engineering,1,Associate Engineer,39,4574.51,1.2,True,11,1,13,2,0.994
+EMP-0028,Sami Farooq,Customer Support,3,Senior Specialist,37,10177.02,4.0,True,4,0,20,3,0.934
+EMP-0029,Omar Silva,Engineering,1,Associate Engineer,33,8995.05,0.0,True,20,11,4,2,0.967
+EMP-0030,Liam Fonseca,Operations,1,Ops Associate,46,6499.47,2.7,True,5,0,19,4,0.969
+EMP-0031,Kabir Iyer,Engineering,2,Engineer,33,12819.72,4.1,True,9,1,15,3,0.911
+EMP-0032,Aarav Qureshi,HR,1,HR Associate,11,7209.35,7.3,True,4,0,20,3,1.0
+EMP-0033,Yusuf Naidu,Engineering,1,Associate Engineer,14,8616.21,4.6,True,3,0,21,3,0.953
+EMP-0034,Tariq Nair,Sales,2,Account Executive,42,10213.88,3.2,True,6,0,18,2,0.958
+EMP-0035,Maya Iyer,Finance,5,Finance Director,57,22291.81,0.8,True,3,0,21,4,0.907
+EMP-0036,Nisha Mehta,Finance,3,Finance Manager,48,14076.44,2.2,True,8,1,16,4,1.0
+EMP-0037,Omar Pinto,Engineering,3,Senior Engineer,46,15223.13,2.4,True,5,1,19,4,0.917
+EMP-0038,Liam Gomes,Operations,3,Ops Manager,49,11120.61,9.3,True,10,0,14,3,0.949
+EMP-0039,Liam Gomes,Operations,2,Ops Analyst,20,7903.91,3.8,True,8,2,16,3,0.934
+EMP-0040,Sami Hassan,Sales,3,Senior AE,22,11999.89,0.3,True,3,0,21,3,0.956
+EMP-0041,Diego Malik,Sales,4,Sales Manager,36,14465.78,8.3,True,21,17,3,3,0.916
+EMP-0042,Liam Joshi,Product,3,Senior PM,70,18592.36,0.1,True,3,0,21,4,1.0
+EMP-0043,Tariq Costa,Sales,1,SDR,16,6988.94,4.9,True,6,0,18,3,0.955
+EMP-0044,Farah Nair,HR,2,HR Generalist,21,8475.01,2.3,True,5,0,19,3,0.979
+EMP-0045,Ravi Fonseca,Finance,5,Finance Director,80,24719.06,3.9,True,5,0,19,4,0.931
+EMP-0046,Zara Iyer,HR,2,HR Generalist,41,8687.7,8.2,True,9,2,15,4,0.929
+EMP-0047,Sofia Patel,Engineering,3,Senior Engineer,34,23951.52,0.0,False,7,0,17,4,0.916
+EMP-0048,Zara Malik,Customer Support,4,Support Lead,52,12824.09,3.1,True,4,0,20,4,0.95
+EMP-0049,Aisha Naidu,Customer Support,5,Support Manager,69,17723.34,0.0,True,4,0,20,4,0.972
+EMP-0050,Hana Joshi,Finance,1,Finance Analyst,23,7476.29,3.8,True,10,2,14,2,0.995
+EMP-0051,Sofia Silva,Product,4,Group PM,54,20156.76,0.4,True,3,0,21,5,0.983
+EMP-0052,Dev Fonseca,Product,5,Director of Product,88,28315.27,4.1,True,10,0,14,4,0.993
+EMP-0053,Priya Sheikh,Product,3,Senior PM,44,15570.46,1.3,True,7,0,17,3,0.991
+EMP-0054,Layla Mehta,Sales,3,Senior AE,45,19002.07,4.8,True,0,0,24,3,0.913
+EMP-0055,Aarav Farooq,Operations,1,Ops Associate,21,6880.52,4.6,True,2,0,22,2,0.961
+EMP-0056,Nisha Rao,Product,4,Group PM,43,19246.2,3.8,True,8,1,16,4,0.868
+EMP-0057,Dev Sheikh,Customer Support,4,Support Lead,61,12770.04,4.0,True,9,2,15,2,0.936
+EMP-0058,Maya Sheikh,Finance,2,Senior Analyst,45,10010.23,6.7,True,6,0,18,4,0.937
+EMP-0059,Zara Malik,HR,3,Senior HR Generalist,57,12316.92,3.6,True,5,0,19,4,0.925
+EMP-0060,Aisha Gomes,HR,4,HR Manager,56,14830.36,4.0,True,7,0,17,3,0.955
+EMP-0061,Aarav Sheikh,Finance,3,Finance Manager,65,14039.46,0.9,True,5,0,19,4,0.96
+EMP-0062,Omar Pinto,HR,1,HR Associate,43,7079.04,16.3,True,11,1,13,3,0.88
+EMP-0063,Mateo Hassan,Sales,5,Sales Director,87,20443.72,3.3,True,8,0,16,2,0.91
+EMP-0064,Priya Iyer,Product,2,Product Manager,18,11058.33,4.1,True,6,1,18,4,0.903
+EMP-0065,Yusuf Sheikh,Product,5,Director of Product,40,25544.37,1.8,True,6,0,18,4,0.966
+EMP-0066,Aarav Hassan,Customer Support,1,Support Associate,37,5747.56,4.3,False,2,0,22,3,0.968
+EMP-0067,Omar Fonseca,Sales,1,SDR,37,7045.36,4.3,True,4,0,20,3,0.993
+EMP-0068,Bilal Naidu,Operations,5,Ops Director,44,16596.61,0.0,True,0,0,24,3,0.99
+EMP-0069,Elena Sheikh,Operations,3,Ops Manager,44,11056.14,5.7,True,8,1,16,3,1.0
+EMP-0070,Liam Gomes,Engineering,3,Senior Engineer,49,15124.63,1.5,True,0,0,24,3,0.946
+EMP-0071,Ravi Malik,Operations,2,Ops Analyst,47,9240.44,0.0,True,6,1,18,2,0.979
+EMP-0072,Lena Fonseca,Finance,3,Finance Manager,46,12884.29,5.3,True,3,0,21,3,0.917
+EMP-0073,Kabir Silva,Product,4,Group PM,50,20684.41,2.5,True,5,0,19,4,1.0
+EMP-0074,Ivan Farooq,Finance,4,Senior Manager,53,17167.61,5.7,True,4,0,20,4,0.975
+EMP-0075,Karim Khan,Sales,2,Account Executive,36,9569.14,7.9,True,11,2,13,3,0.966
+EMP-0076,Elena Joshi,Operations,5,Ops Director,80,17577.77,3.8,True,4,0,20,4,0.927
+EMP-0077,Dev Nair,HR,4,HR Manager,38,12917.89,0.2,True,3,0,21,3,1.0
+EMP-0078,Kabir Patel,Operations,2,Ops Analyst,51,7917.51,3.9,True,3,0,21,3,0.967
+EMP-0079,Dev Iyer,Customer Support,1,Support Associate,35,5545.2,5.7,True,1,0,23,3,1.0
+EMP-0080,Yusuf Rao,Customer Support,3,Senior Specialist,50,10577.12,3.2,True,6,0,18,3,0.953
+EMP-0081,Maya Joshi,Finance,1,Finance Analyst,18,8537.88,0.9,True,6,1,18,4,0.975
+EMP-0082,Ivan Joshi,Engineering,4,Staff Engineer,54,21254.58,2.2,True,7,0,17,2,0.947
+EMP-0083,Arjun Silva,Engineering,4,Staff Engineer,34,18534.54,6.4,True,17,13,7,4,0.931
+EMP-0084,Layla Pinto,Sales,1,SDR,9,5798.06,1.6,True,12,1,12,3,0.938
+EMP-0085,Anika Costa,Finance,4,Senior Manager,63,17208.82,2.3,True,5,1,19,4,0.992
+EMP-0086,Layla Fonseca,Customer Support,1,Support Associate,32,5873.1,1.3,True,7,0,17,4,0.921
+EMP-0087,Bilal Iyer,HR,1,HR Associate,17,7120.42,2.5,True,9,1,15,3,1.0
+EMP-0088,Maya Iyer,Product,4,Group PM,59,20626.57,6.9,True,3,0,21,3,0.942
+EMP-0089,Layla Patel,Product,1,Associate PM,33,8192.54,4.6,True,3,0,21,4,0.864
+EMP-0090,Liam Malik,HR,3,Senior HR Generalist,38,10246.38,0.9,True,5,0,19,3,0.95
+EMP-0091,Aisha Iyer,Customer Support,2,Support Specialist,36,7454.37,0.5,True,7,1,17,4,0.975
+EMP-0092,Nadia Malik,Operations,1,Ops Associate,34,6489.06,8.1,True,4,0,20,3,0.93
+EMP-0093,Omar Farooq,Customer Support,4,Support Lead,45,11616.38,0.8,True,4,0,20,4,0.962
+EMP-0094,Sofia Iyer,HR,3,Senior HR Generalist,38,12015.64,4.8,True,4,0,20,3,0.982
+EMP-0095,Mateo Mehta,Finance,1,Finance Analyst,30,7674.71,2.8,True,22,15,2,3,0.924
+EMP-0096,Bilal Naidu,Sales,2,Account Executive,40,8582.52,6.3,True,18,12,6,4,0.95
+EMP-0097,Arjun Nair,HR,4,HR Manager,62,12864.29,23.6,True,1,0,23,4,1.0
+EMP-0098,Farah Hassan,Engineering,2,Engineer,23,11325.08,3.6,True,9,0,15,2,0.97
+EMP-0099,Layla Nair,HR,5,HR Director,89,17612.34,0.0,True,3,0,21,3,0.993
+EMP-0100,Diego Malik,Sales,2,Account Executive,40,8401.9,4.3,True,3,0,21,4,0.935
+EMP-0101,Tariq Joshi,Finance,5,Finance Director,60,24890.74,4.9,True,6,1,18,2,0.982
+EMP-0102,Sofia Costa,Product,1,Associate PM,15,9035.78,0.0,True,6,0,18,3,0.909
+EMP-0103,Bilal Reddy,Customer Support,1,Support Associate,36,5747.13,1.5,True,9,1,15,3,0.961
+EMP-0104,Nadia Farooq,HR,5,HR Director,71,18560.12,4.2,True,3,0,21,3,1.0
+EMP-0105,Elena Hassan,Product,1,Associate PM,15,7620.13,7.0,True,17,11,7,5,0.944
+EMP-0106,Ivan Nair,Engineering,2,Engineer,14,11616.0,2.3,True,4,1,20,2,0.983
+EMP-0107,Kabir Naidu,HR,5,HR Director,74,17589.81,4.7,True,11,2,13,4,0.947
+EMP-0108,Mira Naidu,Sales,3,Senior AE,46,12812.3,0.0,True,5,0,19,3,1.0
+EMP-0109,Nadia Rao,Engineering,1,Associate Engineer,25,10106.92,0.2,True,6,0,18,3,0.925
+EMP-0110,Kabir Pinto,Sales,1,SDR,30,7696.99,2.2,True,0,0,24,3,0.924
+EMP-0111,Omar Silva,Customer Support,1,Support Associate,23,5577.98,18.6,True,6,1,18,3,0.857
+EMP-0112,Arjun Costa,HR,5,HR Director,77,19684.35,1.2,True,1,0,23,4,0.974
+EMP-0113,Aisha Reddy,HR,4,HR Manager,86,15711.19,4.0,True,4,0,20,4,0.985
+EMP-0114,Farah Naidu,Finance,1,Finance Analyst,43,8228.15,1.9,True,3,0,21,4,1.0
+EMP-0115,Sami Hassan,Product,4,Group PM,52,19684.13,3.8,True,4,0,20,4,0.87
+EMP-0116,Noor Naidu,Customer Support,1,Support Associate,18,5320.43,15.7,True,18,13,6,2,0.952
+EMP-0117,Bilal Iyer,Finance,3,Finance Manager,61,14433.23,0.4,True,4,0,20,4,0.921
+EMP-0118,Diego Patel,Product,1,Associate PM,17,9223.76,2.4,True,6,1,18,3,0.988
+EMP-0119,Ivan Nair,HR,5,HR Director,55,19020.37,2.5,True,1,0,23,2,0.987
+EMP-0120,Lena Qureshi,Finance,1,Finance Analyst,23,7844.56,2.8,True,8,1,16,1,0.9
+EMP-0121,Aarav Sheikh,HR,4,HR Manager,46,16149.92,3.7,True,20,12,4,4,0.914
+EMP-0122,Liam Naidu,Customer Support,1,Support Associate,14,5713.67,3.1,True,6,0,18,3,0.971
+EMP-0123,Mira Nair,HR,1,HR Associate,29,6967.74,5.0,True,0,0,24,1,1.0
+EMP-0124,Lena Mehta,HR,3,Senior HR Generalist,62,10909.28,0.0,True,5,0,19,4,1.0
+EMP-0125,Karim Gomes,Customer Support,2,Support Specialist,44,7246.85,0.8,True,5,1,19,3,0.919
+EMP-0126,Elena Fonseca,Engineering,2,Engineer,62,13622.44,5.8,True,2,0,22,4,0.986
+EMP-0127,Karim Costa,Engineering,1,Associate Engineer,33,9940.88,4.6,True,7,1,17,4,0.974
+EMP-0128,Ivan Hassan,Operations,1,Ops Associate,6,6262.26,1.6,True,1,0,23,4,1.0
+EMP-0129,Diego Sheikh,Sales,2,Account Executive,54,9655.12,6.4,True,5,0,19,3,0.916
+EMP-0130,Dev Pinto,Operations,2,Ops Analyst,42,8372.32,0.0,True,4,0,20,3,1.0
+EMP-0131,Bilal Haddad,Product,2,Product Manager,48,11905.77,3.6,True,5,1,19,3,0.917
+EMP-0132,Dev Pinto,Finance,2,Senior Analyst,36,10488.28,0.0,True,6,1,18,4,0.889
+EMP-0133,Mira Farooq,Engineering,4,Staff Engineer,56,21962.09,5.6,True,8,1,16,4,0.926
+EMP-0134,Ivan Nair,HR,5,HR Director,54,19412.24,3.9,True,8,1,16,5,0.955
+EMP-0135,Sami Patel,Customer Support,4,Support Lead,43,12293.61,3.5,True,4,0,20,3,0.97
+EMP-0136,Farah Silva,Finance,2,Senior Analyst,31,10523.29,3.8,True,3,0,21,3,0.971
+EMP-0137,Tariq Patel,Engineering,2,Engineer,24,11589.41,6.6,True,20,14,4,2,0.875
+EMP-0138,Aarav Naidu,HR,2,HR Generalist,15,8570.57,3.1,True,4,1,20,4,0.853
+EMP-0139,Karim Gomes,Finance,1,Finance Analyst,32,9207.38,0.2,True,3,0,21,3,0.924
+EMP-0140,Aarav Nair,Engineering,3,Senior Engineer,44,17219.48,7.6,True,3,0,21,5,0.961
+EMP-0141,Bilal Farooq,Engineering,3,Senior Engineer,69,16089.18,3.3,False,6,1,18,5,0.994
+EMP-0142,Aisha Silva,Finance,1,Finance Analyst,19,8814.13,2.1,True,3,0,21,4,0.961
+EMP-0143,Nadia Fonseca,Customer Support,2,Support Specialist,41,7400.5,3.8,True,6,0,18,2,0.987
+EMP-0144,Mateo Joshi,Engineering,4,Staff Engineer,46,18779.87,2.9,False,5,0,19,3,0.993
+EMP-0145,Tariq Qureshi,Operations,2,Ops Analyst,21,8000.81,1.5,True,4,0,20,4,0.92
+EMP-0146,Zara Hassan,HR,2,HR Generalist,46,8807.08,0.0,True,17,10,7,2,0.96
+EMP-0147,Mira Sheikh,Product,1,Associate PM,25,8927.59,24.9,True,7,0,17,2,0.913
+EMP-0148,Layla Silva,Operations,2,Ops Analyst,24,8363.71,6.1,True,3,0,21,1,0.892
+EMP-0149,Sofia Rao,Product,2,Product Manager,28,11315.18,2.0,True,5,0,19,3,1.0
+EMP-0150,Mateo Qureshi,Product,5,Director of Product,59,24513.94,4.2,True,0,0,24,4,0.964
+EMP-0151,Hana Patel,HR,2,HR Generalist,36,9532.91,1.4,True,11,0,13,3,0.909
+EMP-0152,Kabir Patel,Operations,2,Ops Analyst,38,7778.28,1.1,True,6,1,18,4,0.935
+EMP-0153,Elena Joshi,Sales,1,SDR,39,7729.45,6.6,True,6,1,18,4,0.885
+EMP-0154,Aarav Farooq,HR,3,Senior HR Generalist,44,10859.27,3.3,True,3,0,21,3,1.0
+EMP-0155,Nadia Mehta,Product,5,Director of Product,65,26619.55,2.4,True,5,1,19,4,0.978
+EMP-0156,Ivan Silva,Finance,2,Senior Analyst,51,12211.5,3.8,False,6,0,18,2,0.956
+EMP-0157,Bilal Qureshi,Operations,3,Ops Manager,59,11632.78,3.5,True,7,0,17,4,1.0
+EMP-0158,Farah Farooq,Customer Support,1,Support Associate,31,5521.67,3.8,True,0,0,24,3,0.814
+EMP-0159,Aarav Rao,Customer Support,1,Support Associate,7,5682.04,18.8,True,2,0,22,4,0.941
+EMP-0160,Elena Farooq,Finance,2,Senior Analyst,64,11227.24,4.0,True,9,2,15,3,0.92
+EMP-0161,Aarav Hassan,Engineering,2,Engineer,36,12025.25,0.0,True,4,1,20,3,0.997
+EMP-0162,Maya Fonseca,Finance,1,Finance Analyst,28,8248.95,2.7,True,5,0,19,4,0.92
+EMP-0163,Farah Haddad,Customer Support,5,Support Manager,55,17173.34,2.0,True,0,0,24,4,0.979
+EMP-0164,Anika Joshi,Engineering,3,Senior Engineer,29,15885.51,4.8,True,6,0,18,4,0.904
+EMP-0165,Farah Haddad,Sales,1,SDR,31,7050.45,1.8,True,7,1,17,4,1.0
+EMP-0166,Mira Fonseca,Engineering,3,Senior Engineer,63,15997.23,3.9,True,7,0,17,4,0.965
+EMP-0167,Aarav Naidu,Product,4,Group PM,67,20368.23,1.2,True,3,0,21,4,0.96
+EMP-0168,Farah Costa,Product,3,Senior PM,52,16235.79,2.1,True,7,0,17,4,0.911
+EMP-0169,Mateo Rao,Finance,3,Finance Manager,65,14253.57,0.0,True,1,0,23,3,0.962
+EMP-0170,Bilal Patel,Product,1,Associate PM,24,8794.6,4.5,False,6,0,18,3,0.976
+EMP-0171,Maya Malik,Customer Support,4,Support Lead,65,11142.15,2.1,True,0,0,24,4,0.96
+EMP-0172,Yusuf Sheikh,Engineering,5,Principal Engineer,80,28795.42,3.5,True,16,10,8,3,0.979
+EMP-0173,Diego Hassan,HR,5,HR Director,61,19123.57,19.9,True,7,1,17,4,0.922
+EMP-0174,Aarav Khan,Sales,1,SDR,39,7530.43,3.3,True,2,0,22,2,0.938
+EMP-0175,Anika Naidu,Engineering,1,Associate Engineer,34,8724.34,4.1,True,1,0,23,3,0.964
+EMP-0176,Dev Fonseca,Sales,2,Account Executive,67,5543.74,4.0,True,5,1,19,4,0.954
+EMP-0177,Kabir Qureshi,Operations,1,Ops Associate,45,6256.32,5.8,True,3,0,21,3,0.917
+EMP-0178,Diego Haddad,HR,1,HR Associate,33,7257.85,2.8,True,4,0,20,2,0.951
+EMP-0179,Yusuf Silva,Operations,1,Ops Associate,8,5899.48,3.6,True,8,1,16,5,0.937
+EMP-0180,Yusuf Nair,Finance,1,Finance Analyst,45,8631.92,2.6,True,6,0,18,3,0.964
+EMP-0181,Diego Hassan,Finance,4,Senior Manager,53,17256.61,0.0,True,6,1,18,3,0.936
+EMP-0182,Sofia Naidu,Engineering,3,Senior Engineer,48,16670.94,25.9,True,8,2,16,5,0.98
+EMP-0183,Ivan Mehta,Operations,2,Ops Analyst,49,9014.25,5.8,False,6,0,18,4,0.981
+EMP-0184,Priya Farooq,Product,3,Senior PM,34,16030.66,0.0,True,2,0,22,4,0.994
+EMP-0185,Noor Malik,Sales,2,Account Executive,55,9361.95,0.1,True,4,0,20,3,0.963
+EMP-0186,Layla Fonseca,Operations,5,Ops Director,81,18130.1,3.9,True,2,0,22,4,0.96
+EMP-0187,Mateo Iyer,Customer Support,2,Support Specialist,29,7219.18,2.5,False,4,0,20,5,0.956
+EMP-0188,Tariq Rao,Customer Support,5,Support Manager,65,14191.14,0.8,True,4,0,20,3,1.0
+EMP-0189,Yusuf Gomes,Engineering,1,Associate Engineer,26,9905.83,3.2,False,5,1,19,3,0.96
+EMP-0190,Nadia Hassan,HR,5,HR Director,88,25016.6,3.0,True,7,1,17,4,0.945
+EMP-0191,Priya Nair,Operations,2,Ops Analyst,50,8914.79,3.5,True,17,11,7,4,0.971
+EMP-0192,Dev Costa,Engineering,1,Associate Engineer,21,9540.92,3.3,True,5,1,19,4,0.862
+EMP-0193,Ivan Farooq,Engineering,1,Associate Engineer,10,8428.64,2.1,True,4,0,20,2,0.921
+EMP-0194,Bilal Rao,Customer Support,2,Support Specialist,27,8388.83,7.5,True,3,0,21,3,0.914
+EMP-0195,Yusuf Nair,Product,2,Product Manager,15,11501.77,0.5,True,4,0,20,2,0.93
+EMP-0196,Mira Joshi,Operations,2,Ops Analyst,39,8504.8,4.0,True,1,0,23,4,0.928
+EMP-0197,Layla Haddad,Operations,2,Ops Analyst,45,8356.91,0.0,True,4,0,20,4,0.985
+EMP-0198,Hana Mehta,Finance,1,Finance Analyst,26,9147.63,5.5,True,4,0,20,4,1.0
+EMP-0199,Hana Naidu,Product,1,Associate PM,51,8498.06,0.7,True,9,0,15,2,0.907
+EMP-0200,Noor Haddad,Product,1,Associate PM,22,9187.28,2.7,True,3,0,21,3,0.932
+EMP-0201,Farah Qureshi,Customer Support,1,Support Associate,17,6341.52,3.7,True,7,1,17,3,0.953
+EMP-0202,Nadia Malik,Engineering,4,Staff Engineer,49,25005.99,0.0,True,1,0,23,5,0.958
+EMP-0203,Diego Reddy,Operations,3,Ops Manager,63,11366.9,5.0,True,2,0,22,4,0.989
+EMP-0204,Maya Farooq,Finance,2,Senior Analyst,31,11302.51,4.4,True,3,0,21,2,0.913
+EMP-0205,Karim Patel,Product,3,Senior PM,49,15876.38,1.0,True,5,0,19,4,0.985
+EMP-0206,Mateo Sheikh,Finance,1,Finance Analyst,46,9166.69,0.5,True,19,15,5,4,0.939
+EMP-0207,Hana Pinto,Product,4,Group PM,70,20572.91,2.0,True,0,0,24,3,0.898
+EMP-0208,Nadia Gomes,HR,4,HR Manager,69,16498.49,1.0,True,5,0,19,3,0.935
+EMP-0209,Ivan Patel,Engineering,1,Associate Engineer,37,9256.05,7.3,True,3,0,21,4,0.964
+EMP-0210,Zara Gomes,HR,1,HR Associate,37,6520.65,2.9,True,16,11,8,3,0.927
+EMP-0211,Aarav Patel,Operations,1,Ops Associate,35,6629.78,4.5,True,9,1,15,4,0.945
+EMP-0212,Zara Fonseca,Sales,5,Sales Director,72,19998.64,3.1,True,3,0,21,5,0.975
+EMP-0213,Aarav Haddad,Operations,2,Ops Analyst,35,15474.75,5.0,True,5,0,19,4,0.907
+EMP-0214,Sofia Haddad,Sales,2,Account Executive,37,10508.23,5.1,True,5,0,19,3,0.944
+EMP-0215,Mateo Qureshi,Product,2,Product Manager,12,11733.01,5.1,True,18,13,6,2,0.934
+EMP-0216,Diego Qureshi,Finance,4,Senior Manager,44,17618.26,3.1,False,0,0,24,4,0.99
+EMP-0217,Priya Hassan,Operations,1,Ops Associate,24,5382.72,0.5,True,8,1,16,1,0.946
+EMP-0218,Zara Malik,Product,3,Senior PM,33,27958.22,4.4,True,10,1,14,3,0.975
+EMP-0219,Zara Nair,Operations,3,Ops Manager,30,11575.14,1.1,True,3,0,21,3,0.897
+EMP-0220,Karim Gomes,Finance,5,Finance Director,70,25709.86,3.7,True,0,0,24,4,0.99
+EMP-0221,Kabir Iyer,Customer Support,3,Senior Specialist,25,8929.29,5.2,True,5,0,19,4,1.0
+EMP-0222,Dev Farooq,Operations,1,Ops Associate,33,6621.96,9.8,True,4,0,20,3,0.977
+EMP-0223,Priya Reddy,HR,2,HR Generalist,43,8476.18,0.4,True,11,2,13,4,0.931
+EMP-0224,Bilal Pinto,Product,2,Product Manager,48,11819.69,2.4,False,6,0,18,2,0.974
+EMP-0225,Maya Patel,Customer Support,1,Support Associate,50,5889.42,2.1,True,3,0,21,3,0.95
+EMP-0226,Ravi Malik,Operations,3,Ops Manager,43,11517.92,0.0,True,7,0,17,3,0.975
+EMP-0227,Mateo Joshi,Finance,3,Finance Manager,34,15477.72,6.1,False,7,1,17,2,0.993
+EMP-0228,Nadia Sheikh,HR,3,Senior HR Generalist,52,10418.42,2.9,True,22,12,2,4,0.982
+EMP-0229,Bilal Mehta,Operations,3,Ops Manager,50,11171.02,22.8,True,0,0,24,3,0.953
+EMP-0230,Aisha Naidu,Product,2,Product Manager,16,11658.04,6.1,True,1,0,23,4,0.923
+EMP-0231,Nisha Hassan,Operations,3,Ops Manager,39,11847.22,1.6,True,6,0,18,2,1.0
+EMP-0232,Mira Rao,Product,2,Product Manager,45,11739.03,4.4,True,0,0,24,4,0.947
+EMP-0233,Nisha Reddy,Engineering,3,Senior Engineer,45,15405.48,1.5,True,7,1,17,4,0.986
+EMP-0234,Bilal Sheikh,Product,2,Product Manager,37,12155.86,2.0,True,11,1,13,2,1.0
+EMP-0235,Aisha Iyer,Engineering,1,Associate Engineer,44,8852.96,8.6,True,7,1,17,4,0.961
+EMP-0236,Bilal Naidu,Customer Support,2,Support Specialist,35,7266.09,4.0,True,9,1,15,3,0.924
+EMP-0237,Maya Pinto,Customer Support,1,Support Associate,37,5982.94,4.6,True,7,0,17,3,0.923
+EMP-0238,Farah Costa,Customer Support,5,Support Manager,57,14548.55,3.6,True,4,0,20,3,0.842
+EMP-0239,Noor Qureshi,Product,1,Associate PM,13,9493.55,1.3,True,6,1,18,2,1.0
+EMP-0240,Hana Pinto,Engineering,1,Associate Engineer,26,9355.02,8.8,True,9,0,15,3,0.936
+EMP-0241,Maya Haddad,Engineering,3,Senior Engineer,44,16346.25,2.7,True,3,0,21,5,0.955
+EMP-0242,Farah Khan,HR,2,HR Generalist,65,8956.21,7.5,True,6,0,18,4,0.931
+EMP-0243,Nisha Silva,Customer Support,1,Support Associate,17,5731.77,5.5,True,5,0,19,2,0.906
+EMP-0244,Mateo Gomes,HR,1,HR Associate,10,5859.05,3.3,True,8,1,16,3,0.87
+EMP-0245,Maya Gomes,HR,2,HR Generalist,35,8611.51,8.2,True,0,0,24,3,1.0
+EMP-0246,Aisha Naidu,Engineering,1,Associate Engineer,33,9560.05,3.3,True,5,0,19,4,0.928
+EMP-0247,Lena Costa,HR,3,Senior HR Generalist,58,10629.78,3.8,True,5,0,19,3,0.959
+EMP-0248,Noor Patel,Customer Support,3,Senior Specialist,40,5390.11,3.8,True,1,0,23,4,0.913
+EMP-0249,Kabir Nair,Operations,1,Ops Associate,21,6072.08,6.3,False,5,0,19,3,0.98
+EMP-0250,Nadia Farooq,Sales,3,Senior AE,22,12086.8,8.0,True,5,1,19,4,0.982
+EMP-0251,Kabir Malik,Operations,3,Ops Manager,58,9725.18,0.0,True,5,0,19,3,1.0
+EMP-0252,Karim Joshi,Finance,1,Finance Analyst,24,7393.18,0.0,True,0,0,24,3,0.952
+EMP-0253,Maya Naidu,Engineering,5,Principal Engineer,62,28217.55,6.0,True,4,0,20,2,0.985
+EMP-0254,Layla Mehta,HR,1,HR Associate,34,6808.25,5.5,True,1,0,23,5,0.922
+EMP-0255,Noor Pinto,Operations,2,Ops Analyst,46,7521.69,0.7,True,9,0,15,3,0.994
+EMP-0256,Liam Silva,Product,2,Product Manager,40,11746.89,6.4,False,4,0,20,2,0.928
+EMP-0257,Arjun Khan,Sales,4,Sales Manager,64,16606.27,0.0,True,2,0,22,3,0.945
+EMP-0258,Aarav Costa,Sales,5,Sales Director,51,19662.63,1.2,True,7,0,17,4,0.954
+EMP-0259,Lena Gomes,HR,4,HR Manager,53,15056.94,1.0,True,1,0,23,3,0.935
+EMP-0260,Zara Gomes,Operations,4,Senior Ops Manager,44,14277.63,4.8,True,0,0,24,4,0.951
+EMP-0261,Nadia Malik,Finance,2,Senior Analyst,42,11024.53,0.0,True,1,0,23,3,1.0
+EMP-0262,Tariq Farooq,Finance,1,Finance Analyst,1,8377.07,6.0,True,4,0,20,4,0.932
+EMP-0263,Yusuf Rao,Finance,3,Finance Manager,46,13066.66,0.0,True,7,1,17,3,0.942
+EMP-0264,Liam Silva,Sales,3,Senior AE,31,11174.69,2.6,True,2,0,22,4,0.978
+EMP-0265,Aisha Costa,Product,3,Senior PM,51,15819.07,6.9,True,1,0,23,3,1.0
+EMP-0266,Aisha Khan,Operations,2,Ops Analyst,53,7698.05,2.2,True,9,1,15,4,0.968
+EMP-0267,Mateo Rao,Operations,2,Ops Analyst,35,4496.35,2.9,True,5,1,19,3,0.981
+EMP-0268,Diego Reddy,Engineering,4,Staff Engineer,92,19045.09,3.8,True,2,0,22,4,0.962
+EMP-0269,Ivan Silva,Engineering,2,Engineer,47,13015.78,3.5,True,8,1,16,1,1.0
+EMP-0270,Elena Khan,Customer Support,5,Support Manager,72,17379.68,21.8,True,5,0,19,4,0.971
+EMP-0271,Ravi Haddad,Customer Support,1,Support Associate,41,5085.49,5.4,True,5,1,19,3,0.901
+EMP-0272,Tariq Iyer,Engineering,1,Associate Engineer,34,7914.45,4.6,True,0,0,24,3,0.955
+EMP-0273,Farah Reddy,Operations,2,Ops Analyst,52,5678.89,23.1,True,3,0,21,3,0.897
+EMP-0274,Priya Hassan,Engineering,1,Associate Engineer,32,8264.36,4.9,True,5,0,19,5,0.916
+EMP-0275,Noor Farooq,Product,5,Director of Product,66,28800.01,6.0,True,19,11,5,3,0.969
+EMP-0276,Layla Joshi,Operations,3,Ops Manager,48,11147.04,1.3,True,18,14,6,3,0.896
+EMP-0277,Aarav Naidu,Sales,2,Account Executive,39,9649.45,2.4,True,0,0,24,4,0.975
+EMP-0278,Priya Farooq,Product,1,Associate PM,19,8788.83,0.0,True,1,0,23,3,1.0
+EMP-0279,Mateo Pinto,Finance,1,Finance Analyst,20,4381.94,2.6,True,7,0,17,3,0.897
+EMP-0280,Sofia Reddy,Operations,2,Ops Analyst,21,7939.33,20.8,True,3,0,21,5,0.89
+EMP-0281,Nadia Haddad,Engineering,1,Associate Engineer,30,8600.68,1.8,True,5,1,19,1,0.969
+EMP-0282,Lena Malik,Sales,3,Senior AE,70,12251.53,3.6,True,8,0,16,3,0.937
+EMP-0283,Zara Pinto,Finance,2,Senior Analyst,10,11162.23,2.7,True,1,0,23,3,0.937
+EMP-0284,Sofia Malik,Engineering,1,Associate Engineer,21,4916.15,0.0,True,3,0,21,5,1.0
+EMP-0285,Dev Farooq,Product,4,Group PM,59,19165.63,1.7,True,5,1,19,4,0.956
+EMP-0286,Kabir Farooq,Sales,5,Sales Director,67,20428.15,0.0,True,3,0,21,4,0.905
+EMP-0287,Omar Nair,HR,1,HR Associate,25,6309.05,3.3,True,3,0,21,4,0.98
+EMP-0288,Farah Malik,Engineering,5,Principal Engineer,52,27350.88,1.1,True,3,0,21,4,0.94
+EMP-0289,Noor Pinto,Customer Support,2,Support Specialist,48,7090.44,1.5,True,3,0,21,3,1.0
+EMP-0290,Diego Gomes,Operations,2,Ops Analyst,45,9220.19,8.7,True,1,0,23,3,0.913
+EMP-0291,Yusuf Rao,Customer Support,4,Support Lead,48,12108.26,0.4,True,1,0,23,3,0.911
+EMP-0292,Diego Malik,Customer Support,3,Senior Specialist,58,9262.17,10.0,True,3,0,21,4,0.908
+EMP-0293,Layla Gomes,Engineering,1,Associate Engineer,48,9988.71,3.7,True,0,0,24,3,0.915
+EMP-0294,Arjun Malik,HR,2,HR Generalist,55,9266.36,3.2,True,0,0,24,3,0.988
+EMP-0295,Dev Gomes,Engineering,1,Associate Engineer,42,9934.92,0.0,True,5,0,19,4,0.894
+EMP-0296,Ivan Farooq,HR,1,HR Associate,27,6755.45,2.2,False,21,12,3,2,0.947
+EMP-0297,Sofia Nair,Customer Support,1,Support Associate,24,5560.16,1.6,True,3,0,21,3,0.978
+EMP-0298,Aisha Fonseca,HR,5,HR Director,64,18699.47,3.2,True,0,0,24,4,0.96
+EMP-0299,Diego Silva,Sales,2,Account Executive,38,9929.34,17.5,True,5,1,19,3,0.967
+EMP-0300,Ivan Joshi,Operations,1,Ops Associate,22,6565.34,5.3,True,6,0,18,3,0.876
+EMP-0301,Layla Fonseca,Operations,5,Ops Director,77,19828.14,4.6,True,2,0,22,4,0.994
+EMP-0302,Ravi Sheikh,Sales,4,Sales Manager,76,15514.54,2.4,True,7,0,17,4,0.915
+EMP-0303,Mateo Rao,Finance,1,Finance Analyst,32,8710.96,3.2,True,5,0,19,3,1.0
+EMP-0304,Maya Rao,HR,3,Senior HR Generalist,37,10989.31,3.0,True,7,1,17,2,0.908
+EMP-0305,Priya Nair,Finance,4,Senior Manager,33,18572.46,0.2,True,3,0,21,4,0.934
+EMP-0306,Nadia Khan,Operations,3,Ops Manager,50,10781.98,4.7,True,6,0,18,3,0.953
+EMP-0307,Sami Joshi,Product,3,Senior PM,60,16078.75,0.0,True,6,0,18,3,1.0
+EMP-0308,Anika Mehta,Operations,2,Ops Analyst,50,8541.86,3.4,True,4,0,20,4,0.945
+EMP-0309,Arjun Mehta,Product,3,Senior PM,50,16398.59,1.6,True,3,0,21,2,0.917
+EMP-0310,Zara Qureshi,HR,1,HR Associate,6,6818.56,7.5,True,9,2,15,2,0.989
+EMP-0311,Zara Mehta,Customer Support,2,Support Specialist,55,7272.75,3.3,True,0,0,24,4,0.917
+EMP-0312,Lena Haddad,Operations,2,Ops Analyst,40,7548.5,4.4,True,8,0,16,3,0.915
+EMP-0313,Maya Hassan,Customer Support,4,Support Lead,32,12224.09,1.5,True,18,14,6,2,0.978
+EMP-0314,Elena Iyer,Sales,1,SDR,22,6668.24,1.6,True,8,0,16,4,0.955
+EMP-0315,Lena Gomes,Customer Support,2,Support Specialist,45,6901.42,3.1,True,5,0,19,3,0.977
+EMP-0316,Layla Gomes,HR,5,HR Director,58,19663.3,24.3,True,8,1,16,1,0.935
+EMP-0317,Farah Naidu,Product,1,Associate PM,40,8920.22,0.0,True,1,0,23,4,0.883
+EMP-0318,Liam Patel,Finance,2,Senior Analyst,51,11076.31,0.0,True,3,0,21,2,0.995
+EMP-0319,Mateo Costa,Customer Support,4,Support Lead,66,11448.74,2.0,True,2,0,22,5,0.906
+EMP-0320,Yusuf Iyer,Customer Support,4,Support Lead,77,12850.69,0.1,True,2,0,22,3,0.909
+EMP-0321,Kabir Malik,Engineering,2,Engineer,39,11190.24,0.0,True,3,0,21,2,0.93
+EMP-0322,Layla Khan,Customer Support,1,Support Associate,17,5286.34,8.0,False,5,0,19,3,0.889
+EMP-0323,Priya Silva,Engineering,3,Senior Engineer,40,16014.24,0.4,True,7,0,17,2,0.949
+EMP-0324,Ivan Hassan,Customer Support,4,Support Lead,50,12728.43,1.4,True,4,0,20,3,0.931
+EMP-0325,Sami Costa,Customer Support,5,Support Manager,73,16570.5,2.8,False,3,0,21,4,0.951
+EMP-0326,Maya Patel,Customer Support,3,Senior Specialist,44,9753.72,7.2,True,0,0,24,4,0.884
+EMP-0327,Kabir Nair,Operations,3,Ops Manager,50,12016.75,4.2,True,5,0,19,3,0.961
+EMP-0328,Arjun Costa,Operations,3,Ops Manager,44,10411.19,2.3,True,5,0,19,3,0.928
+EMP-0329,Kabir Joshi,Operations,3,Ops Manager,31,11065.76,4.4,True,5,1,19,4,0.964
+EMP-0330,Bilal Farooq,HR,1,HR Associate,32,6794.99,2.8,True,3,0,21,5,0.942
+EMP-0331,Anika Silva,Sales,2,Account Executive,30,9570.39,3.6,True,0,0,24,4,0.956
+EMP-0332,Elena Haddad,Engineering,3,Senior Engineer,34,25781.85,20.2,False,4,0,20,5,0.966
+EMP-0333,Arjun Silva,Product,2,Product Manager,37,11325.53,4.5,True,6,0,18,3,0.928
+EMP-0334,Elena Silva,Operations,5,Ops Director,69,18281.32,0.0,True,0,0,24,4,0.856
+EMP-0335,Layla Fonseca,Finance,3,Finance Manager,50,14104.3,6.3,False,3,0,21,4,0.944
+EMP-0336,Omar Joshi,Operations,1,Ops Associate,29,6630.56,1.8,True,17,12,7,4,0.92
+EMP-0337,Lena Patel,Finance,2,Senior Analyst,41,11634.5,4.7,True,10,2,14,3,0.905
+EMP-0338,Elena Silva,Product,4,Group PM,46,20898.71,4.2,True,5,1,19,3,0.991
+EMP-0339,Ravi Qureshi,HR,2,HR Generalist,23,9210.81,10.1,True,6,0,18,4,0.94
+EMP-0340,Dev Gomes,Customer Support,3,Senior Specialist,26,9207.13,0.3,False,0,0,24,5,0.971
+EMP-0341,Elena Malik,HR,5,HR Director,72,18934.3,2.6,False,7,1,17,4,0.981
+EMP-0342,Hana Mehta,Sales,2,Account Executive,35,9173.15,0.0,True,0,0,24,3,0.962
+EMP-0343,Anika Naidu,Sales,1,SDR,12,7055.38,3.1,True,0,0,24,2,0.976
+EMP-0344,Kabir Pinto,Finance,1,Finance Analyst,32,7835.92,3.4,True,8,1,16,4,0.956
+EMP-0345,Kabir Hassan,Finance,3,Finance Manager,42,13883.09,4.2,True,5,1,19,4,0.965
+EMP-0346,Tariq Reddy,Engineering,5,Principal Engineer,77,15148.38,1.0,True,18,9,6,2,1.0
+EMP-0347,Maya Iyer,Product,3,Senior PM,51,13991.47,1.2,True,7,2,17,3,0.94
+EMP-0348,Sami Silva,Engineering,1,Associate Engineer,44,8743.73,1.0,True,5,0,19,3,0.98
+EMP-0349,Maya Sheikh,Operations,1,Ops Associate,38,6472.54,4.2,False,4,0,20,3,0.964
+EMP-0350,Lena Sheikh,Finance,1,Finance Analyst,30,8794.59,4.4,True,5,0,19,3,0.963
+EMP-0351,Sofia Malik,Engineering,5,Principal Engineer,67,26915.4,8.5,True,3,0,21,4,1.0
+EMP-0352,Omar Naidu,Engineering,2,Engineer,39,13774.76,2.1,True,5,0,19,3,0.946
+EMP-0353,Yusuf Reddy,Product,3,Senior PM,50,16374.63,3.8,True,8,1,16,3,0.947
+EMP-0354,Karim Nair,Operations,1,Ops Associate,60,6663.99,1.2,True,2,0,22,2,0.997
+EMP-0355,Kabir Hassan,Sales,1,SDR,23,7188.68,2.8,True,7,1,17,2,0.917
+EMP-0356,Farah Silva,Sales,4,Sales Manager,60,16753.05,3.8,True,2,0,22,4,0.93
+EMP-0357,Diego Farooq,Engineering,5,Principal Engineer,61,24981.19,6.3,True,6,1,18,4,1.0
+EMP-0358,Aisha Reddy,Engineering,1,Associate Engineer,61,8487.6,1.2,True,3,0,21,2,0.917
+EMP-0359,Aarav Fonseca,Customer Support,2,Support Specialist,34,6815.87,3.8,True,5,0,19,4,0.98
+EMP-0360,Maya Malik,Operations,1,Ops Associate,35,6237.87,8.3,True,5,0,19,2,0.92
+EMP-0361,Priya Gomes,Sales,3,Senior AE,27,12180.41,2.7,True,3,0,21,5,0.982
+EMP-0362,Sofia Fonseca,HR,2,HR Generalist,46,8283.77,0.5,True,5,0,19,3,0.886
+EMP-0363,Nadia Sheikh,Sales,1,SDR,25,7151.87,2.5,True,2,0,22,3,0.953
+EMP-0364,Kabir Qureshi,Sales,1,SDR,29,7429.32,5.7,True,4,0,20,3,0.978
+EMP-0365,Sofia Gomes,Product,5,Director of Product,75,25497.96,5.0,True,7,0,17,5,1.0
+EMP-0366,Diego Joshi,Operations,1,Ops Associate,17,6293.08,3.0,True,4,0,20,3,0.901
+EMP-0367,Aisha Farooq,Operations,2,Ops Analyst,39,7938.3,3.2,True,2,0,22,2,0.969
+EMP-0368,Aisha Hassan,Operations,1,Ops Associate,29,6570.53,8.5,True,5,0,19,4,0.917
+EMP-0369,Mira Reddy,Operations,3,Ops Manager,32,11848.74,0.7,True,1,0,23,3,0.956
+EMP-0370,Dev Farooq,Operations,1,Ops Associate,17,6172.78,6.1,True,2,0,22,2,0.998
+EMP-0371,Farah Rao,Sales,3,Senior AE,53,11962.96,0.0,True,2,0,22,3,1.0
+EMP-0372,Priya Qureshi,HR,2,HR Generalist,25,8582.3,4.7,True,0,0,24,4,0.913
+EMP-0373,Dev Hassan,Engineering,1,Associate Engineer,31,9369.15,5.7,True,6,0,18,1,0.929
+EMP-0374,Mira Farooq,Finance,3,Finance Manager,49,14339.48,4.2,True,7,0,17,4,0.951
+EMP-0375,Liam Reddy,HR,1,HR Associate,5,6348.71,4.0,True,1,0,23,4,0.996
+EMP-0376,Ravi Joshi,HR,3,Senior HR Generalist,49,9386.98,0.0,True,10,1,14,3,0.881
+EMP-0377,Arjun Khan,Product,4,Group PM,72,20538.04,5.8,True,5,1,19,4,0.975
+EMP-0378,Nisha Silva,Finance,1,Finance Analyst,36,9600.11,5.4,True,0,0,24,4,1.0
+EMP-0379,Nisha Malik,Finance,3,Finance Manager,62,14284.99,5.9,False,7,0,17,5,0.93
+EMP-0380,Karim Iyer,Sales,1,SDR,21,6991.68,1.8,True,2,0,22,1,0.943
+EMP-0381,Yusuf Khan,Customer Support,1,Support Associate,32,5479.56,7.8,True,5,0,19,4,0.97
+EMP-0382,Elena Naidu,HR,1,HR Associate,37,6812.68,6.4,True,5,0,19,4,0.975
+EMP-0383,Elena Nair,Engineering,2,Engineer,34,12323.85,8.6,True,4,0,20,4,1.0
+EMP-0384,Kabir Iyer,HR,1,HR Associate,41,6726.81,0.0,True,6,0,18,1,1.0
+EMP-0385,Anika Qureshi,Operations,1,Ops Associate,30,6736.18,0.7,True,0,0,24,3,0.959
+EMP-0386,Dev Qureshi,Sales,2,Account Executive,32,9390.12,9.9,True,7,1,17,4,0.994
+EMP-0387,Diego Qureshi,Sales,2,Account Executive,55,9408.55,0.0,True,4,1,20,4,0.921
+EMP-0388,Zara Costa,Customer Support,5,Support Manager,65,15560.35,6.8,True,7,0,17,4,0.985
+EMP-0389,Aarav Iyer,Sales,1,SDR,27,7242.34,0.0,True,0,0,24,3,0.973
+EMP-0390,Lena Haddad,Finance,4,Senior Manager,72,20925.26,6.9,True,2,0,22,3,0.979
+EMP-0391,Ravi Patel,HR,4,HR Manager,88,10119.4,0.8,True,7,1,17,3,0.95
+EMP-0392,Elena Joshi,Operations,3,Ops Manager,46,11990.01,2.1,True,0,0,24,4,0.932
+EMP-0393,Priya Farooq,Operations,3,Ops Manager,48,7018.95,0.0,True,3,0,21,4,0.935
+EMP-0394,Arjun Iyer,Customer Support,1,Support Associate,8,5758.76,5.8,True,22,17,2,3,0.882
+EMP-0395,Layla Farooq,Product,2,Product Manager,46,10695.51,3.8,True,2,0,22,2,0.942
+EMP-0396,Dev Haddad,Finance,3,Finance Manager,45,13903.73,4.5,True,3,0,21,4,0.971
+EMP-0397,Anika Haddad,Product,2,Product Manager,29,11107.72,0.0,False,5,0,19,3,0.865
+EMP-0398,Bilal Gomes,Operations,1,Ops Associate,21,5967.45,6.9,True,0,0,24,2,1.0
+EMP-0399,Kabir Gomes,Customer Support,1,Support Associate,44,5446.81,1.4,True,6,1,18,1,0.886
+EMP-0400,Nisha Iyer,HR,3,Senior HR Generalist,44,12520.42,1.9,True,5,0,19,4,1.0
+EMP-0401,Zara Sheikh,Customer Support,4,Support Lead,51,12601.51,16.2,False,8,1,16,3,0.964
+EMP-0402,Tariq Khan,Customer Support,1,Support Associate,25,5291.85,0.5,True,5,1,19,4,0.955
+EMP-0403,Arjun Iyer,HR,4,HR Manager,58,15504.92,0.6,False,7,1,17,4,1.0
+EMP-0404,Aarav Reddy,HR,4,HR Manager,53,14521.19,4.9,True,7,1,17,3,0.944
+EMP-0405,Aarav Naidu,Operations,1,Ops Associate,34,6059.08,2.0,True,5,0,19,4,0.936
+EMP-0406,Elena Naidu,Finance,3,Finance Manager,25,12593.98,0.0,True,1,0,23,3,0.912
+EMP-0407,Tariq Farooq,Sales,1,SDR,19,6780.57,1.9,True,8,1,16,4,0.961
+EMP-0408,Liam Qureshi,Customer Support,1,Support Associate,22,3712.28,0.7,True,5,0,19,2,0.968
+EMP-0409,Dev Gomes,Customer Support,5,Support Manager,77,16112.78,7.5,True,2,0,22,4,0.959
+EMP-0410,Sami Iyer,Operations,2,Ops Analyst,36,8244.86,3.3,True,7,0,17,4,0.96
+EMP-0411,Yusuf Sheikh,Customer Support,4,Support Lead,67,12237.65,4.9,True,2,0,22,4,1.0
+EMP-0412,Ravi Joshi,Customer Support,4,Support Lead,56,10998.6,1.6,True,8,1,16,4,0.97
+EMP-0413,Ivan Reddy,Engineering,4,Staff Engineer,70,21564.1,6.0,False,7,1,17,5,0.974
+EMP-0414,Nadia Pinto,Operations,1,Ops Associate,38,6278.46,1.5,True,10,1,14,3,0.992
+EMP-0415,Elena Mehta,Sales,2,Account Executive,39,9065.1,3.0,True,9,0,15,4,0.892
+EMP-0416,Anika Silva,Engineering,2,Engineer,35,13328.91,2.5,True,0,0,24,5,0.987
+EMP-0417,Zara Gomes,Sales,3,Senior AE,47,12090.5,5.7,True,3,0,21,4,0.982
+EMP-0418,Mira Gomes,Engineering,4,Staff Engineer,60,20971.52,2.6,False,21,13,3,4,0.925
+EMP-0419,Arjun Pinto,Finance,1,Finance Analyst,8,8558.99,4.6,True,6,0,18,3,0.947
+EMP-0420,Dev Gomes,Customer Support,2,Support Specialist,47,7409.73,1.8,True,4,1,20,5,0.891
+EMP-0421,Maya Costa,Product,1,Associate PM,33,8131.05,2.7,True,3,0,21,1,0.976
+EMP-0422,Elena Iyer,Customer Support,1,Support Associate,23,4899.4,5.1,True,9,1,15,4,0.974
+EMP-0423,Layla Reddy,Product,2,Product Manager,38,19003.75,0.6,True,21,12,3,3,0.978
+EMP-0424,Tariq Patel,Engineering,2,Engineer,16,12189.88,8.7,True,6,0,18,4,0.967
+EMP-0425,Aarav Patel,Customer Support,2,Support Specialist,37,7539.07,1.0,True,2,0,22,4,1.0
+EMP-0426,Zara Gomes,Finance,1,Finance Analyst,16,8791.94,2.8,True,6,0,18,4,1.0
+EMP-0427,Kabir Khan,Customer Support,2,Support Specialist,38,8000.53,3.8,True,6,0,18,3,1.0
+EMP-0428,Hana Silva,Engineering,3,Senior Engineer,53,16659.19,0.0,True,2,0,22,4,0.971
+EMP-0429,Liam Patel,Customer Support,3,Senior Specialist,25,10139.41,1.6,True,9,0,15,3,0.968
+EMP-0430,Ivan Mehta,Product,1,Associate PM,42,5851.59,5.1,True,1,0,23,2,0.993
+EMP-0431,Nisha Silva,Engineering,4,Staff Engineer,50,20139.62,0.0,True,2,0,22,4,0.997
+EMP-0432,Ivan Joshi,Finance,4,Senior Manager,48,20627.3,1.3,True,2,0,22,5,0.968
+EMP-0433,Ivan Rao,Product,2,Product Manager,31,11626.3,6.4,True,9,2,15,3,0.958
+EMP-0434,Yusuf Fonseca,Engineering,2,Engineer,39,11365.41,2.9,True,5,0,19,4,1.0
+EMP-0435,Nisha Malik,Engineering,4,Staff Engineer,54,20425.39,4.7,True,3,0,21,4,0.956
+EMP-0436,Nadia Qureshi,HR,1,HR Associate,16,6208.52,6.6,True,4,0,20,4,0.939
+EMP-0437,Tariq Sheikh,Sales,5,Sales Director,71,23739.94,0.4,True,0,0,24,5,0.927
+EMP-0438,Liam Khan,HR,2,HR Generalist,37,8404.32,3.7,True,2,0,22,3,0.978
+EMP-0439,Sofia Sheikh,Customer Support,5,Support Manager,55,15429.31,2.1,True,0,0,24,3,0.965
+EMP-0440,Layla Pinto,Finance,5,Finance Director,63,23771.92,3.0,True,3,0,21,4,1.0
+EMP-0441,Aisha Patel,Product,2,Product Manager,32,12086.99,2.4,True,6,1,18,5,0.98
+EMP-0442,Arjun Haddad,HR,2,HR Generalist,16,8795.91,23.4,True,7,1,17,3,0.901
+EMP-0443,Sofia Nair,Operations,1,Ops Associate,29,5680.63,2.4,True,17,13,7,4,0.884
+EMP-0444,Kabir Khan,Product,3,Senior PM,32,14407.88,2.8,True,3,0,21,5,0.998
+EMP-0445,Nisha Rao,Finance,2,Senior Analyst,43,11138.47,4.0,True,2,0,22,4,0.916
+EMP-0446,Bilal Reddy,HR,1,HR Associate,38,7183.08,3.5,True,4,0,20,3,0.846
+EMP-0447,Farah Qureshi,Sales,2,Account Executive,41,9346.91,2.9,True,7,1,17,3,0.914
+EMP-0448,Hana Mehta,Engineering,3,Senior Engineer,46,15950.89,3.3,True,5,0,19,4,0.917
+EMP-0449,Nadia Rao,Operations,5,Ops Director,70,19794.63,0.0,True,5,0,19,3,0.945
+EMP-0450,Mateo Fonseca,Customer Support,4,Support Lead,47,12446.0,7.6,True,1,0,23,3,0.908
+EMP-0451,Mateo Fonseca,Customer Support,3,Senior Specialist,68,9605.76,2.9,True,3,0,21,3,0.951
+EMP-0452,Karim Costa,Customer Support,4,Support Lead,87,14061.17,0.9,True,6,1,18,3,0.889
+EMP-0453,Omar Haddad,Sales,1,SDR,40,7736.81,5.6,True,3,0,21,3,0.99
+EMP-0454,Tariq Malik,Operations,3,Ops Manager,52,10737.01,0.0,True,5,0,19,4,0.912
+EMP-0455,Aisha Reddy,Customer Support,3,Senior Specialist,55,9973.06,4.9,True,7,1,17,3,0.895
+EMP-0456,Maya Mehta,Sales,1,SDR,21,7502.47,1.6,True,2,0,22,2,1.0
+EMP-0457,Tariq Nair,Customer Support,4,Support Lead,67,13365.74,5.4,True,6,1,18,3,0.953
+EMP-0458,Mira Mehta,Product,1,Associate PM,22,10377.98,4.4,True,3,0,21,4,0.92
+EMP-0459,Lena Costa,HR,2,HR Generalist,56,8493.53,4.3,True,8,0,16,4,0.964
+EMP-0460,Yusuf Qureshi,Operations,4,Senior Ops Manager,58,14250.84,1.6,True,3,0,21,5,0.956
+EMP-0461,Noor Rao,Operations,3,Ops Manager,38,10536.92,5.8,True,7,2,17,4,0.95
+EMP-0462,Ivan Iyer,Sales,3,Senior AE,54,11955.32,2.4,True,7,0,17,4,0.921
+EMP-0463,Bilal Fonseca,Engineering,2,Engineer,27,12041.28,7.3,True,0,0,24,4,0.905
+EMP-0464,Kabir Rao,Product,3,Senior PM,40,15120.65,1.9,True,3,0,21,3,0.939
+EMP-0465,Zara Farooq,Operations,1,Ops Associate,10,6544.2,4.9,True,7,0,17,2,0.972
+EMP-0466,Elena Khan,Finance,2,Senior Analyst,46,10383.79,3.0,True,4,0,20,5,1.0
+EMP-0467,Tariq Farooq,Engineering,3,Senior Engineer,28,17999.84,0.7,True,7,2,17,4,0.92
+EMP-0468,Farah Gomes,HR,4,HR Manager,63,14953.64,4.4,True,5,1,19,5,0.963
+EMP-0469,Ravi Rao,Operations,4,Senior Ops Manager,55,15203.3,4.5,True,7,1,17,3,0.918
+EMP-0470,Farah Patel,Product,2,Product Manager,31,18861.6,2.6,True,9,1,15,4,0.97
+EMP-0471,Sami Hassan,Sales,2,Account Executive,28,10192.56,2.8,True,5,1,19,3,0.924
+EMP-0472,Nadia Sheikh,Engineering,2,Engineer,20,12346.68,1.0,False,14,2,10,2,0.91
+EMP-0473,Aisha Fonseca,Finance,2,Senior Analyst,44,12064.88,3.2,True,6,0,18,2,0.933
+EMP-0474,Diego Naidu,Engineering,3,Senior Engineer,35,13955.86,3.3,False,0,0,24,2,0.939
+EMP-0475,Karim Sheikh,Operations,1,Ops Associate,18,6442.68,3.8,True,7,0,17,4,1.0
+EMP-0476,Nisha Gomes,Sales,3,Senior AE,47,12591.25,4.3,True,5,0,19,3,0.947
+EMP-0477,Noor Naidu,Engineering,2,Engineer,28,12275.88,2.8,False,3,0,21,3,0.912
+EMP-0478,Omar Rao,Sales,3,Senior AE,59,12543.98,0.8,True,7,1,17,3,0.904
+EMP-0479,Anika Nair,Sales,3,Senior AE,60,12092.34,2.0,True,5,0,19,4,0.961
+EMP-0480,Sofia Gomes,HR,3,Senior HR Generalist,33,11724.38,1.8,True,10,1,14,3,0.871
+EMP-0481,Sofia Fonseca,Sales,3,Senior AE,52,13864.28,6.9,False,10,1,14,3,0.996
+EMP-0482,Aisha Farooq,Customer Support,2,Support Specialist,29,7421.34,0.0,True,3,0,21,3,0.996
+EMP-0483,Sofia Joshi,Sales,4,Sales Manager,67,16529.9,0.0,True,4,0,20,3,0.995
+EMP-0484,Lena Hassan,HR,2,HR Generalist,52,9374.96,1.1,True,0,0,24,2,1.0
+EMP-0485,Elena Khan,Operations,1,Ops Associate,23,6034.21,7.1,True,8,2,16,3,0.948
+EMP-0486,Karim Joshi,Product,3,Senior PM,46,15745.18,7.0,True,6,0,18,4,1.0
+EMP-0487,Layla Haddad,Customer Support,3,Senior Specialist,33,10042.25,2.3,True,0,0,24,2,0.919
+EMP-0488,Tariq Rao,Operations,1,Ops Associate,34,6419.2,24.5,True,1,0,23,3,0.972
+EMP-0489,Sami Joshi,Product,2,Product Manager,29,11736.38,0.0,True,9,2,15,3,1.0
+EMP-0490,Hana Gomes,Finance,1,Finance Analyst,27,8901.68,2.9,True,4,0,20,3,0.965
+EMP-0491,Hana Iyer,HR,2,HR Generalist,41,8327.5,2.7,True,3,0,21,5,0.956
+EMP-0492,Nisha Silva,Product,3,Senior PM,66,15597.55,3.6,True,1,0,23,3,0.968
+EMP-0493,Diego Joshi,Operations,1,Ops Associate,47,6528.65,6.5,True,6,0,18,4,0.958
+EMP-0494,Maya Rao,Operations,1,Ops Associate,56,6300.34,1.1,True,1,0,23,5,0.993
+EMP-0495,Dev Joshi,Sales,2,Account Executive,33,10050.97,4.7,True,10,2,14,2,0.949
+EMP-0496,Maya Haddad,HR,1,HR Associate,22,5835.32,5.7,False,20,14,4,3,0.99
+EMP-0497,Nadia Khan,Engineering,4,Staff Engineer,86,20769.27,1.9,True,5,0,19,4,0.937
+EMP-0498,Dev Rao,Customer Support,3,Senior Specialist,40,10274.52,3.9,True,0,0,24,2,1.0
+EMP-0499,Lena Rao,Sales,4,Sales Manager,62,15455.01,2.6,True,5,0,19,4,0.906
+EMP-0500,Aisha Costa,Customer Support,3,Senior Specialist,37,9796.14,2.8,False,6,0,18,2,0.974
+EMP-0501,Aarav Fonseca,Operations,4,Senior Ops Manager,71,14869.02,3.3,True,4,0,20,3,0.957
+EMP-0502,Karim Khan,Engineering,4,Staff Engineer,73,20854.49,0.8,True,3,0,21,4,0.945
+EMP-0503,Diego Joshi,Product,3,Senior PM,53,16110.77,5.2,True,9,1,15,4,0.923
+EMP-0504,Mateo Hassan,Product,3,Senior PM,37,15351.16,1.9,True,1,0,23,3,0.941
+EMP-0505,Zara Khan,Finance,2,Senior Analyst,29,10710.76,5.9,True,5,0,19,5,0.967
+EMP-0506,Mateo Gomes,Customer Support,3,Senior Specialist,44,14749.7,8.2,True,2,0,22,4,0.968
+EMP-0507,Lena Reddy,Engineering,1,Associate Engineer,9,9486.8,6.2,True,2,0,22,3,0.891
+EMP-0508,Arjun Qureshi,Product,1,Associate PM,12,9446.89,1.8,True,1,0,23,3,0.939
+EMP-0509,Diego Rao,Finance,3,Finance Manager,42,15067.92,0.1,True,2,0,22,4,0.999
+EMP-0510,Omar Reddy,Engineering,1,Associate Engineer,42,8943.3,5.3,True,2,0,22,5,0.915
+EMP-0511,Kabir Gomes,Customer Support,1,Support Associate,43,5472.68,8.0,True,6,0,18,2,0.939
+EMP-0512,Aarav Mehta,Engineering,3,Senior Engineer,57,17038.98,2.8,True,5,0,19,4,0.965
+EMP-0513,Arjun Costa,Product,4,Group PM,42,19060.2,3.6,True,8,1,16,5,0.991
+EMP-0514,Elena Khan,Engineering,4,Staff Engineer,61,21741.31,1.3,True,4,0,20,3,0.91
+EMP-0515,Aisha Silva,Sales,1,SDR,32,7266.66,4.7,True,6,0,18,3,0.982
+EMP-0516,Kabir Fonseca,Engineering,2,Engineer,37,12359.54,1.2,True,6,1,18,4,0.933
+EMP-0517,Hana Naidu,Sales,2,Account Executive,38,9036.9,16.0,True,8,1,16,4,0.981
+EMP-0518,Mira Pinto,Finance,5,Finance Director,91,24420.66,10.6,True,4,0,20,4,0.944
+EMP-0519,Nadia Khan,HR,2,HR Generalist,42,9184.23,2.7,True,10,1,14,3,0.971
+EMP-0520,Sofia Malik,HR,1,HR Associate,17,6757.61,2.7,True,3,0,21,3,1.0
+EMP-0521,Noor Nair,Finance,2,Senior Analyst,34,5267.06,4.4,True,6,1,18,4,0.934
+EMP-0522,Bilal Costa,Sales,2,Account Executive,42,8923.43,1.5,True,2,0,22,2,1.0
+EMP-0523,Farah Fonseca,HR,3,Senior HR Generalist,56,12243.41,3.1,True,7,1,17,2,0.995
+EMP-0524,Anika Nair,Finance,1,Finance Analyst,30,8721.25,4.0,True,2,0,22,2,0.932
+EMP-0525,Lena Joshi,Engineering,4,Staff Engineer,64,21719.55,0.0,True,2,0,22,3,0.946
+EMP-0526,Diego Malik,Sales,5,Sales Director,51,18689.59,0.9,True,5,0,19,3,0.955
+EMP-0527,Mira Haddad,HR,5,HR Director,80,11489.62,2.0,True,3,0,21,5,0.948
+EMP-0528,Omar Nair,HR,2,HR Generalist,51,15052.43,3.8,True,8,2,16,3,0.962
+EMP-0529,Mira Gomes,Finance,1,Finance Analyst,27,8738.74,0.4,True,8,0,16,4,0.907
+EMP-0530,Ravi Iyer,Finance,4,Senior Manager,72,21685.67,5.5,True,9,0,15,4,0.894
+EMP-0531,Diego Khan,Product,1,Associate PM,5,8971.91,1.5,True,2,0,22,3,0.985
+EMP-0532,Dev Naidu,Sales,2,Account Executive,20,9002.49,6.8,True,1,0,23,4,0.941
+EMP-0533,Dev Patel,Finance,2,Senior Analyst,44,11778.45,4.9,True,7,1,17,2,1.0
+EMP-0534,Mateo Patel,HR,3,Senior HR Generalist,37,11568.09,3.6,True,6,0,18,4,0.926
+EMP-0535,Anika Naidu,Finance,4,Senior Manager,41,19632.86,3.5,True,8,0,16,4,0.904
+EMP-0536,Layla Hassan,Finance,2,Senior Analyst,49,10848.72,3.9,True,3,0,21,5,0.925
+EMP-0537,Noor Silva,Product,1,Associate PM,23,9026.49,0.3,True,5,1,19,4,0.94
+EMP-0538,Nisha Pinto,Sales,2,Account Executive,42,7864.77,2.9,True,4,0,20,3,1.0
+EMP-0539,Aisha Hassan,Product,4,Group PM,54,20015.77,2.1,True,0,0,24,3,0.998
+EMP-0540,Ravi Silva,Customer Support,1,Support Associate,2,5255.86,2.0,True,10,1,14,4,0.938
+EMP-0541,Noor Reddy,HR,2,HR Generalist,53,5221.32,5.7,True,3,0,21,2,0.951
+EMP-0542,Liam Gomes,Finance,1,Finance Analyst,31,8162.13,4.4,True,3,0,21,4,0.978
+EMP-0543,Maya Nair,Product,4,Group PM,57,19742.54,3.4,True,6,0,18,5,0.998
+EMP-0544,Karim Naidu,Sales,3,Senior AE,59,14798.7,4.3,True,6,1,18,4,0.92
+EMP-0545,Aisha Khan,Finance,2,Senior Analyst,32,10611.89,4.6,True,4,0,20,3,1.0
+EMP-0546,Dev Naidu,Operations,4,Senior Ops Manager,68,14273.08,1.3,True,19,15,5,5,0.991
+EMP-0547,Nisha Nair,Engineering,3,Senior Engineer,28,15362.82,3.4,True,7,0,17,4,0.971
+EMP-0548,Mateo Sheikh,HR,2,HR Generalist,45,8800.61,1.3,True,4,0,20,3,0.959
+EMP-0549,Diego Iyer,Operations,3,Ops Manager,25,10502.98,3.1,True,4,0,20,3,0.98
+EMP-0550,Mira Fonseca,HR,1,HR Associate,15,5938.38,2.1,True,7,0,17,5,0.991
+EMP-0551,Maya Pinto,HR,1,HR Associate,10,10088.7,4.3,False,2,0,22,3,0.977
+EMP-0552,Dev Gomes,Customer Support,1,Support Associate,37,5395.5,25.8,True,3,0,21,3,0.919
+EMP-0553,Karim Joshi,HR,3,Senior HR Generalist,49,18781.42,0.7,True,22,14,2,4,0.909
+EMP-0554,Kabir Reddy,Sales,1,SDR,28,7041.63,3.8,True,5,1,19,3,0.899
+EMP-0555,Tariq Costa,Product,5,Director of Product,50,24767.48,3.0,True,3,0,21,4,0.949
+EMP-0556,Karim Haddad,HR,2,HR Generalist,26,8489.03,3.6,True,5,1,19,5,0.933
+EMP-0557,Ravi Sheikh,Engineering,1,Associate Engineer,27,9437.78,2.9,True,3,0,21,2,0.94
+EMP-0558,Nadia Joshi,Customer Support,2,Support Specialist,25,3856.5,4.5,True,6,1,18,3,0.95
+EMP-0559,Bilal Mehta,Customer Support,3,Senior Specialist,25,9261.69,4.0,True,7,1,17,3,1.0
+EMP-0560,Karim Gomes,Engineering,2,Engineer,19,10995.55,4.8,True,10,0,14,4,0.958
+EMP-0561,Liam Joshi,Product,4,Group PM,31,17450.17,24.0,True,1,0,23,4,0.965
+EMP-0562,Sami Pinto,Customer Support,2,Support Specialist,49,7502.95,6.1,True,5,0,19,3,1.0
+EMP-0563,Farah Iyer,Finance,4,Senior Manager,46,21894.67,3.9,True,6,0,18,4,1.0
+EMP-0564,Aarav Sheikh,Operations,2,Ops Analyst,47,5175.6,3.3,True,1,0,23,4,0.934
+EMP-0565,Karim Hassan,Finance,3,Finance Manager,49,14261.89,7.8,True,10,1,14,3,0.963
+EMP-0566,Maya Rao,Operations,1,Ops Associate,23,6738.15,2.2,True,3,0,21,4,0.938
+EMP-0567,Dev Haddad,Product,1,Associate PM,27,8144.28,4.8,False,10,1,14,4,1.0
+EMP-0568,Zara Joshi,Operations,3,Ops Manager,37,11019.04,0.6,True,4,1,20,4,0.964
+EMP-0569,Yusuf Mehta,Product,1,Associate PM,11,8179.97,0.0,True,6,0,18,5,1.0
+EMP-0570,Hana Patel,Product,3,Senior PM,25,16573.8,5.3,True,0,0,24,3,1.0
+EMP-0571,Omar Nair,Engineering,3,Senior Engineer,54,14732.67,4.5,True,0,0,24,3,1.0
+EMP-0572,Mateo Patel,Customer Support,2,Support Specialist,38,7155.59,5.2,True,7,1,17,4,0.995
+EMP-0573,Bilal Gomes,Sales,4,Sales Manager,70,17015.04,3.7,True,5,0,19,3,0.912
+EMP-0574,Sofia Fonseca,Finance,2,Senior Analyst,26,10706.68,3.6,True,9,2,15,3,1.0
+EMP-0575,Layla Reddy,Sales,2,Account Executive,50,9347.53,4.5,True,4,1,20,4,0.985
+EMP-0576,Arjun Sheikh,Engineering,3,Senior Engineer,33,15873.11,7.1,True,4,0,20,4,0.982
+EMP-0577,Ravi Mehta,Sales,4,Sales Manager,45,8379.76,5.7,True,6,1,18,3,0.978
+EMP-0578,Noor Qureshi,HR,2,HR Generalist,37,8717.12,4.6,True,2,0,22,3,0.948
+EMP-0579,Nisha Qureshi,HR,2,HR Generalist,18,8103.08,6.9,True,6,0,18,2,0.898
+EMP-0580,Liam Farooq,Product,4,Group PM,56,22161.57,2.5,True,8,0,16,4,0.979
+EMP-0581,Ivan Fonseca,Finance,4,Senior Manager,41,19705.81,2.2,True,7,1,17,3,0.967
+EMP-0582,Sofia Haddad,Engineering,3,Senior Engineer,52,15815.47,4.0,True,4,0,20,3,1.0
+EMP-0583,Hana Silva,Customer Support,1,Support Associate,40,5423.88,4.4,True,2,0,22,2,1.0
+EMP-0584,Karim Reddy,Sales,2,Account Executive,17,9742.15,2.4,True,4,0,20,4,0.983
+EMP-0585,Dev Reddy,Finance,1,Finance Analyst,18,8681.42,3.3,True,1,0,23,3,1.0
+EMP-0586,Mateo Farooq,Customer Support,2,Support Specialist,58,7818.2,0.0,True,6,0,18,4,0.989
+EMP-0587,Aarav Khan,Customer Support,5,Support Manager,77,16745.36,2.8,True,3,0,21,2,0.974
+EMP-0588,Liam Sheikh,Product,2,Product Manager,40,12216.81,0.0,True,6,0,18,5,0.963
+EMP-0589,Aarav Hassan,Sales,3,Senior AE,47,12595.35,8.1,True,1,0,23,4,0.928
+EMP-0590,Sofia Costa,Product,4,Group PM,51,20122.75,6.4,True,10,1,14,4,0.945
+EMP-0591,Maya Khan,Customer Support,2,Support Specialist,67,7355.55,1.6,True,0,0,24,4,0.999
+EMP-0592,Aarav Iyer,HR,3,Senior HR Generalist,77,10778.67,6.6,True,5,1,19,4,0.894
+EMP-0593,Yusuf Patel,Engineering,2,Engineer,55,12813.69,2.9,True,6,1,18,3,0.937
+EMP-0594,Nisha Farooq,Engineering,1,Associate Engineer,22,8146.18,5.2,True,8,1,16,3,0.974
+EMP-0595,Aisha Mehta,HR,4,HR Manager,54,15237.83,1.4,True,2,0,22,4,0.957
+EMP-0596,Elena Naidu,Sales,5,Sales Director,92,21161.3,0.7,True,21,13,3,5,0.985
+EMP-0597,Farah Khan,Sales,5,Sales Director,76,22330.16,1.4,False,4,0,20,4,0.908
+EMP-0598,Hana Fonseca,Operations,5,Ops Director,64,19752.08,3.6,True,0,0,24,3,1.0
+EMP-0599,Sofia Pinto,Product,3,Senior PM,46,14930.08,2.3,True,0,0,24,5,0.944
+EMP-0600,Mira Haddad,Operations,1,Ops Associate,44,6447.25,6.6,True,5,0,19,4,0.989
+EMP-0601,Noor Nair,Sales,2,Account Executive,45,9638.35,2.4,True,10,0,14,3,0.96
+EMP-0602,Nisha Malik,Operations,5,Ops Director,68,18786.67,1.9,True,5,1,19,4,0.897
+EMP-0603,Zara Patel,HR,2,HR Generalist,38,8141.93,0.0,True,5,0,19,4,0.981
+EMP-0604,Kabir Sheikh,Sales,1,SDR,34,6363.65,0.0,True,10,0,14,2,0.984
+EMP-0605,Elena Gomes,Customer Support,1,Support Associate,19,5613.79,1.4,True,6,0,18,3,0.942
+EMP-0606,Bilal Iyer,Sales,4,Sales Manager,45,16234.2,0.0,True,22,18,2,4,1.0
+EMP-0607,Layla Fonseca,HR,1,HR Associate,44,7028.76,2.8,True,0,0,24,2,1.0
+EMP-0608,Farah Reddy,HR,3,Senior HR Generalist,38,10921.63,2.6,True,1,0,23,2,0.958
+EMP-0609,Diego Mehta,Customer Support,2,Support Specialist,27,6985.83,1.0,True,6,1,18,3,0.953
+EMP-0610,Sami Mehta,Operations,1,Ops Associate,35,6326.45,2.3,True,6,0,18,4,0.954
+EMP-0611,Anika Naidu,Operations,2,Ops Analyst,38,7925.19,0.8,True,7,1,17,4,0.978
+EMP-0612,Elena Pinto,HR,1,HR Associate,31,6686.4,4.7,True,7,0,17,4,0.956
+EMP-0613,Mateo Farooq,Engineering,3,Senior Engineer,64,16336.91,4.6,True,5,0,19,4,0.931
+EMP-0614,Sofia Rao,HR,1,HR Associate,36,7837.95,2.1,True,5,0,19,3,0.94
+EMP-0615,Sami Haddad,Customer Support,3,Senior Specialist,66,9465.95,1.8,True,0,0,24,3,0.892
+EMP-0616,Tariq Hassan,Operations,5,Ops Director,75,21543.42,2.1,True,0,0,24,4,0.931
+EMP-0617,Layla Naidu,Sales,4,Sales Manager,73,16060.39,1.4,True,4,0,20,4,0.951
+EMP-0618,Dev Joshi,Customer Support,1,Support Associate,22,5534.02,0.0,False,6,0,18,2,0.942
+EMP-0619,Layla Silva,Operations,4,Senior Ops Manager,67,14663.43,4.5,True,4,0,20,5,0.997
+EMP-0620,Liam Rao,Operations,3,Ops Manager,53,11618.0,4.9,True,3,0,21,2,0.977
+EMP-0621,Sofia Silva,Sales,1,SDR,34,7669.31,0.7,False,2,0,22,4,0.957
+EMP-0622,Nadia Nair,Engineering,1,Associate Engineer,5,9240.9,0.0,True,2,0,22,4,1.0
+EMP-0623,Nisha Reddy,Sales,5,Sales Director,53,20061.19,3.1,False,10,0,14,3,0.941
+EMP-0624,Lena Farooq,Product,1,Associate PM,46,8931.86,4.8,True,0,0,24,3,0.894
+EMP-0625,Hana Silva,Operations,2,Ops Analyst,25,8642.21,2.9,False,4,1,20,3,0.951
+EMP-0626,Lena Haddad,HR,3,Senior HR Generalist,51,12198.99,0.0,True,2,0,22,4,0.956
+EMP-0627,Dev Rao,Operations,5,Ops Director,72,18696.99,2.2,True,3,0,21,4,1.0
+EMP-0628,Sami Costa,Operations,1,Ops Associate,19,6274.43,3.5,True,9,2,15,3,0.998
+EMP-0629,Elena Costa,Product,3,Senior PM,62,15672.75,2.5,True,4,0,20,3,0.994
+EMP-0630,Tariq Farooq,Customer Support,1,Support Associate,30,5717.09,0.2,True,2,0,22,5,0.953
+EMP-0631,Bilal Joshi,Finance,2,Senior Analyst,28,11845.42,3.7,True,6,1,18,3,0.947
+EMP-0632,Sofia Pinto,HR,4,HR Manager,55,13714.65,2.8,True,5,0,19,5,0.963
+EMP-0633,Karim Nair,Product,4,Group PM,29,19716.05,9.8,True,7,1,17,3,0.984
+EMP-0634,Lena Khan,Engineering,1,Associate Engineer,19,8399.87,2.1,True,5,1,19,2,0.914
+EMP-0635,Ivan Naidu,Finance,5,Finance Director,68,23666.9,4.0,True,1,0,23,4,0.913
+EMP-0636,Farah Naidu,Customer Support,4,Support Lead,77,11550.85,0.3,True,6,0,18,5,0.973
+EMP-0637,Hana Khan,Sales,2,Account Executive,44,9443.59,0.4,False,3,0,21,2,0.909
+EMP-0638,Anika Farooq,Product,2,Product Manager,42,11042.47,3.8,True,1,0,23,4,0.94
+EMP-0639,Liam Pinto,Sales,3,Senior AE,64,12778.13,6.1,True,2,0,22,3,0.921
+EMP-0640,Noor Farooq,HR,3,Senior HR Generalist,43,11265.96,21.4,True,0,0,24,2,0.918
+EMP-0641,Nisha Costa,HR,4,HR Manager,65,13628.78,0.0,True,22,14,2,5,0.935
+EMP-0642,Omar Iyer,Finance,1,Finance Analyst,31,8736.02,4.7,True,0,0,24,3,0.895
+EMP-0643,Maya Naidu,Engineering,1,Associate Engineer,57,8525.36,0.4,True,1,0,23,2,1.0
+EMP-0644,Dev Mehta,Operations,1,Ops Associate,57,6309.11,0.0,True,0,0,24,3,0.947
+EMP-0645,Mira Pinto,Engineering,2,Engineer,30,12151.79,4.0,True,5,0,19,3,0.916
+EMP-0646,Bilal Pinto,Operations,2,Ops Analyst,45,8368.53,5.2,True,7,0,17,2,0.903
+EMP-0647,Mira Pinto,Operations,1,Ops Associate,18,5894.18,4.9,True,6,1,18,4,0.976
+EMP-0648,Mira Farooq,HR,1,HR Associate,30,7142.09,4.2,True,5,0,19,4,0.965
+EMP-0649,Ivan Rao,Product,4,Group PM,54,19214.19,4.8,False,8,1,16,4,1.0
+EMP-0650,Sofia Nair,Finance,3,Finance Manager,24,14171.49,2.9,True,2,0,22,5,0.957
+EMP-0651,Omar Joshi,Customer Support,1,Support Associate,23,5614.15,0.0,True,2,0,22,4,0.935
+EMP-0652,Sofia Nair,HR,1,HR Associate,18,7115.88,6.4,True,6,1,18,3,0.95
+EMP-0653,Nadia Fonseca,Customer Support,1,Support Associate,18,5249.3,0.4,True,3,0,21,2,0.897
+EMP-0654,Tariq Fonseca,HR,2,HR Generalist,40,8854.57,7.3,True,2,0,22,4,0.973
+EMP-0655,Nadia Khan,Product,4,Group PM,54,21134.73,4.9,False,5,0,19,3,0.946
+EMP-0656,Tariq Farooq,Product,1,Associate PM,11,8451.24,1.4,True,1,0,23,4,1.0
+EMP-0657,Yusuf Silva,Finance,2,Senior Analyst,27,11085.22,0.4,True,4,1,20,3,0.984
+EMP-0658,Karim Mehta,Operations,1,Ops Associate,19,6680.46,2.4,True,3,0,21,2,0.97
+EMP-0659,Mira Qureshi,Engineering,3,Senior Engineer,58,16302.54,8.6,True,9,0,15,3,0.947
+EMP-0660,Maya Costa,HR,3,Senior HR Generalist,53,10957.9,5.9,True,6,0,18,4,0.987
+EMP-0661,Maya Khan,Operations,2,Ops Analyst,58,8536.24,2.7,True,9,1,15,4,0.947
+EMP-0662,Maya Malik,Engineering,3,Senior Engineer,48,16098.53,3.9,True,0,0,24,2,0.925
+EMP-0663,Karim Pinto,Product,2,Product Manager,26,11236.37,4.6,True,4,0,20,3,0.911
+EMP-0664,Hana Iyer,HR,2,HR Generalist,32,8981.01,4.5,True,2,0,22,3,1.0
+EMP-0665,Nadia Joshi,HR,5,HR Director,67,18416.94,20.6,False,4,0,20,4,0.902
+EMP-0666,Hana Silva,Customer Support,1,Support Associate,16,5523.4,2.6,True,3,0,21,3,0.962
+EMP-0667,Elena Nair,Operations,4,Senior Ops Manager,68,14327.14,4.0,True,3,0,21,4,0.975
+EMP-0668,Dev Qureshi,Product,2,Product Manager,48,12406.91,4.5,True,19,13,5,3,0.97
+EMP-0669,Aarav Naidu,Customer Support,2,Support Specialist,50,7156.52,1.4,True,5,1,19,4,0.927
+EMP-0670,Arjun Fonseca,Customer Support,4,Support Lead,57,12603.27,0.0,True,4,0,20,3,0.954
+EMP-0671,Lena Iyer,Engineering,1,Associate Engineer,44,8649.4,0.9,True,0,0,24,3,0.944
+EMP-0672,Yusuf Rao,Product,1,Associate PM,21,9549.09,5.2,True,5,0,19,3,1.0
+EMP-0673,Aarav Hassan,Finance,4,Senior Manager,57,17969.13,0.0,True,16,13,8,3,0.99
+EMP-0674,Zara Qureshi,Product,2,Product Manager,65,12104.25,1.1,True,1,0,23,4,0.889
+EMP-0675,Arjun Joshi,Customer Support,4,Support Lead,64,13370.65,4.1,True,19,12,5,3,0.983
+EMP-0676,Hana Malik,Customer Support,5,Support Manager,70,15537.41,7.6,True,3,0,21,4,0.863
+EMP-0677,Ravi Nair,Engineering,1,Associate Engineer,43,10144.05,3.1,True,6,1,18,4,0.934
+EMP-0678,Diego Patel,Customer Support,2,Support Specialist,44,7052.54,1.5,True,8,0,16,4,0.932
+EMP-0679,Zara Haddad,Finance,3,Finance Manager,39,13835.52,4.8,True,2,0,22,4,0.99
+EMP-0680,Ravi Haddad,Finance,3,Finance Manager,46,15351.57,2.2,False,16,8,8,3,0.921
+EMP-0681,Aarav Costa,Engineering,3,Senior Engineer,60,15326.15,3.9,True,20,11,4,3,0.918
+EMP-0682,Nisha Qureshi,Operations,3,Ops Manager,40,11795.01,3.5,True,1,0,23,4,0.954
+EMP-0683,Elena Pinto,Product,5,Director of Product,109,27337.95,2.0,True,9,2,15,2,0.964
+EMP-0684,Lena Mehta,Finance,3,Finance Manager,71,14661.84,0.0,True,3,0,21,5,0.975
+EMP-0685,Bilal Costa,HR,2,HR Generalist,27,8284.89,1.6,True,6,0,18,4,1.0
+EMP-0686,Ravi Pinto,Operations,2,Ops Analyst,43,7681.76,0.0,True,6,1,18,2,0.951
+EMP-0687,Maya Khan,Customer Support,1,Support Associate,31,8802.01,4.3,True,8,2,16,4,0.963
+EMP-0688,Anika Joshi,Engineering,3,Senior Engineer,39,14782.21,1.7,True,6,0,18,4,0.876
+EMP-0689,Mira Joshi,HR,2,HR Generalist,28,9272.1,3.2,True,0,0,24,5,0.959
+EMP-0690,Elena Silva,Engineering,2,Engineer,42,12399.78,2.1,True,2,0,22,5,1.0
+EMP-0691,Omar Nair,Finance,2,Senior Analyst,47,11460.55,0.5,True,8,1,16,3,0.971
+EMP-0692,Dev Silva,Engineering,5,Principal Engineer,48,22998.79,3.8,True,2,0,22,2,0.982
+EMP-0693,Priya Silva,Customer Support,2,Support Specialist,63,8152.79,16.4,False,7,0,17,4,0.946
+EMP-0694,Liam Farooq,Product,2,Product Manager,38,12015.14,4.4,True,4,1,20,3,1.0
+EMP-0695,Tariq Nair,Engineering,2,Engineer,52,12556.67,7.3,True,3,0,21,5,0.982
+EMP-0696,Bilal Fonseca,Sales,3,Senior AE,87,11849.59,1.3,True,6,0,18,4,1.0
+EMP-0697,Ravi Pinto,Engineering,1,Associate Engineer,19,9638.89,25.3,True,2,0,22,4,1.0
+EMP-0698,Kabir Silva,Operations,1,Ops Associate,35,6459.07,3.6,True,4,0,20,4,0.961
+EMP-0699,Tariq Qureshi,Product,1,Associate PM,17,8363.17,1.1,True,5,0,19,3,0.969
+EMP-0700,Ravi Iyer,Operations,1,Ops Associate,34,6135.69,6.7,True,4,0,20,3,0.979
+EMP-0701,Maya Patel,Sales,3,Senior AE,25,11571.72,5.5,True,0,0,24,4,1.0
+EMP-0702,Omar Silva,Product,4,Group PM,53,20569.01,5.8,False,3,0,21,4,0.933
+EMP-0703,Zara Hassan,Customer Support,3,Senior Specialist,42,9213.13,3.9,True,8,1,16,3,0.909
+EMP-0704,Mira Joshi,Customer Support,1,Support Associate,15,5700.6,7.6,True,6,1,18,3,0.991
+EMP-0705,Hana Patel,Operations,5,Ops Director,65,17884.97,0.6,True,17,10,7,5,0.858
+EMP-0706,Lena Mehta,Operations,2,Ops Analyst,47,8142.63,2.0,True,10,1,14,3,0.933
+EMP-0707,Bilal Mehta,Sales,1,SDR,26,7329.25,1.9,True,0,0,24,2,1.0
+EMP-0708,Liam Patel,Engineering,3,Senior Engineer,48,16342.66,2.3,True,3,0,21,5,0.952
+EMP-0709,Kabir Pinto,Customer Support,1,Support Associate,22,5969.19,1.2,False,3,0,21,3,0.96
+EMP-0710,Kabir Patel,Operations,2,Ops Analyst,41,9381.48,3.8,True,0,0,24,4,0.962
+EMP-0711,Nisha Malik,Sales,3,Senior AE,48,12558.63,2.9,True,4,0,20,4,0.938
+EMP-0712,Yusuf Iyer,Sales,1,SDR,16,8380.25,1.2,True,5,0,19,2,0.965
+EMP-0713,Anika Farooq,Sales,2,Account Executive,26,13785.94,4.4,True,0,0,24,5,0.912
+EMP-0714,Karim Sheikh,Sales,4,Sales Manager,76,17379.02,4.4,True,2,0,22,4,0.941
+EMP-0715,Aisha Malik,Engineering,2,Engineer,38,11889.54,0.0,True,8,1,16,3,0.941
+EMP-0716,Bilal Qureshi,Customer Support,4,Support Lead,51,12885.55,0.8,True,0,0,24,4,0.981
+EMP-0717,Diego Patel,Engineering,2,Engineer,35,6915.65,0.4,True,2,0,22,4,0.945
+EMP-0718,Yusuf Naidu,HR,2,HR Generalist,32,9692.79,3.9,True,6,0,18,3,0.936
+EMP-0719,Sami Qureshi,Sales,3,Senior AE,21,12812.04,4.1,True,4,1,20,3,0.989
+EMP-0720,Elena Pinto,Engineering,5,Principal Engineer,49,25300.68,0.2,True,10,2,14,4,0.872
+EMP-0721,Mateo Iyer,Customer Support,3,Senior Specialist,29,9499.92,1.8,True,1,0,23,5,0.973
+EMP-0722,Sami Mehta,Customer Support,5,Support Manager,73,15658.51,4.8,True,3,0,21,4,0.984
+EMP-0723,Yusuf Gomes,Operations,5,Ops Director,48,19784.4,3.5,True,8,1,16,3,0.923
+EMP-0724,Karim Patel,Sales,3,Senior AE,34,12420.94,3.2,True,3,0,21,3,0.909
+EMP-0725,Kabir Farooq,Customer Support,2,Support Specialist,37,7164.56,1.3,True,9,2,15,3,1.0
+EMP-0726,Hana Haddad,Finance,4,Senior Manager,51,19082.91,2.9,False,0,0,24,5,0.955
+EMP-0727,Diego Silva,Product,1,Associate PM,36,8655.02,2.6,True,2,0,22,4,0.972
+EMP-0728,Ravi Rao,Sales,4,Sales Manager,62,17515.47,5.9,True,7,2,17,2,0.932
+EMP-0729,Mateo Nair,Finance,1,Finance Analyst,15,8664.92,3.4,True,0,0,24,3,0.9
+EMP-0730,Diego Sheikh,Sales,2,Account Executive,37,8448.88,4.3,False,6,0,18,5,0.994
+EMP-0731,Nadia Haddad,Product,5,Director of Product,62,27184.99,0.0,True,2,0,22,4,0.874
+EMP-0732,Kabir Joshi,Product,2,Product Manager,37,11070.83,3.3,True,1,0,23,4,0.961
+EMP-0733,Bilal Rao,Finance,5,Finance Director,84,24577.13,1.1,True,4,0,20,3,0.976
+EMP-0734,Omar Sheikh,Customer Support,2,Support Specialist,45,8517.13,1.4,True,4,0,20,3,0.968
+EMP-0735,Liam Farooq,Engineering,1,Associate Engineer,32,9210.41,5.7,True,3,0,21,4,0.982
+EMP-0736,Bilal Joshi,Finance,1,Finance Analyst,27,8226.06,9.1,True,2,0,22,3,0.93
+EMP-0737,Sofia Naidu,Product,1,Associate PM,49,9646.7,1.3,False,6,1,18,3,0.939
+EMP-0738,Sami Pinto,HR,4,HR Manager,67,15451.09,3.5,True,4,0,20,4,0.969
+EMP-0739,Priya Fonseca,Finance,3,Finance Manager,48,13940.01,7.2,True,1,0,23,4,0.947
+EMP-0740,Diego Iyer,Product,1,Associate PM,49,8662.82,1.2,True,2,0,22,3,0.905
+EMP-0741,Zara Joshi,Sales,1,SDR,22,6207.77,3.6,True,3,0,21,2,1.0
+EMP-0742,Mateo Gomes,Finance,3,Finance Manager,32,14996.07,1.2,True,9,1,15,4,0.92
+EMP-0743,Sami Pinto,HR,2,HR Generalist,26,8946.74,2.3,True,4,0,20,4,0.93
+EMP-0744,Nisha Malik,Customer Support,5,Support Manager,69,17218.3,5.0,True,4,0,20,4,0.89
+EMP-0745,Sofia Silva,Sales,4,Sales Manager,45,16282.7,2.7,True,5,0,19,4,0.913
+EMP-0746,Mira Qureshi,Operations,3,Ops Manager,45,11059.07,1.2,True,9,1,15,4,0.972
+EMP-0747,Arjun Qureshi,Product,4,Group PM,79,18778.79,3.0,True,6,1,18,3,0.972
+EMP-0748,Elena Joshi,Finance,2,Senior Analyst,24,11323.71,5.6,True,5,0,19,2,0.921
+EMP-0749,Ravi Iyer,Engineering,3,Senior Engineer,54,16008.84,0.0,True,8,0,16,4,0.927
+EMP-0750,Elena Joshi,HR,5,HR Director,79,18609.58,1.3,True,6,1,18,5,1.0
+EMP-0751,Maya Farooq,Customer Support,4,Support Lead,62,13078.2,5.0,False,1,0,23,4,0.931
+EMP-0752,Yusuf Mehta,HR,4,HR Manager,61,14821.83,4.3,True,5,1,19,1,0.967
+EMP-0753,Aarav Rao,Finance,1,Finance Analyst,35,8664.96,2.7,True,9,2,15,3,0.978
+EMP-0754,Yusuf Patel,Operations,2,Ops Analyst,50,8578.49,0.8,True,0,0,24,3,0.99
+EMP-0755,Sofia Rao,Operations,3,Ops Manager,43,11442.5,20.3,True,4,0,20,4,0.98
+EMP-0756,Hana Nair,Engineering,1,Associate Engineer,46,8388.09,1.9,True,7,1,17,4,0.97
+EMP-0757,Bilal Khan,Customer Support,2,Support Specialist,34,7686.59,5.2,True,3,0,21,4,1.0
+EMP-0758,Sofia Rao,HR,2,HR Generalist,60,9267.83,3.1,True,4,0,20,4,0.955
+EMP-0759,Arjun Hassan,Customer Support,2,Support Specialist,40,6919.38,6.2,True,1,0,23,3,0.964
+EMP-0760,Anika Malik,Sales,1,SDR,51,7112.43,1.3,True,3,0,21,4,0.848
+EMP-0761,Anika Patel,Engineering,1,Associate Engineer,15,17740.59,2.9,True,18,13,6,3,0.994
+EMP-0762,Maya Iyer,Product,1,Associate PM,50,9380.37,1.7,True,7,0,17,3,0.919
+EMP-0763,Ravi Qureshi,Operations,2,Ops Analyst,16,7400.48,0.8,True,1,0,23,4,0.912
+EMP-0764,Sami Patel,Product,1,Associate PM,1,8255.69,1.8,True,3,0,21,4,0.935
+EMP-0765,Ravi Rao,Sales,5,Sales Director,78,20850.23,2.9,True,2,0,22,4,0.929
+EMP-0766,Ravi Pinto,Product,2,Product Manager,40,11653.77,0.6,True,7,2,17,4,0.942
+EMP-0767,Dev Patel,Engineering,2,Engineer,39,12019.49,0.8,True,5,0,19,3,0.922
+EMP-0768,Arjun Malik,HR,1,HR Associate,8,6402.54,4.4,True,2,0,22,5,0.995
+EMP-0769,Tariq Joshi,Sales,4,Sales Manager,73,17116.34,7.6,True,2,0,22,2,0.942
+EMP-0770,Nadia Patel,Customer Support,1,Support Associate,34,5707.25,3.7,True,8,0,16,3,0.992
+EMP-0771,Priya Patel,Customer Support,5,Support Manager,56,15059.29,7.0,True,5,0,19,3,0.935
+EMP-0772,Diego Reddy,Sales,4,Sales Manager,50,15359.29,0.0,True,0,0,24,3,0.936
+EMP-0773,Ravi Patel,Finance,2,Senior Analyst,51,11308.47,3.7,True,2,0,22,3,0.974
+EMP-0774,Dev Khan,Finance,2,Senior Analyst,46,11006.28,5.7,False,5,1,19,4,0.94
+EMP-0775,Anika Haddad,Sales,2,Account Executive,16,9369.81,4.8,True,6,0,18,4,0.946
+EMP-0776,Diego Nair,Product,2,Product Manager,28,12094.48,4.1,True,3,0,21,4,0.925
+EMP-0777,Ivan Reddy,Operations,1,Ops Associate,20,6922.23,5.2,True,3,0,21,3,0.966
+EMP-0778,Priya Joshi,HR,2,HR Generalist,5,4693.84,3.6,True,8,0,16,3,0.918
+EMP-0779,Ivan Rao,Product,1,Associate PM,31,8850.42,2.6,True,4,0,20,5,0.87
+EMP-0780,Arjun Farooq,Operations,1,Ops Associate,23,6317.43,1.0,True,7,1,17,4,0.958
+EMP-0781,Ravi Malik,Engineering,1,Associate Engineer,24,6175.33,2.5,True,21,13,3,3,0.99
+EMP-0782,Noor Silva,Finance,5,Finance Director,53,22462.75,0.0,True,7,0,17,4,0.98
+EMP-0783,Nadia Haddad,Product,2,Product Manager,20,12876.27,20.7,True,7,1,17,3,0.938
+EMP-0784,Nadia Patel,HR,1,HR Associate,30,7804.77,3.8,True,9,1,15,4,0.975
+EMP-0785,Omar Fonseca,Product,2,Product Manager,26,12431.04,0.0,True,9,1,15,3,0.854
+EMP-0786,Karim Costa,Finance,2,Senior Analyst,33,11382.92,2.4,True,7,1,17,3,0.908
+EMP-0787,Mira Qureshi,Finance,1,Finance Analyst,27,8400.38,2.1,True,8,2,16,2,0.973
+EMP-0788,Noor Naidu,Engineering,3,Senior Engineer,48,14425.77,0.0,True,5,0,19,5,0.983
+EMP-0789,Layla Nair,Operations,4,Senior Ops Manager,37,11436.45,4.8,True,4,0,20,5,0.925
+EMP-0790,Farah Pinto,Sales,4,Sales Manager,62,17017.93,1.9,True,3,0,21,4,0.982
+EMP-0791,Elena Mehta,Finance,5,Finance Director,67,25658.63,1.8,True,1,0,23,5,0.936
+EMP-0792,Mateo Farooq,Operations,1,Ops Associate,21,6283.59,3.2,True,3,0,21,3,0.958
+EMP-0793,Lena Fonseca,Product,4,Group PM,60,17452.62,7.7,True,4,0,20,4,0.905
+EMP-0794,Karim Malik,Sales,2,Account Executive,32,8965.79,6.7,True,3,0,21,4,0.934
+EMP-0795,Karim Rao,HR,3,Senior HR Generalist,42,18890.69,0.0,False,0,0,24,3,0.928
+EMP-0796,Aarav Naidu,Customer Support,4,Support Lead,38,11933.3,0.0,False,1,0,23,5,0.976
+EMP-0797,Farah Hassan,Product,1,Associate PM,30,8477.3,0.0,True,1,0,23,3,0.995
+EMP-0798,Bilal Haddad,Sales,1,SDR,38,7494.91,1.2,True,5,1,19,3,0.952
+EMP-0799,Sami Reddy,Finance,2,Senior Analyst,62,10025.56,2.4,True,8,1,16,2,0.934
+EMP-0800,Layla Malik,Product,3,Senior PM,41,15263.86,0.0,True,6,1,18,4,0.98
