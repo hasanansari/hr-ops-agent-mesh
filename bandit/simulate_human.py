@@ -13,20 +13,24 @@ from __future__ import annotations
 import numpy as np
 
 from agents.anomaly_models import RecommendedAction
-from hitl.models import ACTION_RANK, edit_distance
-
-RANK_TO_ACTION = {rank: action for action, rank in ACTION_RANK.items()}
+from hitl.models import ACTION_RANK, RANK_TO_ACTION, edit_distance
 
 
-def ideal_rank(anomaly_type: str, is_true_positive: bool) -> int:
+def ideal_rank(anomaly_type: str, is_true_positive: bool, evidence: dict | None = None) -> int:
     """What a perfectly-informed reviewer (one who actually knows the
     ground truth) would consider correct. A false positive should always
-    resolve to no-action -- nothing real happened. For true positives, the
-    target mirrors Section B's own rule-based design: payroll always goes
-    to HR (money needs sign-off), leave always goes to the manager who owns
-    leave decisions, and compliance breaches are treated as auto-correctable
-    in the median case -- a simplifying assumption for the simulator, since
-    Section B's real rule actually splits compliance by severity.
+    resolve to no-action -- nothing real happened. For true positives,
+    payroll always goes to HR (money needs sign-off) and leave always goes
+    to the manager who owns leave decisions, mirroring Section B's own
+    rule-based design.
+
+    Compliance violations are split by sub-type to match Section E's actual
+    hard rules, not flattened to one constant -- an earlier version of this
+    function always called compliance "ideal" at auto-correct, which
+    directly contradicted Section E's TRAINING_CANNOT_BE_AUTO_CORRECTED rule
+    and made the bandit look like it was getting *worse* after learning,
+    when really two of this project's own modules just disagreed with each
+    other about what "correct" meant for that one sub-type.
     """
     if not is_true_positive:
         return ACTION_RANK[RecommendedAction.NO_ACTION]
@@ -34,7 +38,17 @@ def ideal_rank(anomaly_type: str, is_true_positive: bool) -> int:
         return ACTION_RANK[RecommendedAction.ESCALATE_TO_HR]
     if anomaly_type == "leave_abuse":
         return ACTION_RANK[RecommendedAction.ESCALATE_TO_MANAGER]
-    return ACTION_RANK[RecommendedAction.AUTO_CORRECT]  # compliance_violation
+
+    # compliance_violation -- mirrors Section B's own severity-based split
+    # for overtime, and Section E's hard rule that training can never be
+    # auto-corrected.
+    evidence = evidence or {}
+    if evidence.get("violation") == "missing_mandatory_training":
+        return ACTION_RANK[RecommendedAction.ESCALATE_TO_MANAGER]
+    severity = evidence.get("severity", 1.0)
+    if severity < 0.5:
+        return ACTION_RANK[RecommendedAction.AUTO_CORRECT]
+    return ACTION_RANK[RecommendedAction.ESCALATE_TO_HR]
 
 
 def simulate_human_decision(
@@ -43,10 +57,11 @@ def simulate_human_decision(
     chosen_action: str,
     is_true_positive: bool,
     rng: np.random.Generator,
+    evidence: dict | None = None,
 ) -> tuple[str, str, int | None]:
     """Returns (human_decision, final_action, edit_distance)."""
     chosen_rank = ACTION_RANK[RecommendedAction(chosen_action)]
-    target_rank = ideal_rank(anomaly_type, is_true_positive)
+    target_rank = ideal_rank(anomaly_type, is_true_positive, evidence)
     rank_gap = abs(chosen_rank - target_rank)
     correct_call = rank_gap == 0
 

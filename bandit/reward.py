@@ -9,6 +9,7 @@ from __future__ import annotations
 import numpy as np
 
 from agents.anomaly_models import RecommendedAction
+from compliance.rules_engine import evaluate as evaluate_compliance
 from hitl.models import ACTION_RANK
 
 MAX_RANK_DISTANCE = max(ACTION_RANK.values()) - min(ACTION_RANK.values())  # currently 4, derived not hardcoded
@@ -37,13 +38,25 @@ RECURRENCE_PENALTY = -0.5
 # real (a data error or legitimate activity, not an actual incident).
 FALSE_POSITIVE_PENALTY = -0.5
 
-# Section E placeholder -- the compliance rules engine doesn't exist yet.
-# Once it does, this becomes "does `final_action` violate a hard
-# compliance rule for this anomaly's context?" and returns a real negative
-# penalty (e.g. -1.0) when it would. Kept as an explicit hook now so wiring
-# it in later is a one-line change inside combine_reward, not a redesign.
-def compliance_veto_penalty_hook(anomaly_type: str, final_action: str) -> float:
-    return 0.0
+# Section E is wired in for real now: does `final_action` actually trigger
+# a hard compliance veto for this anomaly's context? If so, the policy
+# should learn to avoid it -- -1.0 puts a compliance violation on the same
+# scale as an outright human rejection, since both mean "the action picked
+# was simply not acceptable," not just a matter of degree like a modify.
+COMPLIANCE_VETO_PENALTY = -1.0
+
+
+def compliance_veto_penalty_hook(
+    anomaly_type: str, confidence: float, evidence: dict, final_action: str, employee: dict | None
+) -> float:
+    verdict = evaluate_compliance(
+        anomaly_type=anomaly_type,
+        confidence=confidence,
+        evidence=evidence,
+        final_action=final_action,
+        employee=employee,
+    )
+    return COMPLIANCE_VETO_PENALTY if verdict.veto else 0.0
 
 
 REWARD_CLIP = (-2.0, 1.0)
@@ -87,19 +100,21 @@ def combine_reward(
     is_timeout_fallback: bool,
     final_action: str,
     anomaly_type: str,
+    confidence: float,
+    evidence: dict,
+    employee: dict | None,
     is_true_positive: bool,
     rng: np.random.Generator,
 ) -> tuple[float, dict[str, float]]:
     """Returns (clipped_total, breakdown) -- the breakdown is kept around so
-    every reward is auditable: you can always see exactly which of the three
-    signals (plus the compliance hook) produced the final number, instead of
-    trusting one opaque scalar.
+    every reward is auditable: you can always see exactly which of the four
+    signals produced the final number, instead of trusting one opaque scalar.
     """
     breakdown = {
         "hitl": hitl_component(human_decision, edit_distance, is_timeout_fallback),
         "recurrence": recurrence_component(final_action, is_true_positive, rng),
         "false_positive": false_positive_component(is_true_positive),
-        "compliance_veto": compliance_veto_penalty_hook(anomaly_type, final_action),
+        "compliance_veto": compliance_veto_penalty_hook(anomaly_type, confidence, evidence, final_action, employee),
     }
     total = sum(breakdown.values())
     clipped = float(np.clip(total, *REWARD_CLIP))

@@ -3,8 +3,8 @@ from langgraph.graph import END, StateGraph
 from agents.action_agent import action_agent_node
 from agents.anomaly_agent import anomaly_detection_node
 from agents.bandit_agent import bandit_agent_node
-from agents.compliance_agent import compliance_agent_node
-from agents.hitl_agent import hitl_gate_node, route_after_hitl_gate
+from agents.compliance_agent import compliance_agent_node, compliance_veto_node, route_after_compliance_veto
+from agents.hitl_agent import hitl_gate_node
 from agents.policy_agent import policy_agent_node
 from agents.state import AgentName, HROpsState
 from agents.supervisor import route_after_supervisor, supervisor_node
@@ -20,6 +20,7 @@ def build_graph():
     builder.add_node(AgentName.COMPLIANCE.value, compliance_agent_node)
     builder.add_node(AgentName.HITL_GATE.value, hitl_gate_node)
     builder.add_node(AgentName.BANDIT.value, bandit_agent_node)
+    builder.add_node(AgentName.COMPLIANCE_VETO.value, compliance_veto_node)
 
     builder.set_entry_point(AgentName.SUPERVISOR.value)
 
@@ -50,13 +51,16 @@ def build_graph():
     builder.add_edge(AgentName.ANOMALY_DETECTION.value, AgentName.BANDIT.value)
     builder.add_edge(AgentName.BANDIT.value, AgentName.HITL_GATE.value)
 
-    # The gate doesn't call the Action Agent directly -- it writes
-    # hitl_result to state, and this conditional edge reads it to decide
-    # whether anything approved/modified/fallen-back-to actually needs the
-    # Action Agent, or whether the run is done.
+    # The HITL gate's decisions are not final -- every one of them, even an
+    # explicit human approval or rejection, still passes through the
+    # compliance veto gate before anything is allowed to reach the Action
+    # Agent. This is the literal "even if the Supervisor or RL policy
+    # recommends the action" hard-veto requirement, extended to humans too.
+    builder.add_edge(AgentName.HITL_GATE.value, AgentName.COMPLIANCE_VETO.value)
+
     builder.add_conditional_edges(
-        AgentName.HITL_GATE.value,
-        route_after_hitl_gate,
+        AgentName.COMPLIANCE_VETO.value,
+        route_after_compliance_veto,
         {
             AgentName.ACTION.value: AgentName.ACTION.value,
             "end": END,

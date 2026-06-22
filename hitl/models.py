@@ -26,6 +26,8 @@ ACTION_RANK = {
     RecommendedAction.AUTO_CORRECT: 4,
 }
 
+RANK_TO_ACTION = {rank: action for action, rank in ACTION_RANK.items()}
+
 # Timeout fallback default. "no-action" risks silently dropping a real
 # problem just because nobody reviewed it in time; "flag-for-audit" keeps it
 # visible for eventual human attention without taking any consequential

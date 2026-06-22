@@ -1,0 +1,219 @@
+# HR compliance rules -- data, not prompts or code logic. The engine that
+# reads this file (compliance/rules_engine.py) never uses eval() on
+# anything here; every condition is a structured (field, operator, value)
+# triple, deliberately not a free-form expression string, so a rule can
+# never become an injection/code-execution risk no matter who edits this
+# file later.
+#
+# Schema per rule:
+#   rule_id            unique, upper-snake-case identifier
+#   description        plain-English reason this rule exists
+#   scope:
+#     anomaly_types     list of anomaly types this rule applies to, or
+#                       omitted/null to apply to all three
+#     violation         for compliance_violation anomalies only -- restricts
+#                       to one sub-type ("overtime_cap_breach" or
+#                       "missing_mandatory_training"); omitted = either
+#   condition           {field, operator, value} -- omitted/null means the
+#                       rule always applies within its scope, no extra
+#                       numeric check needed. `field` is a dotted path into
+#                       the evaluation context (see rules_engine.build_context):
+#                       confidence, anomaly_type, evidence.<key>,
+#                       employee.<key>, or a precomputed field like
+#                       payroll_discrepancy. operator is one of
+#                       < <= > >= == between (value is [low, high), half-open)
+#   forbidden_actions   specific actions that are never acceptable for this
+#                       rule's scope+condition, regardless of rank
+#   min_action_rank     the lowest acceptable action rank (0=no-action,
+#                       1=flag-for-audit, 2=escalate-to-manager,
+#                       3=escalate-to-HR, 4=auto-correct) -- the final
+#                       action must be at this rank or higher
+
+rules:
+  - rule_id: MIN_CONFIDENCE_FOR_AUTO_CORRECT
+    description: >
+      Auto-correct may only be used when detection confidence is at least
+      0.85 -- below that, the detector itself isn't sure enough to let the
+      system act alone without a human in the loop.
+    condition:
+      field: confidence
+      operator: "<"
+      value: 0.85
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 1
+
+  - rule_id: PROBATION_NO_AUTO_CORRECT
+    description: >
+      Employees within their first 90 days (tenure under 3 months) may not
+      have payroll, leave, or compliance issues auto-corrected without a
+      manager's review -- probationary records carry extra risk of being
+      misread by statistics alone.
+    condition:
+      field: employee.tenure_months
+      operator: "<"
+      value: 3
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: OVERTIME_LEGAL_CEILING
+    description: >
+      Overtime above 20 hours/week is a hard legal-exposure ceiling, well
+      above Section B's 12-hour soft policy cap -- it always needs HR
+      visibility, never just a flag or a quiet auto-fix.
+    scope:
+      anomaly_types: ["compliance_violation"]
+      violation: "overtime_cap_breach"
+    condition:
+      field: evidence.overtime_hours_week
+      operator: ">"
+      value: 20
+    min_action_rank: 3
+
+  - rule_id: SEVERE_OVERTIME_REQUIRES_HR
+    description: >
+      Once an overtime breach reaches double the policy cap (severity >=
+      1.0), it must escalate to HR -- too severe for a manager-level
+      response alone, even if it doesn't cross the absolute legal ceiling.
+    scope:
+      anomaly_types: ["compliance_violation"]
+      violation: "overtime_cap_breach"
+    condition:
+      field: evidence.severity
+      operator: ">="
+      value: 1.0
+    min_action_rank: 3
+
+  - rule_id: PAYROLL_CORRECTION_TIER_LARGE
+    description: >
+      Payroll discrepancies of $5,000 or more require HR sign-off -- too
+      large a correction to leave with a manager alone, let alone auto-fix.
+    scope:
+      anomaly_types: ["payroll_outlier"]
+    condition:
+      field: payroll_discrepancy
+      operator: ">="
+      value: 5000
+    min_action_rank: 3
+
+  - rule_id: PAYROLL_CORRECTION_TIER_MEDIUM
+    description: >
+      Payroll discrepancies between $2,000 and $5,000 need at least a
+      manager's sign-off -- not large enough for mandatory HR escalation,
+      but too large to silently auto-correct.
+    scope:
+      anomaly_types: ["payroll_outlier"]
+    condition:
+      field: payroll_discrepancy
+      operator: "between"
+      value: [2000, 5000]
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: FINANCE_PAYROLL_SEGREGATION_OF_DUTIES
+    description: >
+      Payroll outliers within the Finance department always require HR
+      sign-off, since Finance also administers payroll -- a basic
+      segregation-of-duties safeguard against the appearance of
+      self-correction.
+    scope:
+      anomaly_types: ["payroll_outlier"]
+    condition:
+      field: employee.department
+      operator: "=="
+      value: "Finance"
+    min_action_rank: 3
+
+  - rule_id: TRAINING_CANNOT_BE_AUTO_CORRECTED
+    description: >
+      A missing training record can't be "auto-corrected" by software --
+      only a manager can actually ensure a person completes the training.
+    scope:
+      anomaly_types: ["compliance_violation"]
+      violation: "missing_mandatory_training"
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: LEAVE_ABUSE_CANNOT_BE_AUTO_CORRECTED
+    description: >
+      A leave-taking pattern can't be "auto-corrected" after the fact --
+      only the manager who owns leave decisions can actually address it.
+    scope:
+      anomaly_types: ["leave_abuse"]
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: EXHAUSTED_LEAVE_BALANCE_NO_AUTO_CORRECT
+    description: >
+      An employee with zero leave balance left can't have a leave-abuse
+      case auto-corrected -- there's no balance left to adjust, it needs a
+      manager's judgment call instead.
+    scope:
+      anomaly_types: ["leave_abuse"]
+    condition:
+      field: employee.leave_balance_days
+      operator: "<="
+      value: 0
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: SEVERE_LEAVE_CLUSTERING_CANNOT_BE_IGNORED
+    description: >
+      When over 70% of someone's leave is suspiciously clustered around
+      long weekends, the system can't let it pass with no action at all.
+    scope:
+      anomaly_types: ["leave_abuse"]
+    condition:
+      field: evidence.clustering_ratio
+      operator: ">"
+      value: 0.7
+    forbidden_actions: ["no-action"]
+    min_action_rank: 1
+
+  - rule_id: LOW_ATTENDANCE_LEAVE_REVIEW
+    description: >
+      Leave-abuse cases for employees whose attendance rate has also
+      dropped below 90% need a manager's eyes -- the pattern may be part
+      of a broader issue, not just leave-policy gaming, and shouldn't be
+      auto-corrected away or ignored.
+    scope:
+      anomaly_types: ["leave_abuse"]
+    condition:
+      field: employee.attendance_rate
+      operator: "<"
+      value: 0.90
+    forbidden_actions: ["auto-correct", "no-action"]
+    min_action_rank: 1
+
+  - rule_id: LOW_PERFORMER_REQUIRES_MANAGER_VISIBILITY
+    description: >
+      For an employee already on a low performance rating (2 or below),
+      payroll or leave anomalies shouldn't be silently auto-corrected --
+      the manager needs visibility given the broader performance context.
+    condition:
+      field: employee.performance_rating
+      operator: "<="
+      value: 2
+    forbidden_actions: ["auto-correct"]
+    min_action_rank: 2
+
+  - rule_id: COMPLIANCE_VIOLATION_MINIMUM_RESPONSE
+    description: >
+      Any confirmed compliance violation, overtime or training, must leave
+      at least a paper trail -- "no-action" is never an acceptable response
+      to a confirmed rule break.
+    scope:
+      anomaly_types: ["compliance_violation"]
+    forbidden_actions: ["no-action"]
+    min_action_rank: 1
+
+  - rule_id: HIGH_CONFIDENCE_CANNOT_BE_IGNORED
+    description: >
+      When the detector is at least 90% confident something is wrong, the
+      system can't simply do nothing about it -- that's a contradiction in
+      terms regardless of anomaly type.
+    condition:
+      field: confidence
+      operator: ">="
+      value: 0.9
+    forbidden_actions: ["no-action"]
+    min_action_rank: 1

@@ -64,17 +64,3 @@ def hitl_gate_node(state: HROpsState) -> dict:
         "hitl_result": {"reviewed": decisions, "approved_for_action": approved_for_action},
         "trace": [trace_entry],
     }
-
-
-def route_after_hitl_gate(state: HROpsState) -> str:
-    """Routes to the Action Agent only if at least one item came out of the
-    gate with a real action attached. The only way nothing flows through is
-    if every item was explicitly rejected by a human, or there was nothing
-    to review in the first place -- a timeout fallback still counts as an
-    action (flag-for-audit), since the whole point of that default is to
-    keep something visible rather than do nothing.
-    """
-    hitl_result = state.hitl_result or {}
-    if hitl_result.get("approved_for_action"):
-        return AgentName.ACTION.value
-    return "end"

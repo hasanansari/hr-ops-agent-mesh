@@ -45,6 +45,7 @@ def run_cycle(
     bandit: LinearEpsilonGreedyBandit,
     anomalies: list[dict],
     ground_truth_by_id: dict[str, dict],
+    employees_by_id: dict[str, dict],
     rng: np.random.Generator,
     cycle_label: str,
 ) -> list[dict]:
@@ -59,7 +60,7 @@ def run_cycle(
             human_decision, final_action, edit_dist = None, chosen_action, None
         else:
             human_decision, final_action, edit_dist = simulate_human_decision(
-                anomaly["anomaly_type"], anomaly["confidence"], chosen_action, is_tp, rng
+                anomaly["anomaly_type"], anomaly["confidence"], chosen_action, is_tp, rng, anomaly["evidence"]
             )
 
         reward, breakdown = combine_reward(
@@ -68,6 +69,9 @@ def run_cycle(
             is_timeout_fallback=is_timeout,
             final_action=final_action,
             anomaly_type=anomaly["anomaly_type"],
+            confidence=anomaly["confidence"],
+            evidence=anomaly["evidence"],
+            employee=employees_by_id.get(anomaly["employee_id"]),
             is_true_positive=is_tp,
             rng=rng,
         )
@@ -86,7 +90,11 @@ def run_cycle(
                 "final_action": final_action,
                 "reward": reward,
                 "reward_breakdown": breakdown,
-                "rank_gap": abs(ACTION_RANK[RecommendedAction(chosen_action)] - ideal_rank(anomaly["anomaly_type"], is_tp)),
+                "triggered_compliance_veto": breakdown["compliance_veto"] != 0.0,
+                "rank_gap": abs(
+                    ACTION_RANK[RecommendedAction(chosen_action)]
+                    - ideal_rank(anomaly["anomaly_type"], is_tp, anomaly["evidence"])
+                ),
             }
         )
     return log
@@ -119,10 +127,17 @@ def print_report(log1: list[dict], log2: list[dict]) -> None:
     reward2 = sum(r["reward"] for r in log2)
     avg_gap1 = sum(r["rank_gap"] for r in log1) / len(log1)
     avg_gap2 = sum(r["rank_gap"] for r in log2) / len(log2)
+    vetoes1 = sum(1 for r in log1 if r["triggered_compliance_veto"])
+    vetoes2 = sum(1 for r in log2 if r["triggered_compliance_veto"])
 
     print("\n=== Cumulative reward ===")
     print(f"cycle 1 total reward: {reward1:+.2f}  (avg {reward1 / len(log1):+.3f} per decision over {len(log1)} decisions)")
     print(f"cycle 2 total reward: {reward2:+.2f}  (avg {reward2 / len(log2):+.3f} per decision over {len(log2)} decisions)")
+
+    print("\n=== Section E: compliance vetoes triggered by the bandit's own chosen action ===")
+    print(f"cycle 1: {vetoes1}/{len(log1)} decisions vetoed (each costing an extra {-1.0:+.1f} reward)")
+    print(f"cycle 2: {vetoes2}/{len(log2)} decisions vetoed")
+    print(f"-> {'fewer vetoes after learning' if vetoes2 < vetoes1 else 'no improvement in veto rate'}")
 
     print("\n=== Average distance from the 'ideal' action rank (0 = perfect) ===")
     print(f"cycle 1: {avg_gap1:.3f}")
@@ -142,6 +157,7 @@ def print_report(log1: list[dict], log2: list[dict]) -> None:
 def main() -> None:
     employees, truth = generate_employees()
     ground_truth_by_id = ground_truth_lookup(truth)
+    employees_by_id = {e["employee_id"]: e for e in employees}
 
     scan = run_anomaly_scan(employees)
     anomalies = scan["high_confidence_anomalies"] + scan["review_queue"]
@@ -160,13 +176,13 @@ def main() -> None:
     )
 
     rng1 = np.random.default_rng(101)
-    log1 = run_cycle(bandit, anomalies, ground_truth_by_id, rng1, cycle_label="cycle_1")
+    log1 = run_cycle(bandit, anomalies, ground_truth_by_id, employees_by_id, rng1, cycle_label="cycle_1")
 
     bandit.save(POLICY_PATH)
     bandit = LinearEpsilonGreedyBandit.load(POLICY_PATH, seed=2)  # genuinely reload from disk before cycle 2
 
     rng2 = np.random.default_rng(202)
-    log2 = run_cycle(bandit, anomalies, ground_truth_by_id, rng2, cycle_label="cycle_2")
+    log2 = run_cycle(bandit, anomalies, ground_truth_by_id, employees_by_id, rng2, cycle_label="cycle_2")
 
     bandit.save(POLICY_PATH)
     print_report(log1, log2)

@@ -23,6 +23,7 @@ class AgentName(str, Enum):
     COMPLIANCE = "compliance_agent"
     HITL_GATE = "hitl_gate"
     BANDIT = "bandit_agent"
+    COMPLIANCE_VETO = "compliance_veto"
 
 
 class TraceEntry(BaseModel):
@@ -49,6 +50,7 @@ class HROpsState(BaseModel):
     compliance_result: dict[str, Any] | None = None
     hitl_result: dict[str, Any] | None = None
     bandit_result: dict[str, Any] | None = None
+    compliance_veto_result: dict[str, Any] | None = None
 
     # operator.add on a list field tells LangGraph to concatenate each
     # node's returned trace entries onto the existing list instead of

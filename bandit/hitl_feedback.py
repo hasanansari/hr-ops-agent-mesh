@@ -32,8 +32,9 @@ def train_on_real_decisions(bandit: LinearEpsilonGreedyBandit, rng: np.random.Ge
     if not decisions:
         return []
 
-    _, truth = generate_employees()
+    employees, truth = generate_employees()
     ground_truth_by_id = ground_truth_lookup(truth)
+    employees_by_id = {e["employee_id"]: e for e in employees}
 
     log = []
     for row in decisions:
@@ -49,6 +50,9 @@ def train_on_real_decisions(bandit: LinearEpsilonGreedyBandit, rng: np.random.Ge
             is_timeout_fallback=bool(row["is_timeout_fallback"]),
             final_action=row["final_action"] or RecommendedAction.NO_ACTION.value,
             anomaly_type=row["anomaly_type"],
+            confidence=row["confidence"],
+            evidence=evidence,
+            employee=employees_by_id.get(row["employee_id"]),
             is_true_positive=is_tp,
             rng=rng,
         )
