@@ -49,6 +49,13 @@ def run_demo() -> None:
             for anomaly in anomaly_result["high_confidence_anomalies"][:3]:
                 print(f"    {anomaly}")
 
+        bandit_result = result.get("bandit_result")
+        if bandit_result is not None:
+            print(
+                f"  bandit_result: agrees with rule-based recommendation on "
+                f"{bandit_result['agree_count']}/{bandit_result['total']} anomalies"
+            )
+
         hitl_result = result.get("hitl_result")
         if hitl_result is not None:
             print(

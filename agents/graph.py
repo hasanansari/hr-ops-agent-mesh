@@ -2,6 +2,7 @@ from langgraph.graph import END, StateGraph
 
 from agents.action_agent import action_agent_node
 from agents.anomaly_agent import anomaly_detection_node
+from agents.bandit_agent import bandit_agent_node
 from agents.compliance_agent import compliance_agent_node
 from agents.hitl_agent import hitl_gate_node, route_after_hitl_gate
 from agents.policy_agent import policy_agent_node
@@ -18,6 +19,7 @@ def build_graph():
     builder.add_node(AgentName.ANOMALY_DETECTION.value, anomaly_detection_node)
     builder.add_node(AgentName.COMPLIANCE.value, compliance_agent_node)
     builder.add_node(AgentName.HITL_GATE.value, hitl_gate_node)
+    builder.add_node(AgentName.BANDIT.value, bandit_agent_node)
 
     builder.set_entry_point(AgentName.SUPERVISOR.value)
 
@@ -42,8 +44,11 @@ def build_graph():
         builder.add_edge(agent.value, END)
 
     # AnomalyDetection no longer dead-ends at END -- every scan result now
-    # passes through the HITL gate before anything gets a chance to act.
-    builder.add_edge(AgentName.ANOMALY_DETECTION.value, AgentName.HITL_GATE.value)
+    # passes through the bandit (attaches a learned-policy suggestion
+    # alongside each anomaly's rule-based one) and then the HITL gate
+    # before anything gets a chance to act.
+    builder.add_edge(AgentName.ANOMALY_DETECTION.value, AgentName.BANDIT.value)
+    builder.add_edge(AgentName.BANDIT.value, AgentName.HITL_GATE.value)
 
     # The gate doesn't call the Action Agent directly -- it writes
     # hitl_result to state, and this conditional edge reads it to decide

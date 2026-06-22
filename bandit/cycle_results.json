@@ -1,0 +1,6770 @@
+{
+  "cycle_1": [
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "7823fd94-1f8d-4b91-a8ac-f22f5688f60e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9ee8b080-af46-436f-890d-19b4fa19527d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "238b4b82-e612-418b-8a75-fe1dea7a11ae",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.844,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "33c4680c-3de9-4903-800f-405e4a69123e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "01f399ea-a724-4860-9120-54541a4e099d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "8cb2b14e-b30b-4a37-9e14-d85129736c04",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "4b7e3341-b1ea-4189-91f7-147a4c506489",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.853,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c3e69ffb-2243-4acf-9a59-f330db1963ac",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.835,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "eeb4a243-0cbf-4823-86be-58618106f8be",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b075aadf-8da8-43a0-9f5c-3fdd39efaa35",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "422cec4b-d9e1-42ed-9f6b-377ef2833c68",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "22f8e6a7-99d2-4e91-89ac-bef13052c233",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.872,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "55bd7686-8c8c-465e-b96d-5ec84c083428",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f43d1620-8f68-48d1-82e8-58d17a3a2ffd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f0658183-38d9-405b-a36d-6c4ba98b5f4d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "bf3909a2-fb62-4517-b7ae-d320d2e4c99c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "040cf66c-673d-44e9-91e6-48f8509779f4",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f1822868-7763-4b95-9a69-8d0db627f1ab",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b8ddeb56-25de-44b7-baee-93ee195e5bb6",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "959c1c7c-c337-419f-92d0-55d4005d5e02",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.807,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5fcdcedb-c4a4-48d3-bd0f-116dd4977b68",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "552b899e-0d27-4ddb-af1f-5a47eb3cc802",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.99,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "21b215ec-e58f-4460-8128-99c4ac6c1744",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.865,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "244fc690-93e3-43a9-af45-d616db301705",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9ab9c15d-4b8d-4b74-b30e-fefc86b3007a",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c4a6c96d-86b6-4e85-8169-a6a5aff257fd",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "92ecc0be-8851-4381-bb8a-ff09f7c87da2",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-HR",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a097cb82-3aeb-42b6-a363-e7d1048806f3",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.87,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5235c447-a35e-4754-b116-ce8b3c677628",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "83cecb4e-2364-4570-970a-a21a566b4116",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.897,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0ff01869-7125-49cf-979b-eaca9e74353f",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f2e210f8-344e-4bb4-8f24-e99cfbb0873c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "1fdcf09e-b65a-4318-9f6d-5160cbbbf90c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f9d2a511-a9c6-4461-9c27-659f46eb66e0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "1d02da1f-3566-4131-b812-4f7a668dae18",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b893187d-413b-433a-b161-6c83e82b1ddb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "3f057c75-23dc-4c2e-95be-ffaec4da0317",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "939f9cab-9473-476c-8fed-e9daa57b4e5c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.97,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "57017eca-cf39-486a-b405-627b2afdce0f",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a36e31e8-45cd-43d1-8f0a-14dca63ca73c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "18220310-3f87-436d-a83c-5dae4ee9ea4e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.945,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "6fc6ce55-0d4d-4f70-903f-c84479d9655c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.978,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "977fd94b-b505-4eb4-a152-a553e9fc8615",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.92,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e11ca0fd-2606-4f9e-8aa7-225537f17a94",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a4bf35b0-9bbb-4d43-803d-0a76e96b78d4",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.837,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "6022159b-0070-4809-a851-d11561847bc5",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2c42e5be-5ac6-45d1-a352-e894b5f3f55e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "69c1af7c-b26e-4447-bada-4b4497068388",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0345fa06-84a3-4535-a43a-8b9faffd50fc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d55fa3ac-8416-402b-a922-7f730150dd81",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.905,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f2a06fe0-882a-462d-ae63-1c409c41af26",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "cf91b6e7-a259-4b3d-88c2-3bdaf7fde713",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b0cd2939-297c-47b1-b919-7120efbb8780",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "58e36696-e10c-46cb-a8b7-beba7e38d02c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c0aea2f8-0fd3-4bc8-8835-f051cf6ec62e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "05c6c00a-6b65-4508-a6b3-229106ddfa96",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "6f9aaeb1-4549-4517-81b4-538745f373ec",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "02b8aa1a-a079-44f8-bab4-656b45d5a5f1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.805,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5833d80f-6435-40b8-b8d8-43a614f6dc3d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e96736ce-e76a-47fa-a91c-5e3e73b220e8",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "1e31fbed-cf63-47cf-b947-6b4491d52467",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e22e19a8-e630-4291-8ddd-642bdcbf382b",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.985,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "4c370ef2-6fc3-4171-890e-6eea486d103c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "169b3952-d300-4534-8494-39271e533caf",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5973ec6b-59c9-4c3b-b55d-8758ed714dd1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "36a8a3d9-a1cc-45e8-a010-4651f5e93a1e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "55b01363-c647-4221-a38c-d579789badde",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a693206b-394d-4e85-80fb-239138b5ed45",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "70d4888f-8f99-491c-9d77-9d32f983db16",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "901312b3-cc61-48b4-bb85-fc930beea7cc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "48586e00-b642-47cd-8d40-631500324dcb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0921bf40-bb40-4e9c-a15f-2c2d9a468944",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "36879720-e9d6-4538-8851-54ba837a2406",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "82baf62c-8325-4914-a4f9-b7b827f957a0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "6a242897-a4fd-42ab-b385-beabab3907f1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b1055d19-92d2-4f8c-9b62-6177862dc817",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b9ebebd7-f60c-433c-9ac1-2d68bfbf92bb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c78c68df-7b11-419d-bc94-6a6159f30023",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "88e8dcd9-c7bd-4061-9e7a-79928711b1dc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0b5dea29-fd33-4ab2-b4b8-579d825461be",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.935,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "59d8460d-3ab8-477d-ad31-32f50a7605c0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b2033cbf-a898-4859-b428-04698ea1654c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "90cf90ed-93d0-4ec3-8600-b01a5688a12d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "bdcbbfeb-69d8-40e7-9db7-6f57895c984d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.915,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2930e6fb-ef43-4855-b65c-c5a5fd5690b1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5b58420c-9018-417b-87bd-26e954b1f6c7",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c4b33ff8-607e-47b1-b8b1-880591cd681e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.81,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "92340b7a-2e0d-4d10-9cf4-4c2d92e8a620",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e61f9c31-c980-414a-a171-853508e0b424",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f5698afe-3d81-46c5-b3ee-d7731cb9037d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "22a06acb-9db7-4b0a-8f2c-f7fd66fa09f6",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2e90b12f-ef94-4b9c-a064-154e53f258ec",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b44dc7b8-18e8-41d4-8eb0-c536659c10bb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a78c833e-5db7-4582-817c-28182d940a2c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f51ca5ca-4629-42be-b90c-fec1ac199459",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.907,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a9f84f96-7d38-44f3-840f-e5d796926b81",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "acc83b66-3419-4a9e-8adc-611187593955",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.917,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c53191a5-745e-4b47-8701-fe16f7eb481d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "34a469e9-0201-4cae-8642-146c48ac9c13",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "aa3fa2a8-4556-4d8d-b0bc-82678f40c63e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.401,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "544de4b7-c26b-4859-ac60-307f6edb9bd1",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.08,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0faf53e9-25b7-4962-8f57-b5ee690e6e0c",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.466,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "8a576ebe-e8b9-468c-8650-4548d0f589b5",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.297,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-HR",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "8631dd8e-f7e1-4ae6-a1b7-8d5739811b72",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.163,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "no-action",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "193353dc-1ca1-40da-8901-efb8fe13b4bd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.526,
+      "chosen_action": "auto-correct",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "7018d309-2253-46c0-9115-655c9abdffc0",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.052,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e3a27b28-c057-4491-ae4a-7ee804afb5b5",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.251,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "e728cfb6-4760-4a7c-be2b-23fdcef5789d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.055,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0db8a69d-75ac-494a-97c3-18fd828e00af",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.081,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "7035f712-87b9-468f-843f-1b0a7575a006",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.112,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "962b4277-c383-4e16-a326-bfa01bad1479",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.123,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d6fc3af0-ef0c-41bf-912e-94e9a1a37b4b",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.027,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a7e1a187-5f9b-477a-8b6d-061fc8206571",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.122,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "ff6347f5-7e18-43f8-9a03-5f930fbcc3bc",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.796,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "769f36ce-afec-46ca-b1a2-6c31fb6f4b69",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.759,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f5b4bdff-75ff-48b8-97c0-0f9d7986b397",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.105,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "0dcf4a4b-43ce-497b-8a49-663fb8d65c29",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.343,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fbda83ac-93ce-4ecc-af8d-6e3d9e9c60dc",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.542,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a0088ef3-0c5c-4e6e-bbaf-5c2271fb5e64",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.581,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "15b6d585-0338-4b82-a602-b5c87d8c3665",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.146,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "eb6d5171-309e-4d69-b51c-32b030b5e01f",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.057,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "8dc43754-7d1d-4a82-9b05-b041c289c0cd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.503,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "ad75fffb-1602-48c2-ac24-bc436182554e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.732,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5492eee9-a8f6-4101-a88f-3de6d3a89abe",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.16,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d21c63c5-cfd7-4f48-a3c0-3ed0f705f966",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.334,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "03d6643f-44f1-427d-8e9a-bb839797bc8e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.08,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "61027739-0a76-4519-a64f-15b653ee4d22",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.374,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fd43f084-2007-4f2c-ac52-f894b5dd3788",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.397,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fa404dff-4dc9-4e64-aac7-a433fce725e1",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.392,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "7771c0a1-e98b-4c08-b28a-2198ad2481e6",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.26,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "4de59a0d-67d1-4e6c-af60-895359192cc0",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.155,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c62c1ae4-b7a7-404c-a6b8-a43f9cb88c90",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.319,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "256d318e-9780-4db6-973e-d4727d6ccadd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.117,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fe2436f3-9105-4fa4-bacb-b27effcf0d9d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "3c9cf77b-b2ec-48c5-97bc-7b91a0fafd5b",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "08d51d30-aeb7-476e-8de4-fbab1b1cda80",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "ccd28c88-5144-4092-bdd2-0e4343b3f66a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.42,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fba47b91-38a4-4d76-b3f0-74069a7d1241",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.564,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "845abb64-8822-4218-8481-3e57bcbe8ea1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.386,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "c275aba3-102c-4288-851d-dc71633ee3f7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.553,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d29c190b-3f3d-4eba-9a32-abf2d6ec8086",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "5589d907-ba68-4876-aced-486f26aa022c",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.339,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b93c3884-b6de-4176-b80e-195369c7e6ee",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b4257941-be41-4c8d-aec8-8af78d66671d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.44,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "3e8e01bd-c435-4a6f-a775-6fc37c14d771",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.48,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "fe80a1b9-eac4-4a5d-809d-5572639366b7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "7b1920ad-f117-4954-9611-1f8f6c07e13f",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.29,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2aa15fb3-8d84-4508-b5a1-4e88185f6d36",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.339,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a14b270d-3691-48c2-bbd2-b267b5e8d5a1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.476,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "dd2ef2c6-ab36-4a13-b2ad-44264cb65691",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9429de17-ecd2-430a-99a5-0c3ebf4ff1f9",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2c61285f-4063-4ce1-b747-5b9cea2d434f",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.498,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "f3f59570-56dc-43bf-8bcf-69471a073aac",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.392,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "cb864a1b-dd11-47a1-a77d-442ac0efb3ba",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.431,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9ded3848-20ec-4dfc-ad32-a568466616d0",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "03e127bb-648f-48d6-b933-8d6d4953afcd",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.431,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "3ce31aca-6907-4d18-9653-daf42d5269ab",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.362,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "ad66c527-7ad8-4f7a-974c-dd3ccb87ce13",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.32,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "00f48040-1cf0-4490-89ad-b00edf510703",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.589,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9ea8b2c5-3b89-4f11-be4b-bd403d0240e2",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "39124eed-41ef-4038-9604-a602f61a56c4",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "4eedfbf9-36b9-4973-b702-2fffca324bd1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.386,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "22098577-92b1-4aff-9ffb-66c0a40700c7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.48,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9d01be2f-0194-4017-8fc1-c0d7b82c6b6d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.476,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d925fe70-83dd-4f4c-aab7-f5983caf4007",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.535,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b2e26140-32f1-4115-84ad-afa50618b67d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "73b34f18-0582-4af4-b229-a78feb79709a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.607,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "477e1c29-93b6-4e49-84ae-3cc4bde5fff5",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.535,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "3296168a-e56a-4591-872e-5704b5e86b4d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.434,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "ec2d1188-5a13-4c5b-b985-dc6e9cb04ff3",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.365,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a265be73-f111-416d-bc87-b26535df5fbc",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.413,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "2a23f42a-d7b0-4fb2-90e2-cbc04b13636a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.24,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "a770a53c-0d9c-44ab-8d07-70178d0b2328",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.42,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "9ffe1728-a605-4e5a-a3cc-c2890b048524",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "b07fd5f6-f3f0-4083-8fb1-5747bb467c96",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "1d5fb83b-673d-4324-a500-d80d8d6c73b2",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "dd0f62ce-d000-4674-bb96-7fa00f785007",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.792,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_1",
+      "anomaly_id": "d66c4318-1438-44e9-8b50-8213d607ec75",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.8,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    }
+  ],
+  "cycle_2": [
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "7823fd94-1f8d-4b91-a8ac-f22f5688f60e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9ee8b080-af46-436f-890d-19b4fa19527d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "238b4b82-e612-418b-8a75-fe1dea7a11ae",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.844,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "33c4680c-3de9-4903-800f-405e4a69123e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "01f399ea-a724-4860-9120-54541a4e099d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "8cb2b14e-b30b-4a37-9e14-d85129736c04",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "4b7e3341-b1ea-4189-91f7-147a4c506489",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.853,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c3e69ffb-2243-4acf-9a59-f330db1963ac",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.835,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "eeb4a243-0cbf-4823-86be-58618106f8be",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b075aadf-8da8-43a0-9f5c-3fdd39efaa35",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "422cec4b-d9e1-42ed-9f6b-377ef2833c68",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "22f8e6a7-99d2-4e91-89ac-bef13052c233",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.872,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "55bd7686-8c8c-465e-b96d-5ec84c083428",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f43d1620-8f68-48d1-82e8-58d17a3a2ffd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f0658183-38d9-405b-a36d-6c4ba98b5f4d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 1.0,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "bf3909a2-fb62-4517-b7ae-d320d2e4c99c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "040cf66c-673d-44e9-91e6-48f8509779f4",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f1822868-7763-4b95-9a69-8d0db627f1ab",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b8ddeb56-25de-44b7-baee-93ee195e5bb6",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "959c1c7c-c337-419f-92d0-55d4005d5e02",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.807,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5fcdcedb-c4a4-48d3-bd0f-116dd4977b68",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "552b899e-0d27-4ddb-af1f-5a47eb3cc802",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.99,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "auto-correct",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "21b215ec-e58f-4460-8128-99c4ac6c1744",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.865,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "244fc690-93e3-43a9-af45-d616db301705",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9ab9c15d-4b8d-4b74-b30e-fefc86b3007a",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c4a6c96d-86b6-4e85-8169-a6a5aff257fd",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "92ecc0be-8851-4381-bb8a-ff09f7c87da2",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a097cb82-3aeb-42b6-a363-e7d1048806f3",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.87,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5235c447-a35e-4754-b116-ce8b3c677628",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "83cecb4e-2364-4570-970a-a21a566b4116",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.897,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0ff01869-7125-49cf-979b-eaca9e74353f",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f2e210f8-344e-4bb4-8f24-e99cfbb0873c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "1fdcf09e-b65a-4318-9f6d-5160cbbbf90c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f9d2a511-a9c6-4461-9c27-659f46eb66e0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "1d02da1f-3566-4131-b812-4f7a668dae18",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b893187d-413b-433a-b161-6c83e82b1ddb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "3f057c75-23dc-4c2e-95be-ffaec4da0317",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "939f9cab-9473-476c-8fed-e9daa57b4e5c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.97,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "57017eca-cf39-486a-b405-627b2afdce0f",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a36e31e8-45cd-43d1-8f0a-14dca63ca73c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "18220310-3f87-436d-a83c-5dae4ee9ea4e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.945,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "6fc6ce55-0d4d-4f70-903f-c84479d9655c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.978,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "977fd94b-b505-4eb4-a152-a553e9fc8615",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.92,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e11ca0fd-2606-4f9e-8aa7-225537f17a94",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a4bf35b0-9bbb-4d43-803d-0a76e96b78d4",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.837,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "6022159b-0070-4809-a851-d11561847bc5",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2c42e5be-5ac6-45d1-a352-e894b5f3f55e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "69c1af7c-b26e-4447-bada-4b4497068388",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0345fa06-84a3-4535-a43a-8b9faffd50fc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d55fa3ac-8416-402b-a922-7f730150dd81",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.905,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f2a06fe0-882a-462d-ae63-1c409c41af26",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "cf91b6e7-a259-4b3d-88c2-3bdaf7fde713",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b0cd2939-297c-47b1-b919-7120efbb8780",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "58e36696-e10c-46cb-a8b7-beba7e38d02c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c0aea2f8-0fd3-4bc8-8835-f051cf6ec62e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "05c6c00a-6b65-4508-a6b3-229106ddfa96",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "6f9aaeb1-4549-4517-81b4-538745f373ec",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "02b8aa1a-a079-44f8-bab4-656b45d5a5f1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.805,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5833d80f-6435-40b8-b8d8-43a614f6dc3d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e96736ce-e76a-47fa-a91c-5e3e73b220e8",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "1e31fbed-cf63-47cf-b947-6b4491d52467",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e22e19a8-e630-4291-8ddd-642bdcbf382b",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.985,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "4c370ef2-6fc3-4171-890e-6eea486d103c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "169b3952-d300-4534-8494-39271e533caf",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5973ec6b-59c9-4c3b-b55d-8758ed714dd1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "36a8a3d9-a1cc-45e8-a010-4651f5e93a1e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "55b01363-c647-4221-a38c-d579789badde",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a693206b-394d-4e85-80fb-239138b5ed45",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "70d4888f-8f99-491c-9d77-9d32f983db16",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "901312b3-cc61-48b4-bb85-fc930beea7cc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "48586e00-b642-47cd-8d40-631500324dcb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0921bf40-bb40-4e9c-a15f-2c2d9a468944",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "36879720-e9d6-4538-8851-54ba837a2406",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "82baf62c-8325-4914-a4f9-b7b827f957a0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "6a242897-a4fd-42ab-b385-beabab3907f1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b1055d19-92d2-4f8c-9b62-6177862dc817",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b9ebebd7-f60c-433c-9ac1-2d68bfbf92bb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c78c68df-7b11-419d-bc94-6a6159f30023",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "88e8dcd9-c7bd-4061-9e7a-79928711b1dc",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0b5dea29-fd33-4ab2-b4b8-579d825461be",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.935,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "59d8460d-3ab8-477d-ad31-32f50a7605c0",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b2033cbf-a898-4859-b428-04698ea1654c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "90cf90ed-93d0-4ec3-8600-b01a5688a12d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "bdcbbfeb-69d8-40e7-9db7-6f57895c984d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.915,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2930e6fb-ef43-4855-b65c-c5a5fd5690b1",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5b58420c-9018-417b-87bd-26e954b1f6c7",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c4b33ff8-607e-47b1-b8b1-880591cd681e",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.81,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "92340b7a-2e0d-4d10-9cf4-4c2d92e8a620",
+      "anomaly_type": "compliance_violation",
+      "confidence": 1.0,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e61f9c31-c980-414a-a171-853508e0b424",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f5698afe-3d81-46c5-b3ee-d7731cb9037d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "22a06acb-9db7-4b0a-8f2c-f7fd66fa09f6",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "auto-correct",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2e90b12f-ef94-4b9c-a064-154e53f258ec",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b44dc7b8-18e8-41d4-8eb0-c536659c10bb",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a78c833e-5db7-4582-817c-28182d940a2c",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f51ca5ca-4629-42be-b90c-fec1ac199459",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.907,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a9f84f96-7d38-44f3-840f-e5d796926b81",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "acc83b66-3419-4a9e-8adc-611187593955",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.917,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c53191a5-745e-4b47-8701-fe16f7eb481d",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "34a469e9-0201-4cae-8642-146c48ac9c13",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.9,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "aa3fa2a8-4556-4d8d-b0bc-82678f40c63e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.401,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "544de4b7-c26b-4859-ac60-307f6edb9bd1",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.08,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0faf53e9-25b7-4962-8f57-b5ee690e6e0c",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.466,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "8a576ebe-e8b9-468c-8650-4548d0f589b5",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.297,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "8631dd8e-f7e1-4ae6-a1b7-8d5739811b72",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.163,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "193353dc-1ca1-40da-8901-efb8fe13b4bd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.526,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "7018d309-2253-46c0-9115-655c9abdffc0",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.052,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e3a27b28-c057-4491-ae4a-7ee804afb5b5",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.251,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "e728cfb6-4760-4a7c-be2b-23fdcef5789d",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.055,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0db8a69d-75ac-494a-97c3-18fd828e00af",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.081,
+      "chosen_action": "auto-correct",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.5,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "7035f712-87b9-468f-843f-1b0a7575a006",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.112,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "962b4277-c383-4e16-a326-bfa01bad1479",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.123,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d6fc3af0-ef0c-41bf-912e-94e9a1a37b4b",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.027,
+      "chosen_action": "auto-correct",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": -0.5,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 4
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a7e1a187-5f9b-477a-8b6d-061fc8206571",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.122,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "ff6347f5-7e18-43f8-9a03-5f930fbcc3bc",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.796,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "769f36ce-afec-46ca-b1a2-6c31fb6f4b69",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.759,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f5b4bdff-75ff-48b8-97c0-0f9d7986b397",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.105,
+      "chosen_action": "no-action",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "0dcf4a4b-43ce-497b-8a49-663fb8d65c29",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.343,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-HR",
+      "reward": 0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fbda83ac-93ce-4ecc-af8d-6e3d9e9c60dc",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.542,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a0088ef3-0c5c-4e6e-bbaf-5c2271fb5e64",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.581,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "no-action",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "15b6d585-0338-4b82-a602-b5c87d8c3665",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.146,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "eb6d5171-309e-4d69-b51c-32b030b5e01f",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.057,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "8dc43754-7d1d-4a82-9b05-b041c289c0cd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.503,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "ad75fffb-1602-48c2-ac24-bc436182554e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.732,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5492eee9-a8f6-4101-a88f-3de6d3a89abe",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.16,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d21c63c5-cfd7-4f48-a3c0-3ed0f705f966",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.334,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "03d6643f-44f1-427d-8e9a-bb839797bc8e",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.08,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": false,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "no-action",
+      "reward": -0.25,
+      "reward_breakdown": {
+        "hitl": 0.25,
+        "recurrence": 0.0,
+        "false_positive": -0.5,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 3
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "61027739-0a76-4519-a64f-15b653ee4d22",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.374,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fd43f084-2007-4f2c-ac52-f894b5dd3788",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.397,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fa404dff-4dc9-4e64-aac7-a433fce725e1",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.392,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "7771c0a1-e98b-4c08-b28a-2198ad2481e6",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.26,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "4de59a0d-67d1-4e6c-af60-895359192cc0",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.155,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c62c1ae4-b7a7-404c-a6b8-a43f9cb88c90",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.319,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-HR",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "256d318e-9780-4db6-973e-d4727d6ccadd",
+      "anomaly_type": "payroll_outlier",
+      "confidence": 0.117,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fe2436f3-9105-4fa4-bacb-b27effcf0d9d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "3c9cf77b-b2ec-48c5-97bc-7b91a0fafd5b",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "08d51d30-aeb7-476e-8de4-fbab1b1cda80",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "ccd28c88-5144-4092-bdd2-0e4343b3f66a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.42,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fba47b91-38a4-4d76-b3f0-74069a7d1241",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.564,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "845abb64-8822-4218-8481-3e57bcbe8ea1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.386,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "c275aba3-102c-4288-851d-dc71633ee3f7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.553,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d29c190b-3f3d-4eba-9a32-abf2d6ec8086",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.387,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "5589d907-ba68-4876-aced-486f26aa022c",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.339,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b93c3884-b6de-4176-b80e-195369c7e6ee",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b4257941-be41-4c8d-aec8-8af78d66671d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.44,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "3e8e01bd-c435-4a6f-a775-6fc37c14d771",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.48,
+      "chosen_action": "flag-for-audit",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "fe80a1b9-eac4-4a5d-809d-5572639366b7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "7b1920ad-f117-4954-9611-1f8f6c07e13f",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.29,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2aa15fb3-8d84-4508-b5a1-4e88185f6d36",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.339,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a14b270d-3691-48c2-bbd2-b267b5e8d5a1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.476,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "dd2ef2c6-ab36-4a13-b2ad-44264cb65691",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9429de17-ecd2-430a-99a5-0c3ebf4ff1f9",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2c61285f-4063-4ce1-b747-5b9cea2d434f",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.498,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "f3f59570-56dc-43bf-8bcf-69471a073aac",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.392,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "cb864a1b-dd11-47a1-a77d-442ac0efb3ba",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.431,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9ded3848-20ec-4dfc-ad32-a568466616d0",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "03e127bb-648f-48d6-b933-8d6d4953afcd",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.431,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "3ce31aca-6907-4d18-9653-daf42d5269ab",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.362,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "ad66c527-7ad8-4f7a-974c-dd3ccb87ce13",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.32,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": true,
+      "human_decision": null,
+      "final_action": "escalate-to-manager",
+      "reward": 0.0,
+      "reward_breakdown": {
+        "hitl": 0.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "00f48040-1cf0-4490-89ad-b00edf510703",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.589,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9ea8b2c5-3b89-4f11-be4b-bd403d0240e2",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "39124eed-41ef-4038-9604-a602f61a56c4",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.469,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "4eedfbf9-36b9-4973-b702-2fffca324bd1",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.386,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "flag-for-audit",
+      "reward": 0.75,
+      "reward_breakdown": {
+        "hitl": 0.75,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "22098577-92b1-4aff-9ffb-66c0a40700c7",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.48,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9d01be2f-0194-4017-8fc1-c0d7b82c6b6d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.476,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d925fe70-83dd-4f4c-aab7-f5983caf4007",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.535,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b2e26140-32f1-4115-84ad-afa50618b67d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "73b34f18-0582-4af4-b229-a78feb79709a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.607,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "477e1c29-93b6-4e49-84ae-3cc4bde5fff5",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.535,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "3296168a-e56a-4591-872e-5704b5e86b4d",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.434,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "ec2d1188-5a13-4c5b-b985-dc6e9cb04ff3",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.365,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a265be73-f111-416d-bc87-b26535df5fbc",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.413,
+      "chosen_action": "escalate-to-HR",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "reject",
+      "final_action": "no-action",
+      "reward": -1.0,
+      "reward_breakdown": {
+        "hitl": -1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 1
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "2a23f42a-d7b0-4fb2-90e2-cbc04b13636a",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.24,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "a770a53c-0d9c-44ab-8d07-70178d0b2328",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.42,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "9ffe1728-a605-4e5a-a3cc-c2890b048524",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.315,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "b07fd5f6-f3f0-4083-8fb1-5747bb467c96",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.409,
+      "chosen_action": "no-action",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "modify",
+      "final_action": "escalate-to-manager",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 0.5,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 2
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "1d5fb83b-673d-4324-a500-d80d8d6c73b2",
+      "anomaly_type": "leave_abuse",
+      "confidence": 0.488,
+      "chosen_action": "escalate-to-manager",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "escalate-to-manager",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "dd0f62ce-d000-4674-bb96-7fa00f785007",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.792,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 1.0,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": 0.0,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    },
+    {
+      "cycle": "cycle_2",
+      "anomaly_id": "d66c4318-1438-44e9-8b50-8213d607ec75",
+      "anomaly_type": "compliance_violation",
+      "confidence": 0.8,
+      "chosen_action": "auto-correct",
+      "is_true_positive": true,
+      "is_timeout_fallback": false,
+      "human_decision": "approve",
+      "final_action": "auto-correct",
+      "reward": 0.5,
+      "reward_breakdown": {
+        "hitl": 1.0,
+        "recurrence": -0.5,
+        "false_positive": 0.0,
+        "compliance_veto": 0.0
+      },
+      "rank_gap": 0
+    }
+  ]
+}

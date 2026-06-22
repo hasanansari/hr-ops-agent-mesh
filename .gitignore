@@ -10,3 +10,4 @@ chroma_db/
 node_modules/
 traces/*.json
 .claude/
+bandit/_persistence_test_*.json
