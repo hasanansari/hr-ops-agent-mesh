@@ -4,6 +4,8 @@ __pycache__/
 .venv/
 chroma_db/
 *.sqlite
+*.sqlite-wal
+*.sqlite-shm
 .DS_Store
 node_modules/
 traces/*.json

@@ -1,7 +1,8 @@
+import uuid
 from enum import Enum
 from typing import Any
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class AnomalyType(str, Enum):
@@ -24,6 +25,9 @@ class ReviewStatus(str, Enum):
 
 
 class Anomaly(BaseModel):
+    # a stable handle a second process (the HITL reviewer UI) can use to
+    # refer back to this exact anomaly instance once it's persisted.
+    anomaly_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     employee_id: str
     anomaly_type: AnomalyType
     confidence: float
