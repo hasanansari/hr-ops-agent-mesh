@@ -28,57 +28,60 @@ wrapped in a timing decorator and appends to a shared trace list (**Section G**)
 serialized to `traces/*.json` after every run.
 
 ```
-                                  ┌──────────────────────┐
-   reactive_query  ──────┐        │      SUPERVISOR       │   Section A
-   scheduled_scan ───────┼───────▶│  triages by trigger    │
-   system_alert   ──────┘        │  type + keyword match  │
-                                  └───────────┬────────────┘
-                                              │ writes `route` to shared state
-                ┌─────────────────┬───────────┴───────────┬───────────────────┐
-                ▼                 ▼                       ▼                   ▼
-        ┌───────────────┐ ┌───────────────┐     ┌──────────────────┐ ┌──────────────────┐
-        │ POLICY AGENT  │ │ ACTION AGENT  │     │ ANOMALY DETECTION│ │ COMPLIANCE AGENT │
-        │ real RAG:     │ │ real tool     │     │ z-score (payroll)│ │ reactive path --  │
-        │ TF-IDF + a    │ │ exec: 3 mock  │     │ + leave-pattern  │ │ stub (no NLP yet  │
-        │ real Claude   │ │ HR tools,     │     │ + compliance     │ │ to parse a free-  │
-        │ Sonnet 4.6    │ │ retry-wrapped │     │ rule checks      │ │ text alert into   │
-        │ call          │ │               │     │                  │ │ structured input) │
-        │ Section A     │ │ Section A     │     │ Section B        │ │ Section A         │
-        └──────┬────────┘ └──────┬────────┘     └────────┬─────────┘ └─────────┬─────────┘
-               │                 │                        ▼                     │
-               │                 │              ┌───────────────────┐           │
-               │                 │              │   BANDIT AGENT    │           │
-               │                 │              │ epsilon-greedy    │           │
-               │                 │              │ linear bandit,    │           │
-               │                 │              │ warm-started from │           │
-               │                 │              │ episodic memory   │           │
-               │                 │              │ Section C + F     │           │
-               │                 │              └─────────┬─────────┘           │
-               │                 │                         ▼                     │
-               │                 │              ┌───────────────────┐           │
-               │                 │              │     HITL GATE     │           │
-               │                 │              │ blocks, polling a │           │
-               │                 │              │ shared SQLite     │           │
-               │                 │              │ store the         │           │
-               │                 │              │ Streamlit app     │           │
-               │                 │              │ writes to         │           │
-               │                 │              │ Section D         │           │
-               │                 │              └─────────┬─────────┘           │
-               │                 │                         ▼                     │
-               │                 │              ┌───────────────────┐           │
-               │                 │              │ COMPLIANCE VETO   │◀──────────┘
-               │                 │              │ 15 YAML rules,    │
-               │                 │              │ hard veto even    │
-               │                 │              │ over an explicit  │
-               │                 │              │ human approval    │
-               │                 │              │ Section E         │
-               │                 │              └────┬─────────┬────┘
-               │                 │                    │         │
-               │                 └────────────────────┘         │
-               │                  (only if something is          │
-               │                   actually actionable)          │
-               ▼                                                  ▼          ▼
-              END                                                END        END
+every request (reactive_query / scheduled_scan / system_alert)
+
+                              ┌─────────────────────────┐
+                              │SUPERVISOR               │
+                              │triages by trigger       │
+                              │type + keyword match     │
+                              └─────────────────────────┘
+                                           │ writes `route` into shared state
+          ┬─────────────────────┬──────────┴──────────┬─────────────────────┬
+          ▼                     ▼                     ▼                     ▼
+┌───────────────────┐ ┌───────────────────┐ ┌───────────────────┐ ┌───────────────────┐
+│POLICY AGENT       │ │ACTION AGENT       │ │ANOMALY DETECTION  │ │COMPLIANCE AGENT   │
+│real RAG (TF-IDF   │ │real tool exec:    │ │z-score (payroll)  │ │reactive path --   │
+│+ a real Claude    │ │3 mock HR tools,   │ │+ leave pattern    │ │still a stub (no   │
+│Sonnet 4.6 call)   │ │retry-wrapped      │ │+ overtime/        │ │NLP yet to parse   │
+│                   │ │                   │ │training rules     │ │free text alerts)  │
+│Section A          │ │Section A          │ │Section B          │ │Section A          │
+└───────────────────┘ └───────────────────┘ └───────────────────┘ └───────────────────┘
+          ▼                     ▼                     ▼                     ▼
+         END                   END                                         END
+
+(Section A ends here for Policy / Action / the reactive Compliance stub --
+ the rest of this diagram is Anomaly Detection's pipeline, under that 3rd column)
+
+                                                      ▼
+                                           ┌─────────────────────┐
+                                           │BANDIT AGENT         │
+                                           │epsilon-greedy linear│
+                                           │bandit, warm-started │
+                                           │from episodic memory │
+                                           │                     │
+                                           │Section C + F        │
+                                           └─────────────────────┘
+                                                      ▼
+                                           ┌─────────────────────┐
+                                           │HITL GATE            │
+                                           │human review via     │
+                                           │Streamlit + shared   │
+                                           │SQLite store         │
+                                           │                     │
+                                           │Section D            │
+                                           └─────────────────────┘
+                                                      ▼
+                                           ┌─────────────────────┐
+                                           │COMPLIANCE VETO      │
+                                           │15 YAML rules, hard  │
+                                           │veto -- even over an │
+                                           │explicit human       │
+                                           │approval             │
+                                           │Section E            │
+                                           └─────────────────────┘
+                                                      ▼
+                              ├─ if actionable ─────▶ back to ACTION AGENT (above)
+                              └─ nothing actionable ▶ END
 ```
 
 **Where Section F (episodic memory) sits:** inside the Bandit Agent, not as its own node. Before
