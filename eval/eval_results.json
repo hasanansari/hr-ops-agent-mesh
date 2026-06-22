@@ -1,0 +1,107 @@
+[
+  {
+    "id": "H1",
+    "category": "happy_path",
+    "description": "Reactive query routes to Policy",
+    "passed": true,
+    "reasoning": "a generic policy question should route to Policy; got route=AgentName.POLICY"
+  },
+  {
+    "id": "H2",
+    "category": "happy_path",
+    "description": "Reactive query routes to Action",
+    "passed": true,
+    "reasoning": "an 'apply for leave' request should route to Action; got route=AgentName.ACTION"
+  },
+  {
+    "id": "H3",
+    "category": "happy_path",
+    "description": "Reactive query routes to AnomalyDetection",
+    "passed": true,
+    "reasoning": "a 'flag anyone' request should match the anomaly keyword list; got route=AgentName.ANOMALY_DETECTION"
+  },
+  {
+    "id": "H4",
+    "category": "happy_path",
+    "description": "Scheduled scan produces real results",
+    "passed": true,
+    "reasoning": "scheduled scans always route to AnomalyDetection and should find >0 anomalies in the real 800-employee dataset; route=AgentName.ANOMALY_DETECTION, anomaly_count=178"
+  },
+  {
+    "id": "H5",
+    "category": "happy_path",
+    "description": "System alert routes to Compliance",
+    "passed": true,
+    "reasoning": "system alerts always route to Compliance; got route=AgentName.COMPLIANCE"
+  },
+  {
+    "id": "E1",
+    "category": "edge_case",
+    "description": "Empty dataset scans without crashing",
+    "passed": true,
+    "reasoning": "scanning zero employees should return empty results, not crash; got {'scanned_count': 0, 'anomaly_count': 0, 'high_confidence_anomalies': [], 'review_queue': []}"
+  },
+  {
+    "id": "E2",
+    "category": "edge_case",
+    "description": "All anomalies below threshold -> nothing to review",
+    "passed": true,
+    "reasoning": "with nothing above the confidence threshold, the gate should have 0 reviewed items and route to END, not the Action Agent; got next_route='end'"
+  },
+  {
+    "id": "E3",
+    "category": "edge_case",
+    "description": "All HITL timeouts fall back correctly",
+    "passed": true,
+    "reasoning": "with no human reviewer running, every item should time out to flag-for-audit with human_decision=None, never silently counted as approval; reviewed_count=99"
+  },
+  {
+    "id": "E4",
+    "category": "edge_case",
+    "description": "Compliance veto overrides human approval",
+    "passed": true,
+    "reasoning": "a hard compliance rule must override even an explicit human approval, not just the rule-based/RL recommendation; veto=True, overridden_to=escalate-to-HR"
+  },
+  {
+    "id": "A1",
+    "category": "adversarial",
+    "description": "Malformed/empty input doesn't crash",
+    "passed": true,
+    "reasoning": "empty raw_input should still resolve to a route (the policy default), not crash; got route=AgentName.POLICY"
+  },
+  {
+    "id": "A2",
+    "category": "adversarial",
+    "description": "Unknown trigger_type is rejected",
+    "passed": true,
+    "reasoning": "correctly rejected an unrecognized trigger_type before it could silently misroute: ValidationError"
+  },
+  {
+    "id": "A3",
+    "category": "adversarial",
+    "description": "Missing required field is rejected",
+    "passed": true,
+    "reasoning": "correctly rejected state missing a required field: ValidationError"
+  },
+  {
+    "id": "R1",
+    "category": "rl_specific",
+    "description": "Bandit cold-start behavior is valid",
+    "passed": true,
+    "reasoning": "a brand-new bandit (0 updates, all-zero weights) should still return a valid action via random tie-breaking, not crash or default to a fixed choice; action='escalate-to-HR'"
+  },
+  {
+    "id": "R2",
+    "category": "rl_specific",
+    "description": "Persistence survives a restart",
+    "passed": true,
+    "reasoning": "a reloaded policy must select the same action as before saving; before='escalate-to-manager' after='escalate-to-manager' update_count before=10 after=10"
+  },
+  {
+    "id": "R3",
+    "category": "rl_specific",
+    "description": "Compliance penalty reduces reward",
+    "passed": true,
+    "reasoning": "an approved action that still triggers a compliance veto must score lower than an equally-approved, compliant one; with_veto=+0.00 without_veto=+1.00 veto_penalty=-1.00"
+  }
+]

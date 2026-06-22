@@ -40,6 +40,7 @@ def bandit_agent_node(state: HROpsState) -> dict:
     all_anomalies = anomaly_result["high_confidence_anomalies"] + anomaly_result["review_queue"]
     agree_count = 0
     memory_assisted_count = 0
+    action_distribution: dict[str, int] = {}
     for anomaly in all_anomalies:
         context = context_vector(anomaly["anomaly_type"], anomaly["confidence"])
         employee = employees_by_id.get(anomaly["employee_id"])
@@ -55,6 +56,7 @@ def bandit_agent_node(state: HROpsState) -> dict:
         anomaly["bandit_action"] = result.action
         anomaly["bandit_confidence_margin"] = round(result.margin, 3)
         anomaly["bandit_memory_neighbors"] = result.neighbor_count
+        action_distribution[result.action] = action_distribution.get(result.action, 0) + 1
         if result.used_memory:
             memory_assisted_count += 1
         if result.action == anomaly["recommended_action"]:
@@ -64,8 +66,18 @@ def bandit_agent_node(state: HROpsState) -> dict:
     trace_output = {
         "agreement_with_rule_based": f"{agree_count}/{len(all_anomalies)}" if all_anomalies else "0/0",
         "memory_assisted": f"{memory_assisted_count}/{len(all_anomalies)}" if all_anomalies else "0/0",
+        # offline RL diagnostics (cumulative reward curve, action distribution
+        # shift across feedback cycles) live on disk -- this node only
+        # points at them, since computing them requires reward, which this
+        # live inference path never has.
+        "rl_diagnostics_path": "bandit/diagnostics_report.txt",
     }
-    trace_entry = TraceEntry(agent=AgentName.BANDIT, input=node_input, output=trace_output)
+    trace_entry = TraceEntry(
+        agent=AgentName.BANDIT,
+        input=node_input,
+        output=trace_output,
+        rl_action_selected=action_distribution,
+    )
 
     return {
         "anomaly_result": anomaly_result,

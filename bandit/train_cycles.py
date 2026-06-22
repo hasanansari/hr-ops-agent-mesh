@@ -16,7 +16,9 @@ restart-safety.
 
 from __future__ import annotations
 
+import contextlib
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -34,6 +36,24 @@ from memory import store as memory_store
 
 POLICY_PATH = Path(__file__).parent / "policy_state.json"
 RESULTS_PATH = Path(__file__).parent / "cycle_results.json"
+DIAGNOSTICS_PATH = Path(__file__).parent / "diagnostics_report.txt"
+
+
+class _Tee:
+    """Writes to multiple streams at once -- lets print_report's existing
+    print() calls go to both the terminal and a saved file without
+    restructuring every line into building a string first."""
+
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for s in self.streams:
+            s.write(data)
+
+    def flush(self):
+        for s in self.streams:
+            s.flush()
 
 SIMULATED_TIMEOUT_RATE = 0.05  # exercises the "timeout isn't a signal" exclusion path live
 
@@ -212,11 +232,19 @@ def main() -> None:
     log2 = run_cycle(bandit, anomalies, ground_truth_by_id, employees_by_id, rng2, cycle_label="cycle_2")
 
     bandit.save(POLICY_PATH)
-    print_report(log1, log2)
+
+    # Section G: the RL diagnostics (cumulative reward curve, action
+    # distribution shift) are required to be saved to disk, not just
+    # printed -- tee the existing print_report output to a file instead of
+    # restructuring every print() call into building a string first.
+    with open(DIAGNOSTICS_PATH, "w") as diagnostics_file:
+        with contextlib.redirect_stdout(_Tee(sys.stdout, diagnostics_file)):
+            print_report(log1, log2)
 
     with open(RESULTS_PATH, "w") as f:
         json.dump({"cycle_1": log1, "cycle_2": log2}, f, indent=2)
     print(f"\nfull per-decision log written to {RESULTS_PATH}")
+    print(f"RL diagnostics report written to {DIAGNOSTICS_PATH}")
     print(f"trained policy persisted to {POLICY_PATH}")
 
 

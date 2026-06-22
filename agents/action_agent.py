@@ -9,5 +9,8 @@ def action_agent_node(state: HROpsState) -> dict:
         "tool_called": None,
         "status": "stub: tool execution not yet implemented",
     }
-    trace_entry = TraceEntry(agent=AgentName.ACTION, input=node_input, output=result)
+    # tool_calls is empty, not None, because this node ran -- it just had
+    # nothing real to call yet. None would mean "this node doesn't track
+    # tool calls"; [] means "it does, and there weren't any this time."
+    trace_entry = TraceEntry(agent=AgentName.ACTION, input=node_input, output=result, tool_calls=[])
     return {"action_result": result, "trace": [trace_entry]}

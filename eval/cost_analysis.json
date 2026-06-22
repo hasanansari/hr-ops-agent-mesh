@@ -1,0 +1,42 @@
+{
+  "call_types": [
+    {
+      "name": "Supervisor routing",
+      "calls": 1,
+      "input_tokens_per_call": 97,
+      "output_tokens_per_call": 6,
+      "total_cost": 0.000381
+    },
+    {
+      "name": "Per-employee anomaly check (naive equivalent of Section B's z-score)",
+      "calls": 800,
+      "input_tokens_per_call": 3612,
+      "output_tokens_per_call": 72,
+      "total_cost": 9.5328
+    },
+    {
+      "name": "Action selection (naive equivalent of Section C's bandit)",
+      "calls": 178,
+      "input_tokens_per_call": 216,
+      "output_tokens_per_call": 49,
+      "total_cost": 0.2462
+    },
+    {
+      "name": "Compliance veto check (naive equivalent of Section E's rules engine)",
+      "calls": 99,
+      "input_tokens_per_call": 2301,
+      "output_tokens_per_call": 51,
+      "total_cost": 0.7591
+    }
+  ],
+  "naive_total_tokens": 3227321,
+  "naive_total_cost": 10.5385,
+  "actual_total_tokens": 0,
+  "actual_total_cost": 0.0,
+  "reduction_pct": 100.0,
+  "scan_size": {
+    "employees": 800,
+    "anomalies": 178,
+    "hitl_reviewed": 99
+  }
+}

@@ -1,7 +1,33 @@
+import json
 import os
+from datetime import UTC, datetime
+from pathlib import Path
 
 from agents.graph import graph
 from agents.state import HROpsState, TriggerType
+
+TRACES_DIR = Path(__file__).resolve().parent.parent / "traces"
+
+
+def _write_trace_to_disk(result: dict) -> Path:
+    """Section G: formalizes the in-memory trace list (Section A) into a
+    structured JSON file on disk per run, named by timestamp so multiple
+    runs don't collide. mode="json" handles enum/datetime serialization
+    (AgentName -> its string value, timestamps -> ISO 8601) the same way
+    Pydantic already does everywhere else in this codebase.
+    """
+    TRACES_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")
+    path = TRACES_DIR / f"{timestamp}_{result['request_id']}.json"
+    payload = {
+        "request_id": result["request_id"],
+        "trigger_type": result["trigger_type"],
+        "route": result["route"],
+        "trace": [entry.model_dump(mode="json") for entry in result["trace"]],
+    }
+    with open(path, "w") as f:
+        json.dump(payload, f, indent=2, default=str)
+    return path
 
 EXAMPLES = [
     HROpsState(
@@ -35,11 +61,13 @@ def run_demo() -> None:
 
     for example in EXAMPLES:
         result = graph.invoke(example)
+        trace_path = _write_trace_to_disk(result)
         print(
             f"\n=== request_id={result['request_id']} trigger={result['trigger_type']} ==="
         )
         print(f"input:  {example.raw_input!r}")
         print(f"routed: {result['route']}")
+        print(f"trace written to {trace_path}")
         for entry in result["trace"]:
             print(f"  [{entry.agent}] in={entry.input} -> out={entry.output}")
 
