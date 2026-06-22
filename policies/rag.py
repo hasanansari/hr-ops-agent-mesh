@@ -18,11 +18,15 @@ transactions. Opus's extra capability would mostly be wasted here.
 
 from __future__ import annotations
 
-import os
-
 import anthropic
+from dotenv import load_dotenv
 
 from policies.retrieval import build_index
+
+# Loaded here, not just in main.py, so ANTHROPIC_API_KEY from a .env file
+# is picked up no matter which entry point ends up calling this module
+# (the live graph via main.py, a direct script, a test, etc).
+load_dotenv()
 
 MODEL = "claude-sonnet-4-6"
 TOP_K = 3
