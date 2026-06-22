@@ -304,6 +304,5 @@ memory/        Episodic memory: embeddings, Chroma store, warm-start blending (S
 eval/          15-test harness + LLM cost analysis (Section G)
 policies/      Mock HR policy doc, chunking, TF-IDF retrieval, real RAG generation
 tools/         Mock HR self-service tool schemas + retry-wrapped implementations
-docs/          (gitignored) in-depth notes per section, not part of the submission
 traces/        Generated per-run JSON traces (gitignored)
 ```
