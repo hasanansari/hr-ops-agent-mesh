@@ -30,6 +30,7 @@ from bandit.reward import combine_reward
 from bandit.simulate_human import ideal_rank, simulate_human_decision
 from data.generate_employees import generate_employees
 from hitl.models import ACTION_RANK
+from memory import store as memory_store
 
 POLICY_PATH = Path(__file__).parent / "policy_state.json"
 RESULTS_PATH = Path(__file__).parent / "cycle_results.json"
@@ -76,6 +77,32 @@ def run_cycle(
             rng=rng,
         )
         bandit.update(context, chosen_action, reward)
+
+        # Section F: this is the one place context+action+outcome+reward
+        # are all genuinely known together, so it's the natural place to
+        # persist the resolution as an episodic memory -- written to the
+        # same collection the live graph reads from in bandit_agent_node,
+        # so real training here actually warm-starts real future scans.
+        #
+        # action_taken is chosen_action, NOT final_action -- the reward
+        # just computed is credit/blame for the action the *system*
+        # picked (same as what bandit.update() just used above), not for
+        # whatever a human corrected it to. Memory has to bias future
+        # proposals against the same action the reward is actually about,
+        # or it silently points the wrong direction.
+        employee = employees_by_id.get(anomaly["employee_id"])
+        memory_store.add_incident(
+            anomaly_id=anomaly["anomaly_id"],
+            anomaly_type=anomaly["anomaly_type"],
+            confidence=anomaly["confidence"],
+            evidence=anomaly["evidence"],
+            employee=employee,
+            action_taken=chosen_action,
+            is_true_positive=is_tp,
+            is_timeout_fallback=is_timeout,
+            human_decision=human_decision,
+            reward=reward,
+        )
 
         log.append(
             {
