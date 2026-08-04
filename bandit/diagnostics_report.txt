@@ -1,25 +1,25 @@
 
 === Action distribution: cycle 1 (cold start) vs cycle 2 (after learning) ===
 action                  cycle 1                                    cycle 2
-auto-correct                 33  #########                               5  #
-escalate-to-manager          66  ##################                    111  ##############################
-escalate-to-HR               38  ##########                             41  ###########
-flag-for-audit               15  ####                                   13  ####
-no-action                    26  #######                                 8  ##
+auto-correct                 33  ########                                5  #
+escalate-to-manager          66  ################                      121  ##############################
+escalate-to-HR               38  #########                              31  ########
+flag-for-audit               15  ####                                   12  ###
+no-action                    26  ######                                  9  ##
 
 === Cumulative reward ===
 cycle 1 total reward: +27.00  (avg +0.152 per decision over 178 decisions)
-cycle 2 total reward: +54.50  (avg +0.306 per decision over 178 decisions)
+cycle 2 total reward: +44.25  (avg +0.249 per decision over 178 decisions)
 
 === Section E: compliance vetoes triggered by the bandit's own chosen action ===
 cycle 1: 53/178 decisions vetoed (each costing an extra -1.0 reward)
-cycle 2: 50/178 decisions vetoed
+cycle 2: 52/178 decisions vetoed
 -> fewer vetoes after learning
 
 === Average distance from the 'ideal' action rank (0 = perfect) ===
 cycle 1: 0.955
-cycle 2: 0.579
--> improved by +0.376
+cycle 2: 0.640
+-> improved by +0.315
 
 === Cumulative reward curve (checkpoints every 20 decisions) ===
 decision #   cumulative reward  cycle
@@ -37,7 +37,7 @@ decision #   cumulative reward  cycle
        240               53.25  cycle_2
        260               68.75  cycle_2
        280               79.75  cycle_2
-       300               61.50  cycle_2
-       320               70.75  cycle_2
-       340               80.75  cycle_2
-       356               81.50  cycle_2
+       300               58.25  cycle_2
+       320               60.50  cycle_2
+       340               70.50  cycle_2
+       356               71.25  cycle_2
