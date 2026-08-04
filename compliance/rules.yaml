@@ -58,7 +58,7 @@ rules:
   - rule_id: OVERTIME_LEGAL_CEILING
     description: >
       Overtime above 20 hours/week is a hard legal-exposure ceiling, well
-      above Section B's 12-hour soft policy cap -- it always needs HR
+      above anomaly detection's 12-hour soft policy cap -- it always needs HR
       visibility, never just a flag or a quiet auto-fix.
     scope:
       anomaly_types: ["compliance_violation"]

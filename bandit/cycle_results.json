@@ -2,7 +2,7 @@
   "cycle_1": [
     {
       "cycle": "cycle_1",
-      "anomaly_id": "97f22b29-0778-4f0f-a369-009bbc3dc4de",
+      "anomaly_id": "53a5a865-a31c-49ef-911e-7c78060b1b17",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -22,7 +22,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a2ad546e-5bc8-4e85-9972-51ec7edacd5e",
+      "anomaly_id": "6b4f27e4-cac9-43f8-8685-41bd6e7f6d4b",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -42,7 +42,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "29d18335-6917-45e6-ab51-96e32c293d0c",
+      "anomaly_id": "d2b5c55b-91fe-4260-8fef-d9960aa54ed0",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.844,
       "chosen_action": "no-action",
@@ -62,7 +62,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2f4618ec-e615-472d-a576-997109060cdf",
+      "anomaly_id": "3e27e311-b2e6-4d7a-8775-4d61757db1dc",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -82,7 +82,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6322f4cf-4c43-4728-8eb9-ea7b48d41c13",
+      "anomaly_id": "8bfd224b-bf59-4253-a9ae-e76ba7d68427",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -102,7 +102,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "df2ee631-af90-4f7f-8bfd-1e4e76b5dac3",
+      "anomaly_id": "f15c1995-25a5-4d10-bcf9-b76c15537903",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -122,7 +122,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "068ed571-f9b2-4c8b-a065-f62b457e6eeb",
+      "anomaly_id": "648b1cd9-1417-4345-ba7c-a9373e1c7a25",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.853,
       "chosen_action": "no-action",
@@ -142,7 +142,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9bf204cf-f6ac-4321-b947-36cccbe4e6fc",
+      "anomaly_id": "71ca1b79-818e-436a-bfa1-66e5f1ce0e2b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.835,
       "chosen_action": "auto-correct",
@@ -162,7 +162,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "7cc789af-dfe8-405d-8d2e-e250f36ef63e",
+      "anomaly_id": "aa4683db-3430-4ca7-a176-38b94ecb35a8",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -182,7 +182,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f444a424-b814-4f6e-b291-b79cd95837d4",
+      "anomaly_id": "13496d5a-7729-43f9-ad86-f31ddff768cd",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -202,7 +202,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0a5a63db-a117-4ae6-b2dd-7f2b4306635c",
+      "anomaly_id": "2fd36dd2-f03b-402c-b1bb-d7fcfc4853f6",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -222,7 +222,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "208565a5-1e9c-4a8f-bc0c-af141cad1263",
+      "anomaly_id": "e8684d13-a036-4ba6-9f86-16467e7615df",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.872,
       "chosen_action": "auto-correct",
@@ -242,7 +242,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "832247cf-b5f9-462e-a032-196862b2bdb3",
+      "anomaly_id": "8db3563c-e761-4217-b3c2-3d8b9a5ba939",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -262,7 +262,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "74e6f817-f0fc-4b17-bd46-65804690995b",
+      "anomaly_id": "490a6037-e021-4bce-9388-5e81914bcf39",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -282,7 +282,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "399e3d39-3a9c-47c6-8727-be1f911c8081",
+      "anomaly_id": "d2801ca1-c049-4898-b079-95e641853420",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -302,7 +302,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2c812bd9-6943-4756-8241-ec530a4bc020",
+      "anomaly_id": "a94b9830-cae5-48b9-963a-4be9289f14e1",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -322,7 +322,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d93e9eae-e88f-4cab-a9ef-ef2893923b8b",
+      "anomaly_id": "e51b439b-247d-4b73-93e1-799398c8aaad",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -342,7 +342,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b659bbfe-4ff0-4ff6-9a75-f60fe720fb04",
+      "anomaly_id": "500a3d92-3a00-459b-b7cc-a248647e686a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -362,7 +362,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6d3b7194-248f-4243-bdc2-37cd9fd119ae",
+      "anomaly_id": "ca3f3d44-5097-4d47-a2cc-a42d4be71b0c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -382,7 +382,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "db50523e-10ff-43e9-a5cd-ded1765c3d37",
+      "anomaly_id": "5b89d6e1-aa30-4c47-871e-5c51eb08d323",
       "anomaly_type": "compliance_violation",
       "confidence": 0.807,
       "chosen_action": "auto-correct",
@@ -402,7 +402,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0dc45500-4a70-4dcf-9be9-e2a73066ef9d",
+      "anomaly_id": "13a39b8c-ed3b-4d10-af18-b802d4e9d260",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -422,7 +422,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "914480e9-2195-4b86-96bc-8c7d91f074d6",
+      "anomaly_id": "e28967c9-74db-4857-b3a2-f6875dcad80b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.99,
       "chosen_action": "auto-correct",
@@ -442,7 +442,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "51e52522-33df-42e5-a2b4-40ee68f3fb93",
+      "anomaly_id": "66541fda-7e37-4d42-87d1-f9acfbb68023",
       "anomaly_type": "compliance_violation",
       "confidence": 0.865,
       "chosen_action": "flag-for-audit",
@@ -462,7 +462,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d8b85092-0eb5-48b6-8045-523554234dfb",
+      "anomaly_id": "153e5ea5-f44f-436f-a98d-cfafbab7dafa",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -482,7 +482,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0e18838b-6c1b-4e7a-bc8e-6928a5856775",
+      "anomaly_id": "bf8e8406-439f-40a0-bde9-ed2068401412",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -502,7 +502,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ab26be48-30e3-47f0-8ecf-e7b1e2f6afb5",
+      "anomaly_id": "b8900246-cd68-44a0-aa22-376da952287a",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "auto-correct",
@@ -522,7 +522,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c16f747d-2b8f-4b82-b354-493c539432c0",
+      "anomaly_id": "b9d27d2b-f821-4d04-ad6c-611ff0469d5b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -542,7 +542,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0e270878-a6b8-455d-9322-cfc98911a7bd",
+      "anomaly_id": "3c69fd2e-0ec1-4b31-a3a9-23999b84f3e2",
       "anomaly_type": "compliance_violation",
       "confidence": 0.87,
       "chosen_action": "auto-correct",
@@ -562,7 +562,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5759ef32-bb90-478c-9ec3-8c552581804a",
+      "anomaly_id": "20695e26-adac-4138-ae60-44aa48ca7d66",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -582,7 +582,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "398b108c-5083-4205-b275-6aac59c082c4",
+      "anomaly_id": "ff7b23aa-a0a9-49be-b0fb-190004ac5858",
       "anomaly_type": "compliance_violation",
       "confidence": 0.897,
       "chosen_action": "escalate-to-HR",
@@ -602,7 +602,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "388e892e-af68-49e6-b8db-30d8c8e3df10",
+      "anomaly_id": "6272a08e-a03e-4f5d-a994-fed4d898b6d2",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -622,7 +622,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c007c101-07f5-48d8-89d3-8a5a3a0f4fbd",
+      "anomaly_id": "57bc908e-12f0-4d21-b520-cf21c7bd3658",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -642,7 +642,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "cc4cbe91-2b60-4ad5-a73d-c38196690319",
+      "anomaly_id": "6d63d291-80b5-4cf3-aa90-9cf2a4a1e71c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -662,7 +662,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c4d2a1a8-c896-43b5-bfb3-dba3b088825f",
+      "anomaly_id": "d1cc4b0e-d311-4f1a-959a-c1c0053ab5e0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -682,7 +682,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6ffc51ae-d208-4d30-8a43-49fb17ae8f03",
+      "anomaly_id": "5b2f7845-ef68-4836-92a7-ea53a7a2a53d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -702,7 +702,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "df2137e3-68c9-416e-8acd-17adae7d88bd",
+      "anomaly_id": "02b08db1-9c30-4390-894d-e161cae157a8",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -722,7 +722,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "41c728e1-e337-4526-b465-c158a24bb9ee",
+      "anomaly_id": "a6f811f6-f3b8-4c22-b49c-2a8734768c9b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -742,7 +742,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f587eb1d-0b13-4b0a-92e2-571abd8ff8a1",
+      "anomaly_id": "e153cedc-7108-4850-af32-3b6f2b6f1905",
       "anomaly_type": "compliance_violation",
       "confidence": 0.97,
       "chosen_action": "auto-correct",
@@ -762,7 +762,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a116e76c-f5b2-472d-ba39-30007f781e45",
+      "anomaly_id": "ccc86ce5-eb8d-4dca-a3b4-a19538ddc389",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -782,7 +782,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2ba98d25-5a6c-4e63-8c33-cf59bfc8b5bd",
+      "anomaly_id": "c058ef47-3bf7-42dd-b9d5-f6cc08d35fa6",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -802,7 +802,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6cb95ede-f467-4b72-85be-ef8585b052e4",
+      "anomaly_id": "3df3195e-c649-4f1a-8068-a776584eecff",
       "anomaly_type": "compliance_violation",
       "confidence": 0.945,
       "chosen_action": "auto-correct",
@@ -822,7 +822,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c907bb21-eacd-427c-9f85-3b1b64db18fb",
+      "anomaly_id": "b1c00d96-92b9-4223-b9ee-9a318a3cee61",
       "anomaly_type": "compliance_violation",
       "confidence": 0.978,
       "chosen_action": "auto-correct",
@@ -842,7 +842,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "50caf439-36df-4851-bc7c-cee7f92d6e2f",
+      "anomaly_id": "e1acb539-914c-4b21-90e9-52e0c38f8b74",
       "anomaly_type": "compliance_violation",
       "confidence": 0.92,
       "chosen_action": "flag-for-audit",
@@ -862,7 +862,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b7559e81-5137-4e2e-b55e-fc3336b00b61",
+      "anomaly_id": "e4440022-c991-44e7-a249-a4b7351e5975",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -882,7 +882,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6f184685-b5a0-4d7d-a5a8-d8abeee75c80",
+      "anomaly_id": "a494340c-b3df-4f2a-8e83-7cf52b775185",
       "anomaly_type": "compliance_violation",
       "confidence": 0.837,
       "chosen_action": "flag-for-audit",
@@ -902,7 +902,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "19187c13-7412-49c5-8f80-ac3c4e8d42f3",
+      "anomaly_id": "54c32994-679d-41b3-a912-1b9ea79cbfb8",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "flag-for-audit",
@@ -922,7 +922,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "88fe9c80-23ab-4b50-a2b0-77bd70ba751d",
+      "anomaly_id": "f8c7a9c9-faae-403a-a5ac-3a4737a65dda",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -942,7 +942,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ed06e860-1966-418c-a82d-b6f094a014d6",
+      "anomaly_id": "31ba2a76-d05f-4f1c-96c4-407b7ee32b50",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -962,7 +962,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "31262ed0-5a8b-4a6c-b5ac-53b349229b83",
+      "anomaly_id": "e6d01ee5-f44e-4b32-82f3-ee802572cb43",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -982,7 +982,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "8571dcb5-d415-4448-ae25-b73a864dfcd6",
+      "anomaly_id": "e966610b-a618-44b1-a150-d1e89d8d38e0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.905,
       "chosen_action": "escalate-to-HR",
@@ -1002,7 +1002,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "cb2f13d8-2082-4b2d-85c8-5d3ee6491f61",
+      "anomaly_id": "59ce7808-7d13-43f1-8318-0eeceaf76f22",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1022,7 +1022,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1297c7ba-8f79-44a4-af70-fafd4a458044",
+      "anomaly_id": "7f36c4a7-46c6-4caa-abda-eb7d5a23b25e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1042,7 +1042,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "087bf165-7fb4-420d-8047-3760d79b264d",
+      "anomaly_id": "c14f0b86-580a-4fc2-915a-8a1760a094fa",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1062,7 +1062,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "06a645e7-fac6-4a54-a200-9f0c890de351",
+      "anomaly_id": "49631456-0b58-4e4d-8899-494bc93b50fc",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1082,7 +1082,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ba49dc42-8c03-49e0-bf51-37f0f487b453",
+      "anomaly_id": "079be913-1876-4a1b-98a3-aeec0eabaf91",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1102,7 +1102,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f3fda6a4-83b5-4b21-aed1-dbf591dabc43",
+      "anomaly_id": "33cd7ab1-4e9a-477d-a9ef-6b6e7b65768b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1122,7 +1122,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9bfd9b2b-5f80-4593-8183-69d47dd71e2a",
+      "anomaly_id": "ff6acf7d-5422-424b-a4d3-0c74b1544744",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1142,7 +1142,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "56711dc2-8579-49a0-a27d-296d7b3814b6",
+      "anomaly_id": "c85dd2a4-70d7-4a2a-a719-07ee70efd3bd",
       "anomaly_type": "compliance_violation",
       "confidence": 0.805,
       "chosen_action": "escalate-to-HR",
@@ -1162,7 +1162,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "4f2f015f-05df-4510-bce7-5c14ecb70580",
+      "anomaly_id": "215b6678-7fc7-4dd8-971d-142826a33126",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -1182,7 +1182,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a111b180-f1cd-44e0-a39f-707b45c1d0cb",
+      "anomaly_id": "08273a08-3eac-48c5-901b-881e9287f16a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1202,7 +1202,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "7031ce90-e831-47bd-bab8-c6dbd120544d",
+      "anomaly_id": "41e9e9fd-56aa-4f6f-bff2-aaf163eee685",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1222,7 +1222,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "97a5dd68-ce1b-4538-88a5-ed1ee8f59a77",
+      "anomaly_id": "c219d164-90a5-4d83-bee2-80f496b3669c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.985,
       "chosen_action": "no-action",
@@ -1242,7 +1242,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0d9dff87-2e12-4e0a-aa88-947411b95b89",
+      "anomaly_id": "08ec59fc-1a0f-4b27-8af6-c3551ba44353",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1262,7 +1262,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1d02a897-93c7-4332-87dc-9e645b04fc70",
+      "anomaly_id": "02dbe0b4-bdf7-4903-918a-4a04992b1529",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1282,7 +1282,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1c422568-d3c6-45ba-946a-28b3ebab1bb5",
+      "anomaly_id": "f6969811-baff-4775-9814-433eca6473f3",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1302,7 +1302,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b8f03a08-0014-4e45-8915-93d7e512f66d",
+      "anomaly_id": "2ff3111a-d66d-4456-be0a-d026b76cb70e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -1322,7 +1322,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "be6370ed-44b7-48cd-b041-79b2eae0ab67",
+      "anomaly_id": "e1c09d6d-808c-4343-a302-9a3da080afe0",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "no-action",
@@ -1342,7 +1342,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "50c39765-29e4-4a27-a58f-6362f41a0936",
+      "anomaly_id": "ba326609-c86f-42b8-8c1e-6ecb3d5c2c27",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1362,7 +1362,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f0e0b5af-ac43-4111-a282-0ac57496ae53",
+      "anomaly_id": "3d05b40b-5ecd-4547-9ca7-d1bbe48a48b7",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1382,7 +1382,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b56f35b0-f336-4bed-9dba-ab0ac569a0c9",
+      "anomaly_id": "d49e3a7c-46af-40e3-8cee-0a6d8fe405c3",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1402,7 +1402,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "7715cb3e-02c3-4837-9422-d2b38ff11871",
+      "anomaly_id": "90af70ee-f6e2-4843-bff4-6627b3abe909",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -1422,7 +1422,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c28d6ae3-cdae-4e61-9281-62a7a4550096",
+      "anomaly_id": "39c7202e-db57-4a9d-b2f0-2fa151f32c88",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -1442,7 +1442,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9637adad-4949-4254-879f-94f893cab77f",
+      "anomaly_id": "4e975175-f8a8-46f6-a324-2d14c9b43160",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1462,7 +1462,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1683a004-8812-4d56-8067-a72ea90d461c",
+      "anomaly_id": "5a0960b5-db01-4cc6-9592-97f8fe8a9cbf",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1482,7 +1482,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "68e7dfbb-78dd-4e24-8dea-c634009b126b",
+      "anomaly_id": "c454ae17-0baf-41da-a6e5-fb4b42361408",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1502,7 +1502,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2a7a4606-a594-4240-8124-bf2dc7219f91",
+      "anomaly_id": "f76eff11-a969-44b3-9c5f-1d83887d5af0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1522,7 +1522,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9961a6f1-6146-4d2d-b541-50981fec61ad",
+      "anomaly_id": "e3c5b790-4d78-47b7-8126-ff0336b174be",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1542,7 +1542,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a2c0f157-fe11-4818-a4a4-5d83ba5dd0ad",
+      "anomaly_id": "a8992c6d-4b89-4f11-afe3-14fa406985fd",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1562,7 +1562,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c408b357-969e-4bc5-a323-6b0d9c338429",
+      "anomaly_id": "9a88fbbe-165c-4c04-bb65-8bdd8941957e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1582,7 +1582,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5ea84bdb-aca5-4502-9c4d-cfd6d2cb95ef",
+      "anomaly_id": "209da073-2bb2-4177-89bf-3cd4c0b57c7d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.935,
       "chosen_action": "flag-for-audit",
@@ -1602,7 +1602,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "293061c3-a66a-45b4-8e3a-0252619ddc41",
+      "anomaly_id": "ce6d09f4-df8d-4352-80ff-fb2733af3d7f",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1622,7 +1622,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6d84d716-d713-4169-80b5-00d2d64c61a3",
+      "anomaly_id": "48f10bdd-1d88-4d0e-a41d-ddd2e933bda0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1642,7 +1642,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "17ab9d2c-edfa-44be-8f20-00a48337597c",
+      "anomaly_id": "78b2229c-707a-44ea-84b4-d5b72304fb33",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1662,7 +1662,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1f2d09a8-a81f-4cd9-866c-29061c0dc5ff",
+      "anomaly_id": "8716d9b3-ecf4-4607-8319-60a58a084045",
       "anomaly_type": "compliance_violation",
       "confidence": 0.915,
       "chosen_action": "escalate-to-manager",
@@ -1682,7 +1682,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ac370d37-881a-4e02-bad6-2c4d01c2ae53",
+      "anomaly_id": "9851041c-48a6-439f-be9d-066ccce38e4d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1702,7 +1702,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "65a592fe-fc8a-4ab3-8a42-143668089433",
+      "anomaly_id": "ab75d7d7-b585-4ca9-b636-7d6bb454ceae",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1722,7 +1722,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "99d775e5-abfb-411d-9f7c-6b6caa7ec2bb",
+      "anomaly_id": "485d9b5b-d550-46b2-8a34-342ea7a549e6",
       "anomaly_type": "compliance_violation",
       "confidence": 0.81,
       "chosen_action": "escalate-to-manager",
@@ -1742,7 +1742,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a1ae3dd4-4384-4933-a154-643e3ac1a868",
+      "anomaly_id": "6dc63d9a-e4fe-4118-8a9f-8af6c56d557c",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "flag-for-audit",
@@ -1762,7 +1762,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f06be324-4310-4e5a-b90d-02333d9433b3",
+      "anomaly_id": "e7639416-1a76-4468-9aea-e796e7c5977a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1782,7 +1782,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d5fd6cd1-51d8-4061-b377-353848283f9c",
+      "anomaly_id": "255db81a-0b56-4834-9015-f03c38cdb461",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1802,7 +1802,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "e072f9a7-ca10-42fd-bcdd-fe1536de9012",
+      "anomaly_id": "54a95ef0-135f-4b97-8829-20c3d9be91a7",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1822,7 +1822,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5dec3874-ebfb-4668-a08e-284ce13eebf3",
+      "anomaly_id": "0f0a9336-eb02-4ac7-9ea1-b87755de0581",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1842,7 +1842,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "fb08a02d-2bc4-4233-8692-67b7d3703207",
+      "anomaly_id": "fc82a1b5-a8ea-403e-b9e6-18274aeb3df8",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1862,7 +1862,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "7b2eb742-101e-46ce-8526-715f541d3a12",
+      "anomaly_id": "8ea6f176-77e5-42fa-932f-e36d3069b216",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1882,7 +1882,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6cc15c5e-344d-4d18-94e8-10b364158cd4",
+      "anomaly_id": "5d77c6bc-ee70-438f-9952-1b6d77d34845",
       "anomaly_type": "compliance_violation",
       "confidence": 0.907,
       "chosen_action": "escalate-to-manager",
@@ -1902,7 +1902,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a26612b9-0a5c-4b15-80cc-0a61d902f219",
+      "anomaly_id": "0d779674-4d51-4d45-a3c5-17cd798fa76a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1922,7 +1922,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "bc7db8d0-af62-4a36-833d-26b6dd2fba1e",
+      "anomaly_id": "b8ad52ec-95fc-4287-bbae-304e0bf6b922",
       "anomaly_type": "compliance_violation",
       "confidence": 0.917,
       "chosen_action": "escalate-to-manager",
@@ -1942,7 +1942,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9cc5d952-cd56-4399-aa71-d928307a6321",
+      "anomaly_id": "e7edfca4-4291-4284-87a9-5d57430f1732",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1962,7 +1962,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9e9f4e77-3e0c-4312-9795-e791145235e3",
+      "anomaly_id": "f90fcb54-c3f5-4584-8d70-29b317d423cf",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -1982,7 +1982,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d41be419-9744-45fb-82f8-53e7f401c250",
+      "anomaly_id": "ee6f1129-851d-4a2a-9084-332f7994c60c",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.401,
       "chosen_action": "auto-correct",
@@ -2002,7 +2002,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6cea15a7-5f7b-4130-8b95-0cca0a7e2b1d",
+      "anomaly_id": "f9444923-64df-42ad-9268-843758636289",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.08,
       "chosen_action": "flag-for-audit",
@@ -2022,7 +2022,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ce3d5623-ebc3-430f-ae82-652cff9469ac",
+      "anomaly_id": "c7752d1e-5161-4dc4-aa86-943f9721a54b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.466,
       "chosen_action": "escalate-to-manager",
@@ -2042,7 +2042,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "72e98951-9adb-444a-8b4a-cdbdad5d7114",
+      "anomaly_id": "74cdd23f-c5bf-49b9-877b-73b04a38ce2d",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.297,
       "chosen_action": "escalate-to-manager",
@@ -2062,7 +2062,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "99ec2265-abd4-4370-9344-6fe23fa4317b",
+      "anomaly_id": "ab006400-3da7-43bf-8b49-b4e3396b5f7f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.163,
       "chosen_action": "escalate-to-HR",
@@ -2082,7 +2082,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "59643686-9414-404e-bd5a-46bf111a5010",
+      "anomaly_id": "594967b7-847d-4b9e-8e2b-c0dd0218321f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.526,
       "chosen_action": "no-action",
@@ -2102,7 +2102,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "29d2473a-c3f5-4342-ae6e-2addacd4d575",
+      "anomaly_id": "ceb5dab8-f82d-4be8-99fa-c667e9c95105",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.052,
       "chosen_action": "escalate-to-manager",
@@ -2122,7 +2122,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "090a060b-f208-4351-9ce0-6cc7561f64d9",
+      "anomaly_id": "0ff34421-2a69-496d-aadb-27c62b4b7b14",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.251,
       "chosen_action": "auto-correct",
@@ -2142,7 +2142,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a9130534-94eb-43d6-a939-c9eb9f88baeb",
+      "anomaly_id": "754f8b50-fc15-4fd7-bcde-e148e8863656",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.055,
       "chosen_action": "escalate-to-manager",
@@ -2162,7 +2162,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0ba8f6d5-d505-4324-9cfe-4a3ceb95f2d8",
+      "anomaly_id": "32c8d265-243a-4bbc-b336-ce1e7fb30242",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.081,
       "chosen_action": "no-action",
@@ -2182,7 +2182,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "8e8a46ad-f43f-470b-a0a2-2cd7c8bccf7c",
+      "anomaly_id": "a7e0daf2-bc80-4d52-9cc8-ab9b831b4814",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.112,
       "chosen_action": "flag-for-audit",
@@ -2202,7 +2202,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f3f80a66-d0ab-438e-a7a4-d0da72c5b5d4",
+      "anomaly_id": "2117c26a-96c1-4e10-83f3-b83e398128f7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.123,
       "chosen_action": "no-action",
@@ -2222,7 +2222,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "3317c1d4-17d7-43a2-aabd-68c8a833ca25",
+      "anomaly_id": "c7f807a0-2b80-474b-bc0b-123dfde97403",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.027,
       "chosen_action": "no-action",
@@ -2242,7 +2242,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "bb1f2b7a-8f5f-45c0-92cc-2185eff8e3bd",
+      "anomaly_id": "010f7904-fd40-4fde-9372-31d5f524f8b3",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.122,
       "chosen_action": "no-action",
@@ -2262,7 +2262,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "db3f88ac-9163-4175-9d68-ce894fcbefab",
+      "anomaly_id": "4dbef3f1-61a5-47c3-a1b9-1f5ba9e4c1c8",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.796,
       "chosen_action": "flag-for-audit",
@@ -2282,7 +2282,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ecf31a23-d962-42d2-9b69-99a29709b630",
+      "anomaly_id": "dbccf1d3-fa52-4034-b3d6-9ed5abd1ccc6",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.759,
       "chosen_action": "flag-for-audit",
@@ -2302,7 +2302,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "01232332-7aa8-43f8-8577-41b51cd49be3",
+      "anomaly_id": "71df765c-dc35-4899-bb23-936eb9182cff",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.105,
       "chosen_action": "no-action",
@@ -2322,7 +2322,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2cf1ba02-f578-48ff-9a3c-2e58a78609bc",
+      "anomaly_id": "f8bed203-a946-471b-a605-acc69273eaa4",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.343,
       "chosen_action": "no-action",
@@ -2342,7 +2342,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "fa28c753-b09c-473a-91c1-5b43c52710b4",
+      "anomaly_id": "8a926306-d414-4005-9079-fd3c654f4746",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.542,
       "chosen_action": "flag-for-audit",
@@ -2362,7 +2362,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "586fca41-76a1-4059-8bfd-a3155c7905b4",
+      "anomaly_id": "8e9ec656-8708-4dd7-be55-92a06ab47e6b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.581,
       "chosen_action": "auto-correct",
@@ -2382,7 +2382,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "8e69267b-b5ec-48f8-bbd5-73da115773a4",
+      "anomaly_id": "d1deaa9f-b294-45cc-bb45-4eaf77413057",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.146,
       "chosen_action": "escalate-to-HR",
@@ -2402,7 +2402,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ca0b34cf-7f0f-44e9-b091-f0b9c9ed3e1e",
+      "anomaly_id": "b56a6c92-4e00-4284-9d5d-277044de84d7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.057,
       "chosen_action": "escalate-to-HR",
@@ -2422,7 +2422,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d349d867-43ef-4055-94aa-a98e4fa0e88b",
+      "anomaly_id": "5754671c-c9cf-4d97-81c0-4f7022abc9c4",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.503,
       "chosen_action": "escalate-to-HR",
@@ -2442,7 +2442,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "594b0bab-d9f2-43e6-aeec-aec323b001e8",
+      "anomaly_id": "f8c52846-9eb9-461b-b0e1-b9ad9c781e7a",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.732,
       "chosen_action": "escalate-to-HR",
@@ -2462,7 +2462,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "0fc8f056-7ce2-4295-abdb-21ca0c62cd88",
+      "anomaly_id": "08350101-630f-4c4f-878e-b3239a46e302",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.16,
       "chosen_action": "escalate-to-HR",
@@ -2482,7 +2482,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2196ef00-0b9b-4935-86b9-ae4fdf1707a9",
+      "anomaly_id": "110025c2-10d6-471b-b94e-596f86da6f7c",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.334,
       "chosen_action": "escalate-to-HR",
@@ -2502,7 +2502,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "876a0967-68dd-4536-b6a2-7d64bcec2132",
+      "anomaly_id": "572fd951-b568-4dcd-a08b-efc1a59635e7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.08,
       "chosen_action": "escalate-to-HR",
@@ -2522,7 +2522,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f556ecbc-aa7e-44da-8cbb-09803b1a075c",
+      "anomaly_id": "e45c24d3-1858-4640-bfae-98d2069a05f1",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.374,
       "chosen_action": "escalate-to-HR",
@@ -2542,7 +2542,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "f941ecda-4f86-42fa-98a3-e313fcd02c54",
+      "anomaly_id": "a57a40fc-016e-493f-bf4a-872edb22482f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.397,
       "chosen_action": "escalate-to-HR",
@@ -2562,7 +2562,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d7dcb193-9118-421e-aa80-47ec8857d8f9",
+      "anomaly_id": "bfc10d02-88cd-48ac-a7c9-58bfb7f23c83",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.392,
       "chosen_action": "escalate-to-HR",
@@ -2582,7 +2582,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b642ae37-de4a-40e4-800c-38b9f85805e8",
+      "anomaly_id": "731bece4-4065-4390-9c91-2d07e040effa",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.26,
       "chosen_action": "escalate-to-HR",
@@ -2602,7 +2602,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d363a599-aba2-4915-8e9e-8e7ebe8a330f",
+      "anomaly_id": "bce078a4-53d2-4a36-b8bd-cb89604b4b0b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.155,
       "chosen_action": "escalate-to-HR",
@@ -2622,7 +2622,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "dd90391e-1602-4f12-af0a-a56a5c8f8c02",
+      "anomaly_id": "4217dbcc-e235-436d-8161-eb14f1973d1f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.319,
       "chosen_action": "escalate-to-manager",
@@ -2642,7 +2642,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "78cf25fd-4851-4ab9-9bce-6b3a1d4a1c5a",
+      "anomaly_id": "fb244ad3-e15e-4881-a342-2f7c10d27472",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.117,
       "chosen_action": "escalate-to-HR",
@@ -2662,7 +2662,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "77b8ef9f-0980-48e4-a61e-4762c3146114",
+      "anomaly_id": "0cd88774-dfba-423f-85d2-46d340fc69b6",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-HR",
@@ -2682,7 +2682,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "94caa66e-4704-4198-a85a-22ebcaec548b",
+      "anomaly_id": "815a3390-5ab8-4f70-9460-2715dfb5662c",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "no-action",
@@ -2702,7 +2702,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "625f6d71-ab84-4ae6-8668-a370655a7fa5",
+      "anomaly_id": "953e669b-9a7d-4dc7-b641-7750de3c2038",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-HR",
@@ -2722,7 +2722,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "4bd63fd1-d9ff-4c4e-b25f-9cba56d682bc",
+      "anomaly_id": "b20c3fdc-3219-459c-9315-0cc4c1d32a87",
       "anomaly_type": "leave_abuse",
       "confidence": 0.42,
       "chosen_action": "escalate-to-HR",
@@ -2742,7 +2742,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "1afae9db-a0ce-46f5-8f71-58d27ddc6503",
+      "anomaly_id": "a9f27996-7845-4a02-9ad1-524505c46b08",
       "anomaly_type": "leave_abuse",
       "confidence": 0.564,
       "chosen_action": "escalate-to-HR",
@@ -2762,7 +2762,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "4083c379-8b91-482b-a382-b341b99b77c2",
+      "anomaly_id": "36fe5c89-9579-4718-90fe-510c0dc8cc6e",
       "anomaly_type": "leave_abuse",
       "confidence": 0.386,
       "chosen_action": "escalate-to-HR",
@@ -2782,7 +2782,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a3067328-f16d-4684-8d1c-c76d9dace314",
+      "anomaly_id": "0061b888-52df-4034-9c9f-a04de31b8b32",
       "anomaly_type": "leave_abuse",
       "confidence": 0.553,
       "chosen_action": "escalate-to-HR",
@@ -2802,7 +2802,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "77e1bb17-dbb1-4ff3-a442-b4cfebfb941b",
+      "anomaly_id": "13f7f775-c555-45d3-a49e-e723542b2b50",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-HR",
@@ -2822,7 +2822,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2b623687-0c42-4e33-805e-0bd65df30699",
+      "anomaly_id": "6d0dbb13-f8cb-4117-b305-a734faeea5d9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.339,
       "chosen_action": "escalate-to-HR",
@@ -2842,7 +2842,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "4b23df60-df2e-4a6b-916a-485705930e1f",
+      "anomaly_id": "dbe75f84-bae3-4b25-8066-c7dd85b0d035",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "escalate-to-HR",
@@ -2862,7 +2862,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ccb8c440-581b-4c4c-9692-bca36a35b8cf",
+      "anomaly_id": "ec3a8195-5554-43e4-b396-c24f2e895f78",
       "anomaly_type": "leave_abuse",
       "confidence": 0.44,
       "chosen_action": "escalate-to-HR",
@@ -2882,7 +2882,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5676105a-58d2-4c7f-b4c0-9f3f20db4e5a",
+      "anomaly_id": "a16e911c-c299-4f0f-85fd-5ed8275d7283",
       "anomaly_type": "leave_abuse",
       "confidence": 0.48,
       "chosen_action": "no-action",
@@ -2902,7 +2902,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2627bef2-4e47-481c-ae4b-01e3a5a40884",
+      "anomaly_id": "93e184e8-2602-44b6-b443-f6b2a5c77f0f",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "escalate-to-manager",
@@ -2922,7 +2922,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "348dac2d-15cb-41a6-8c69-f83ca86e899f",
+      "anomaly_id": "9488c5e3-b3f5-42e0-adf7-df24f41b415f",
       "anomaly_type": "leave_abuse",
       "confidence": 0.29,
       "chosen_action": "escalate-to-manager",
@@ -2942,7 +2942,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "8fc3fcc0-d860-4348-8013-f0b2a1af1538",
+      "anomaly_id": "b9003316-c056-4691-a014-9abcf7744cee",
       "anomaly_type": "leave_abuse",
       "confidence": 0.339,
       "chosen_action": "escalate-to-manager",
@@ -2962,7 +2962,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "11c2651f-b38d-4777-9d3f-b6a044aecf2b",
+      "anomaly_id": "9ebfe80a-12da-47b3-bb63-ac6143442cc4",
       "anomaly_type": "leave_abuse",
       "confidence": 0.476,
       "chosen_action": "escalate-to-manager",
@@ -2982,7 +2982,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "3a7b2420-24e0-4d00-b674-4169707f7ad8",
+      "anomaly_id": "ac7f9060-b274-443d-9d0d-a5757607484e",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "escalate-to-manager",
@@ -3002,7 +3002,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a55575e6-baee-4eed-bbc4-565a700ca88e",
+      "anomaly_id": "27a01945-63fd-432c-b06d-62f2a2946da0",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "escalate-to-manager",
@@ -3022,7 +3022,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "7981ac44-d0de-4820-a61d-9c6616db657f",
+      "anomaly_id": "41ac1cb2-9680-48a8-aa3b-61dd4ced9d10",
       "anomaly_type": "leave_abuse",
       "confidence": 0.498,
       "chosen_action": "escalate-to-manager",
@@ -3042,7 +3042,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "42fbecdf-bdaa-44d4-ba3c-ee1936a7320f",
+      "anomaly_id": "297b53aa-e11e-420e-8cb8-e47d5671ef7b",
       "anomaly_type": "leave_abuse",
       "confidence": 0.392,
       "chosen_action": "escalate-to-manager",
@@ -3062,7 +3062,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5e7fe315-c5b7-460f-b9f4-3f59d61f19e4",
+      "anomaly_id": "a4bc1296-0c44-4fb2-a69c-34595c77c743",
       "anomaly_type": "leave_abuse",
       "confidence": 0.431,
       "chosen_action": "escalate-to-manager",
@@ -3082,7 +3082,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a05a78e4-3582-49db-a97d-9253fefbe2f7",
+      "anomaly_id": "31387b2a-2a94-40f7-b798-0e4cee4a9ef9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "escalate-to-manager",
@@ -3102,7 +3102,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "b32d07f1-c92f-4a29-a396-719026689dd7",
+      "anomaly_id": "cea99971-5ef6-4a9f-a33c-6582c6b25390",
       "anomaly_type": "leave_abuse",
       "confidence": 0.431,
       "chosen_action": "escalate-to-manager",
@@ -3122,7 +3122,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "10dabd67-b6cd-44e0-8e6f-a95e01ddcc9e",
+      "anomaly_id": "d9fb9c3e-1e43-42dc-ae3e-1cc747b68e44",
       "anomaly_type": "leave_abuse",
       "confidence": 0.362,
       "chosen_action": "escalate-to-manager",
@@ -3142,7 +3142,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "6829b75a-5b2b-4c0b-b196-f704623018ff",
+      "anomaly_id": "32a5dfec-46c4-463c-ace2-16644442ec01",
       "anomaly_type": "leave_abuse",
       "confidence": 0.32,
       "chosen_action": "escalate-to-manager",
@@ -3162,7 +3162,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a06264f9-28c8-4541-9bc9-7a44bf14c900",
+      "anomaly_id": "70780296-2085-4fb3-8b5a-4463ab7c2c76",
       "anomaly_type": "leave_abuse",
       "confidence": 0.589,
       "chosen_action": "escalate-to-manager",
@@ -3182,7 +3182,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "a5f28caa-7582-4cd8-b016-b1eb710cf899",
+      "anomaly_id": "ec91b85c-022e-401c-bb8b-ff2f92b569ae",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "escalate-to-manager",
@@ -3202,7 +3202,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "8b54fc9d-0343-4da7-9b07-f11c4174934d",
+      "anomaly_id": "c70ffe37-dc73-4c87-a00a-3a4212afb170",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "escalate-to-manager",
@@ -3222,7 +3222,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "089babed-6da6-4eb4-909d-9b90fe2e9084",
+      "anomaly_id": "02d43a22-3b62-4833-b206-2565a58d40cc",
       "anomaly_type": "leave_abuse",
       "confidence": 0.386,
       "chosen_action": "escalate-to-manager",
@@ -3242,7 +3242,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "776b0a14-a783-4763-8615-e7a729dab717",
+      "anomaly_id": "9d53777b-4823-4d01-b9b1-1b29de15d8f1",
       "anomaly_type": "leave_abuse",
       "confidence": 0.48,
       "chosen_action": "escalate-to-manager",
@@ -3262,7 +3262,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "9dd567c2-2bcd-41e9-b2a3-595ed1da08ae",
+      "anomaly_id": "ec7bad22-bc0b-4428-a80c-e3352c055aee",
       "anomaly_type": "leave_abuse",
       "confidence": 0.476,
       "chosen_action": "escalate-to-manager",
@@ -3282,7 +3282,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "2ae0b29e-6c9a-4fe2-995c-90435fca8dd0",
+      "anomaly_id": "0a6304f6-02f0-47c1-8dbd-2da078be6818",
       "anomaly_type": "leave_abuse",
       "confidence": 0.535,
       "chosen_action": "escalate-to-manager",
@@ -3302,7 +3302,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "124f0f0f-554c-4ea6-a8d4-ab8d81b4926b",
+      "anomaly_id": "65f4cd94-f5ce-4c7d-8b8d-c7c1343cb459",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "flag-for-audit",
@@ -3322,7 +3322,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "5540d6d5-5320-43f0-9b43-5fd750b78d4f",
+      "anomaly_id": "80266e95-2fd0-4dc4-a5f6-71343db48a05",
       "anomaly_type": "leave_abuse",
       "confidence": 0.607,
       "chosen_action": "escalate-to-manager",
@@ -3342,7 +3342,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "78e48ed9-bfc2-4652-9e45-3eb53eefd9fc",
+      "anomaly_id": "9b57bfe2-e02b-4575-a7a3-6d878e05a1e9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.535,
       "chosen_action": "escalate-to-manager",
@@ -3362,7 +3362,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "88135c9b-41be-4ab6-addf-18bd397c0897",
+      "anomaly_id": "5358d673-5083-45d5-9e69-872c96acc395",
       "anomaly_type": "leave_abuse",
       "confidence": 0.434,
       "chosen_action": "escalate-to-manager",
@@ -3382,7 +3382,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "818fd074-f4e1-4cc8-b035-4b19554f6e4a",
+      "anomaly_id": "5cf86dc2-5b0a-4360-ba02-1bce38cac544",
       "anomaly_type": "leave_abuse",
       "confidence": 0.365,
       "chosen_action": "escalate-to-manager",
@@ -3402,7 +3402,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "94749e2a-6ba8-4523-932c-6f5f91d47ee2",
+      "anomaly_id": "8b3707da-2749-47b1-95ab-1ecf315c4329",
       "anomaly_type": "leave_abuse",
       "confidence": 0.413,
       "chosen_action": "escalate-to-manager",
@@ -3422,7 +3422,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "20d2f807-4fa7-4824-9a21-39ef275a54fd",
+      "anomaly_id": "37bbdf2f-ac7d-43b0-be03-5a9558c72f15",
       "anomaly_type": "leave_abuse",
       "confidence": 0.24,
       "chosen_action": "escalate-to-manager",
@@ -3442,7 +3442,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "252e75ee-3afe-4f0a-9d3c-c8f5a9695596",
+      "anomaly_id": "e31da8c4-d132-40cc-acbc-c529ade636e1",
       "anomaly_type": "leave_abuse",
       "confidence": 0.42,
       "chosen_action": "escalate-to-manager",
@@ -3462,7 +3462,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "d455bef2-8de7-4aff-b3ed-219b8c934cfd",
+      "anomaly_id": "e477b679-aa5a-4695-afe8-16f2d9b261cd",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "flag-for-audit",
@@ -3482,7 +3482,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "853c2497-a85c-4ab8-9ee6-b1dbacff8275",
+      "anomaly_id": "e0759081-f217-42c8-b13a-f6a235f10219",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "escalate-to-manager",
@@ -3502,7 +3502,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "ae43121e-9224-48e8-8214-94e022d688a2",
+      "anomaly_id": "a6236e5e-33a0-4bd1-a0db-2b19dac834c4",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "escalate-to-manager",
@@ -3522,7 +3522,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "06ce2535-d471-42cf-bab7-ed0ac0ef2313",
+      "anomaly_id": "13931656-cefb-452b-8b9b-f3dd3028154c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.792,
       "chosen_action": "escalate-to-manager",
@@ -3542,7 +3542,7 @@
     },
     {
       "cycle": "cycle_1",
-      "anomaly_id": "c4fac4f5-a7e0-428f-93f4-9b2c5c609b2c",
+      "anomaly_id": "c2cf7b08-f679-470f-ba16-0b9e2e573165",
       "anomaly_type": "compliance_violation",
       "confidence": 0.8,
       "chosen_action": "escalate-to-manager",
@@ -3564,7 +3564,7 @@
   "cycle_2": [
     {
       "cycle": "cycle_2",
-      "anomaly_id": "97f22b29-0778-4f0f-a369-009bbc3dc4de",
+      "anomaly_id": "53a5a865-a31c-49ef-911e-7c78060b1b17",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3584,7 +3584,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a2ad546e-5bc8-4e85-9972-51ec7edacd5e",
+      "anomaly_id": "6b4f27e4-cac9-43f8-8685-41bd6e7f6d4b",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3604,7 +3604,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "29d18335-6917-45e6-ab51-96e32c293d0c",
+      "anomaly_id": "d2b5c55b-91fe-4260-8fef-d9960aa54ed0",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.844,
       "chosen_action": "escalate-to-HR",
@@ -3624,7 +3624,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2f4618ec-e615-472d-a576-997109060cdf",
+      "anomaly_id": "3e27e311-b2e6-4d7a-8775-4d61757db1dc",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -3644,7 +3644,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6322f4cf-4c43-4728-8eb9-ea7b48d41c13",
+      "anomaly_id": "8bfd224b-bf59-4253-a9ae-e76ba7d68427",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3664,7 +3664,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "df2ee631-af90-4f7f-8bfd-1e4e76b5dac3",
+      "anomaly_id": "f15c1995-25a5-4d10-bcf9-b76c15537903",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3684,7 +3684,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "068ed571-f9b2-4c8b-a065-f62b457e6eeb",
+      "anomaly_id": "648b1cd9-1417-4345-ba7c-a9373e1c7a25",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.853,
       "chosen_action": "flag-for-audit",
@@ -3704,7 +3704,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9bf204cf-f6ac-4321-b947-36cccbe4e6fc",
+      "anomaly_id": "71ca1b79-818e-436a-bfa1-66e5f1ce0e2b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.835,
       "chosen_action": "escalate-to-HR",
@@ -3724,7 +3724,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "7cc789af-dfe8-405d-8d2e-e250f36ef63e",
+      "anomaly_id": "aa4683db-3430-4ca7-a176-38b94ecb35a8",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3744,7 +3744,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f444a424-b814-4f6e-b291-b79cd95837d4",
+      "anomaly_id": "13496d5a-7729-43f9-ad86-f31ddff768cd",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3764,7 +3764,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0a5a63db-a117-4ae6-b2dd-7f2b4306635c",
+      "anomaly_id": "2fd36dd2-f03b-402c-b1bb-d7fcfc4853f6",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3784,7 +3784,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "208565a5-1e9c-4a8f-bc0c-af141cad1263",
+      "anomaly_id": "e8684d13-a036-4ba6-9f86-16467e7615df",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.872,
       "chosen_action": "escalate-to-HR",
@@ -3804,7 +3804,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "832247cf-b5f9-462e-a032-196862b2bdb3",
+      "anomaly_id": "8db3563c-e761-4217-b3c2-3d8b9a5ba939",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3824,7 +3824,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "74e6f817-f0fc-4b17-bd46-65804690995b",
+      "anomaly_id": "490a6037-e021-4bce-9388-5e81914bcf39",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3844,7 +3844,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "399e3d39-3a9c-47c6-8727-be1f911c8081",
+      "anomaly_id": "d2801ca1-c049-4898-b079-95e641853420",
       "anomaly_type": "payroll_outlier",
       "confidence": 1.0,
       "chosen_action": "escalate-to-HR",
@@ -3864,7 +3864,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2c812bd9-6943-4756-8241-ec530a4bc020",
+      "anomaly_id": "a94b9830-cae5-48b9-963a-4be9289f14e1",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -3884,7 +3884,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d93e9eae-e88f-4cab-a9ef-ef2893923b8b",
+      "anomaly_id": "e51b439b-247d-4b73-93e1-799398c8aaad",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -3904,7 +3904,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b659bbfe-4ff0-4ff6-9a75-f60fe720fb04",
+      "anomaly_id": "500a3d92-3a00-459b-b7cc-a248647e686a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -3924,7 +3924,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6d3b7194-248f-4243-bdc2-37cd9fd119ae",
+      "anomaly_id": "ca3f3d44-5097-4d47-a2cc-a42d4be71b0c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -3944,7 +3944,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "db50523e-10ff-43e9-a5cd-ded1765c3d37",
+      "anomaly_id": "5b89d6e1-aa30-4c47-871e-5c51eb08d323",
       "anomaly_type": "compliance_violation",
       "confidence": 0.807,
       "chosen_action": "escalate-to-manager",
@@ -3964,7 +3964,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0dc45500-4a70-4dcf-9be9-e2a73066ef9d",
+      "anomaly_id": "13a39b8c-ed3b-4d10-af18-b802d4e9d260",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -3984,7 +3984,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "914480e9-2195-4b86-96bc-8c7d91f074d6",
+      "anomaly_id": "e28967c9-74db-4857-b3a2-f6875dcad80b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.99,
       "chosen_action": "escalate-to-HR",
@@ -4004,7 +4004,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "51e52522-33df-42e5-a2b4-40ee68f3fb93",
+      "anomaly_id": "66541fda-7e37-4d42-87d1-f9acfbb68023",
       "anomaly_type": "compliance_violation",
       "confidence": 0.865,
       "chosen_action": "escalate-to-HR",
@@ -4024,7 +4024,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d8b85092-0eb5-48b6-8045-523554234dfb",
+      "anomaly_id": "153e5ea5-f44f-436f-a98d-cfafbab7dafa",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -4044,7 +4044,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0e18838b-6c1b-4e7a-bc8e-6928a5856775",
+      "anomaly_id": "bf8e8406-439f-40a0-bde9-ed2068401412",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4064,7 +4064,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ab26be48-30e3-47f0-8ecf-e7b1e2f6afb5",
+      "anomaly_id": "b8900246-cd68-44a0-aa22-376da952287a",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -4084,7 +4084,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c16f747d-2b8f-4b82-b354-493c539432c0",
+      "anomaly_id": "b9d27d2b-f821-4d04-ad6c-611ff0469d5b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4104,7 +4104,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0e270878-a6b8-455d-9322-cfc98911a7bd",
+      "anomaly_id": "3c69fd2e-0ec1-4b31-a3a9-23999b84f3e2",
       "anomaly_type": "compliance_violation",
       "confidence": 0.87,
       "chosen_action": "escalate-to-HR",
@@ -4124,7 +4124,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5759ef32-bb90-478c-9ec3-8c552581804a",
+      "anomaly_id": "20695e26-adac-4138-ae60-44aa48ca7d66",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4144,7 +4144,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "398b108c-5083-4205-b275-6aac59c082c4",
+      "anomaly_id": "ff7b23aa-a0a9-49be-b0fb-190004ac5858",
       "anomaly_type": "compliance_violation",
       "confidence": 0.897,
       "chosen_action": "escalate-to-manager",
@@ -4164,7 +4164,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "388e892e-af68-49e6-b8db-30d8c8e3df10",
+      "anomaly_id": "6272a08e-a03e-4f5d-a994-fed4d898b6d2",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -4184,7 +4184,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c007c101-07f5-48d8-89d3-8a5a3a0f4fbd",
+      "anomaly_id": "57bc908e-12f0-4d21-b520-cf21c7bd3658",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4204,7 +4204,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "cc4cbe91-2b60-4ad5-a73d-c38196690319",
+      "anomaly_id": "6d63d291-80b5-4cf3-aa90-9cf2a4a1e71c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4224,7 +4224,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c4d2a1a8-c896-43b5-bfb3-dba3b088825f",
+      "anomaly_id": "d1cc4b0e-d311-4f1a-959a-c1c0053ab5e0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4244,7 +4244,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6ffc51ae-d208-4d30-8a43-49fb17ae8f03",
+      "anomaly_id": "5b2f7845-ef68-4836-92a7-ea53a7a2a53d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4264,7 +4264,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "df2137e3-68c9-416e-8acd-17adae7d88bd",
+      "anomaly_id": "02b08db1-9c30-4390-894d-e161cae157a8",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4284,7 +4284,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "41c728e1-e337-4526-b465-c158a24bb9ee",
+      "anomaly_id": "a6f811f6-f3b8-4c22-b49c-2a8734768c9b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4304,7 +4304,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f587eb1d-0b13-4b0a-92e2-571abd8ff8a1",
+      "anomaly_id": "e153cedc-7108-4850-af32-3b6f2b6f1905",
       "anomaly_type": "compliance_violation",
       "confidence": 0.97,
       "chosen_action": "escalate-to-manager",
@@ -4324,7 +4324,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a116e76c-f5b2-472d-ba39-30007f781e45",
+      "anomaly_id": "ccc86ce5-eb8d-4dca-a3b4-a19538ddc389",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4344,7 +4344,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2ba98d25-5a6c-4e63-8c33-cf59bfc8b5bd",
+      "anomaly_id": "c058ef47-3bf7-42dd-b9d5-f6cc08d35fa6",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4364,7 +4364,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6cb95ede-f467-4b72-85be-ef8585b052e4",
+      "anomaly_id": "3df3195e-c649-4f1a-8068-a776584eecff",
       "anomaly_type": "compliance_violation",
       "confidence": 0.945,
       "chosen_action": "escalate-to-manager",
@@ -4384,7 +4384,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c907bb21-eacd-427c-9f85-3b1b64db18fb",
+      "anomaly_id": "b1c00d96-92b9-4223-b9ee-9a318a3cee61",
       "anomaly_type": "compliance_violation",
       "confidence": 0.978,
       "chosen_action": "escalate-to-manager",
@@ -4404,7 +4404,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "50caf439-36df-4851-bc7c-cee7f92d6e2f",
+      "anomaly_id": "e1acb539-914c-4b21-90e9-52e0c38f8b74",
       "anomaly_type": "compliance_violation",
       "confidence": 0.92,
       "chosen_action": "escalate-to-manager",
@@ -4424,7 +4424,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b7559e81-5137-4e2e-b55e-fc3336b00b61",
+      "anomaly_id": "e4440022-c991-44e7-a249-a4b7351e5975",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4444,7 +4444,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6f184685-b5a0-4d7d-a5a8-d8abeee75c80",
+      "anomaly_id": "a494340c-b3df-4f2a-8e83-7cf52b775185",
       "anomaly_type": "compliance_violation",
       "confidence": 0.837,
       "chosen_action": "escalate-to-manager",
@@ -4464,7 +4464,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "19187c13-7412-49c5-8f80-ac3c4e8d42f3",
+      "anomaly_id": "54c32994-679d-41b3-a912-1b9ea79cbfb8",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -4484,7 +4484,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "88fe9c80-23ab-4b50-a2b0-77bd70ba751d",
+      "anomaly_id": "f8c7a9c9-faae-403a-a5ac-3a4737a65dda",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -4504,7 +4504,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ed06e860-1966-418c-a82d-b6f094a014d6",
+      "anomaly_id": "31ba2a76-d05f-4f1c-96c4-407b7ee32b50",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-HR",
@@ -4524,7 +4524,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "31262ed0-5a8b-4a6c-b5ac-53b349229b83",
+      "anomaly_id": "e6d01ee5-f44e-4b32-82f3-ee802572cb43",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4544,7 +4544,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "8571dcb5-d415-4448-ae25-b73a864dfcd6",
+      "anomaly_id": "e966610b-a618-44b1-a150-d1e89d8d38e0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.905,
       "chosen_action": "escalate-to-manager",
@@ -4564,7 +4564,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "cb2f13d8-2082-4b2d-85c8-5d3ee6491f61",
+      "anomaly_id": "59ce7808-7d13-43f1-8318-0eeceaf76f22",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4584,7 +4584,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1297c7ba-8f79-44a4-af70-fafd4a458044",
+      "anomaly_id": "7f36c4a7-46c6-4caa-abda-eb7d5a23b25e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4604,7 +4604,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "087bf165-7fb4-420d-8047-3760d79b264d",
+      "anomaly_id": "c14f0b86-580a-4fc2-915a-8a1760a094fa",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4624,7 +4624,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "06a645e7-fac6-4a54-a200-9f0c890de351",
+      "anomaly_id": "49631456-0b58-4e4d-8899-494bc93b50fc",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4644,7 +4644,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ba49dc42-8c03-49e0-bf51-37f0f487b453",
+      "anomaly_id": "079be913-1876-4a1b-98a3-aeec0eabaf91",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4664,7 +4664,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f3fda6a4-83b5-4b21-aed1-dbf591dabc43",
+      "anomaly_id": "33cd7ab1-4e9a-477d-a9ef-6b6e7b65768b",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4684,7 +4684,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9bfd9b2b-5f80-4593-8183-69d47dd71e2a",
+      "anomaly_id": "ff6acf7d-5422-424b-a4d3-0c74b1544744",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4704,7 +4704,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "56711dc2-8579-49a0-a27d-296d7b3814b6",
+      "anomaly_id": "c85dd2a4-70d7-4a2a-a719-07ee70efd3bd",
       "anomaly_type": "compliance_violation",
       "confidence": 0.805,
       "chosen_action": "escalate-to-manager",
@@ -4724,7 +4724,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "4f2f015f-05df-4510-bce7-5c14ecb70580",
+      "anomaly_id": "215b6678-7fc7-4dd8-971d-142826a33126",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4744,7 +4744,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a111b180-f1cd-44e0-a39f-707b45c1d0cb",
+      "anomaly_id": "08273a08-3eac-48c5-901b-881e9287f16a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4764,7 +4764,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "7031ce90-e831-47bd-bab8-c6dbd120544d",
+      "anomaly_id": "41e9e9fd-56aa-4f6f-bff2-aaf163eee685",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -4784,7 +4784,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "97a5dd68-ce1b-4538-88a5-ed1ee8f59a77",
+      "anomaly_id": "c219d164-90a5-4d83-bee2-80f496b3669c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.985,
       "chosen_action": "no-action",
@@ -4804,7 +4804,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0d9dff87-2e12-4e0a-aa88-947411b95b89",
+      "anomaly_id": "08ec59fc-1a0f-4b27-8af6-c3551ba44353",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -4824,7 +4824,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1d02a897-93c7-4332-87dc-9e645b04fc70",
+      "anomaly_id": "02dbe0b4-bdf7-4903-918a-4a04992b1529",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4844,7 +4844,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1c422568-d3c6-45ba-946a-28b3ebab1bb5",
+      "anomaly_id": "f6969811-baff-4775-9814-433eca6473f3",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4864,7 +4864,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b8f03a08-0014-4e45-8915-93d7e512f66d",
+      "anomaly_id": "2ff3111a-d66d-4456-be0a-d026b76cb70e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4884,7 +4884,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "be6370ed-44b7-48cd-b041-79b2eae0ab67",
+      "anomaly_id": "e1c09d6d-808c-4343-a302-9a3da080afe0",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -4904,7 +4904,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "50c39765-29e4-4a27-a58f-6362f41a0936",
+      "anomaly_id": "ba326609-c86f-42b8-8c1e-6ecb3d5c2c27",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4924,7 +4924,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f0e0b5af-ac43-4111-a282-0ac57496ae53",
+      "anomaly_id": "3d05b40b-5ecd-4547-9ca7-d1bbe48a48b7",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4944,7 +4944,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b56f35b0-f336-4bed-9dba-ab0ac569a0c9",
+      "anomaly_id": "d49e3a7c-46af-40e3-8cee-0a6d8fe405c3",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -4964,7 +4964,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "7715cb3e-02c3-4837-9422-d2b38ff11871",
+      "anomaly_id": "90af70ee-f6e2-4843-bff4-6627b3abe909",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -4984,7 +4984,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c28d6ae3-cdae-4e61-9281-62a7a4550096",
+      "anomaly_id": "39c7202e-db57-4a9d-b2f0-2fa151f32c88",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -5004,7 +5004,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9637adad-4949-4254-879f-94f893cab77f",
+      "anomaly_id": "4e975175-f8a8-46f6-a324-2d14c9b43160",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5024,7 +5024,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1683a004-8812-4d56-8067-a72ea90d461c",
+      "anomaly_id": "5a0960b5-db01-4cc6-9592-97f8fe8a9cbf",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5044,7 +5044,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "68e7dfbb-78dd-4e24-8dea-c634009b126b",
+      "anomaly_id": "c454ae17-0baf-41da-a6e5-fb4b42361408",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5064,7 +5064,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2a7a4606-a594-4240-8124-bf2dc7219f91",
+      "anomaly_id": "f76eff11-a969-44b3-9c5f-1d83887d5af0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5084,7 +5084,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9961a6f1-6146-4d2d-b541-50981fec61ad",
+      "anomaly_id": "e3c5b790-4d78-47b7-8126-ff0336b174be",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -5104,7 +5104,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a2c0f157-fe11-4818-a4a4-5d83ba5dd0ad",
+      "anomaly_id": "a8992c6d-4b89-4f11-afe3-14fa406985fd",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5124,7 +5124,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c408b357-969e-4bc5-a323-6b0d9c338429",
+      "anomaly_id": "9a88fbbe-165c-4c04-bb65-8bdd8941957e",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5144,7 +5144,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5ea84bdb-aca5-4502-9c4d-cfd6d2cb95ef",
+      "anomaly_id": "209da073-2bb2-4177-89bf-3cd4c0b57c7d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.935,
       "chosen_action": "escalate-to-manager",
@@ -5164,7 +5164,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "293061c3-a66a-45b4-8e3a-0252619ddc41",
+      "anomaly_id": "ce6d09f4-df8d-4352-80ff-fb2733af3d7f",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5184,7 +5184,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6d84d716-d713-4169-80b5-00d2d64c61a3",
+      "anomaly_id": "48f10bdd-1d88-4d0e-a41d-ddd2e933bda0",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -5204,7 +5204,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "17ab9d2c-edfa-44be-8f20-00a48337597c",
+      "anomaly_id": "78b2229c-707a-44ea-84b4-d5b72304fb33",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -5224,7 +5224,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1f2d09a8-a81f-4cd9-866c-29061c0dc5ff",
+      "anomaly_id": "8716d9b3-ecf4-4607-8319-60a58a084045",
       "anomaly_type": "compliance_violation",
       "confidence": 0.915,
       "chosen_action": "escalate-to-HR",
@@ -5244,7 +5244,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ac370d37-881a-4e02-bad6-2c4d01c2ae53",
+      "anomaly_id": "9851041c-48a6-439f-be9d-066ccce38e4d",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5264,7 +5264,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "65a592fe-fc8a-4ab3-8a42-143668089433",
+      "anomaly_id": "ab75d7d7-b585-4ca9-b636-7d6bb454ceae",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5284,7 +5284,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "99d775e5-abfb-411d-9f7c-6b6caa7ec2bb",
+      "anomaly_id": "485d9b5b-d550-46b2-8a34-342ea7a549e6",
       "anomaly_type": "compliance_violation",
       "confidence": 0.81,
       "chosen_action": "no-action",
@@ -5304,7 +5304,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a1ae3dd4-4384-4933-a154-643e3ac1a868",
+      "anomaly_id": "6dc63d9a-e4fe-4118-8a9f-8af6c56d557c",
       "anomaly_type": "compliance_violation",
       "confidence": 1.0,
       "chosen_action": "escalate-to-manager",
@@ -5324,7 +5324,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f06be324-4310-4e5a-b90d-02333d9433b3",
+      "anomaly_id": "e7639416-1a76-4468-9aea-e796e7c5977a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5344,7 +5344,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d5fd6cd1-51d8-4061-b377-353848283f9c",
+      "anomaly_id": "255db81a-0b56-4834-9015-f03c38cdb461",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5364,7 +5364,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "e072f9a7-ca10-42fd-bcdd-fe1536de9012",
+      "anomaly_id": "54a95ef0-135f-4b97-8829-20c3d9be91a7",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "no-action",
@@ -5384,7 +5384,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5dec3874-ebfb-4668-a08e-284ce13eebf3",
+      "anomaly_id": "0f0a9336-eb02-4ac7-9ea1-b87755de0581",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5404,7 +5404,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "fb08a02d-2bc4-4233-8692-67b7d3703207",
+      "anomaly_id": "fc82a1b5-a8ea-403e-b9e6-18274aeb3df8",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5424,7 +5424,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "7b2eb742-101e-46ce-8526-715f541d3a12",
+      "anomaly_id": "8ea6f176-77e5-42fa-932f-e36d3069b216",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "escalate-to-manager",
@@ -5444,7 +5444,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6cc15c5e-344d-4d18-94e8-10b364158cd4",
+      "anomaly_id": "5d77c6bc-ee70-438f-9952-1b6d77d34845",
       "anomaly_type": "compliance_violation",
       "confidence": 0.907,
       "chosen_action": "escalate-to-manager",
@@ -5464,7 +5464,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a26612b9-0a5c-4b15-80cc-0a61d902f219",
+      "anomaly_id": "0d779674-4d51-4d45-a3c5-17cd798fa76a",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -5484,7 +5484,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "bc7db8d0-af62-4a36-833d-26b6dd2fba1e",
+      "anomaly_id": "b8ad52ec-95fc-4287-bbae-304e0bf6b922",
       "anomaly_type": "compliance_violation",
       "confidence": 0.917,
       "chosen_action": "flag-for-audit",
@@ -5504,7 +5504,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9cc5d952-cd56-4399-aa71-d928307a6321",
+      "anomaly_id": "e7edfca4-4291-4284-87a9-5d57430f1732",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "flag-for-audit",
@@ -5524,7 +5524,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9e9f4e77-3e0c-4312-9795-e791145235e3",
+      "anomaly_id": "f90fcb54-c3f5-4584-8d70-29b317d423cf",
       "anomaly_type": "compliance_violation",
       "confidence": 0.9,
       "chosen_action": "auto-correct",
@@ -5544,7 +5544,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d41be419-9744-45fb-82f8-53e7f401c250",
+      "anomaly_id": "ee6f1129-851d-4a2a-9084-332f7994c60c",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.401,
       "chosen_action": "escalate-to-HR",
@@ -5564,7 +5564,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6cea15a7-5f7b-4130-8b95-0cca0a7e2b1d",
+      "anomaly_id": "f9444923-64df-42ad-9268-843758636289",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.08,
       "chosen_action": "escalate-to-HR",
@@ -5584,7 +5584,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ce3d5623-ebc3-430f-ae82-652cff9469ac",
+      "anomaly_id": "c7752d1e-5161-4dc4-aa86-943f9721a54b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.466,
       "chosen_action": "escalate-to-HR",
@@ -5604,7 +5604,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "72e98951-9adb-444a-8b4a-cdbdad5d7114",
+      "anomaly_id": "74cdd23f-c5bf-49b9-877b-73b04a38ce2d",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.297,
       "chosen_action": "no-action",
@@ -5624,7 +5624,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "99ec2265-abd4-4370-9344-6fe23fa4317b",
+      "anomaly_id": "ab006400-3da7-43bf-8b49-b4e3396b5f7f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.163,
       "chosen_action": "escalate-to-HR",
@@ -5644,7 +5644,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "59643686-9414-404e-bd5a-46bf111a5010",
+      "anomaly_id": "594967b7-847d-4b9e-8e2b-c0dd0218321f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.526,
       "chosen_action": "escalate-to-HR",
@@ -5664,7 +5664,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "29d2473a-c3f5-4342-ae6e-2addacd4d575",
+      "anomaly_id": "ceb5dab8-f82d-4be8-99fa-c667e9c95105",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.052,
       "chosen_action": "escalate-to-HR",
@@ -5684,7 +5684,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "090a060b-f208-4351-9ce0-6cc7561f64d9",
+      "anomaly_id": "0ff34421-2a69-496d-aadb-27c62b4b7b14",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.251,
       "chosen_action": "flag-for-audit",
@@ -5704,7 +5704,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a9130534-94eb-43d6-a939-c9eb9f88baeb",
+      "anomaly_id": "754f8b50-fc15-4fd7-bcde-e148e8863656",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.055,
       "chosen_action": "escalate-to-HR",
@@ -5724,7 +5724,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0ba8f6d5-d505-4324-9cfe-4a3ceb95f2d8",
+      "anomaly_id": "32c8d265-243a-4bbc-b336-ce1e7fb30242",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.081,
       "chosen_action": "auto-correct",
@@ -5744,7 +5744,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "8e8a46ad-f43f-470b-a0a2-2cd7c8bccf7c",
+      "anomaly_id": "a7e0daf2-bc80-4d52-9cc8-ab9b831b4814",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.112,
       "chosen_action": "escalate-to-manager",
@@ -5764,7 +5764,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f3f80a66-d0ab-438e-a7a4-d0da72c5b5d4",
+      "anomaly_id": "2117c26a-96c1-4e10-83f3-b83e398128f7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.123,
       "chosen_action": "escalate-to-manager",
@@ -5784,7 +5784,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "3317c1d4-17d7-43a2-aabd-68c8a833ca25",
+      "anomaly_id": "c7f807a0-2b80-474b-bc0b-123dfde97403",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.027,
       "chosen_action": "auto-correct",
@@ -5804,7 +5804,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "bb1f2b7a-8f5f-45c0-92cc-2185eff8e3bd",
+      "anomaly_id": "010f7904-fd40-4fde-9372-31d5f524f8b3",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.122,
       "chosen_action": "flag-for-audit",
@@ -5824,7 +5824,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "db3f88ac-9163-4175-9d68-ce894fcbefab",
+      "anomaly_id": "4dbef3f1-61a5-47c3-a1b9-1f5ba9e4c1c8",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.796,
       "chosen_action": "escalate-to-manager",
@@ -5844,7 +5844,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ecf31a23-d962-42d2-9b69-99a29709b630",
+      "anomaly_id": "dbccf1d3-fa52-4034-b3d6-9ed5abd1ccc6",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.759,
       "chosen_action": "escalate-to-manager",
@@ -5864,7 +5864,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "01232332-7aa8-43f8-8577-41b51cd49be3",
+      "anomaly_id": "71df765c-dc35-4899-bb23-936eb9182cff",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.105,
       "chosen_action": "escalate-to-manager",
@@ -5884,7 +5884,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2cf1ba02-f578-48ff-9a3c-2e58a78609bc",
+      "anomaly_id": "f8bed203-a946-471b-a605-acc69273eaa4",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.343,
       "chosen_action": "escalate-to-manager",
@@ -5904,7 +5904,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "fa28c753-b09c-473a-91c1-5b43c52710b4",
+      "anomaly_id": "8a926306-d414-4005-9079-fd3c654f4746",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.542,
       "chosen_action": "escalate-to-manager",
@@ -5924,7 +5924,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "586fca41-76a1-4059-8bfd-a3155c7905b4",
+      "anomaly_id": "8e9ec656-8708-4dd7-be55-92a06ab47e6b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.581,
       "chosen_action": "escalate-to-manager",
@@ -5944,7 +5944,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "8e69267b-b5ec-48f8-bbd5-73da115773a4",
+      "anomaly_id": "d1deaa9f-b294-45cc-bb45-4eaf77413057",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.146,
       "chosen_action": "escalate-to-manager",
@@ -5964,7 +5964,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ca0b34cf-7f0f-44e9-b091-f0b9c9ed3e1e",
+      "anomaly_id": "b56a6c92-4e00-4284-9d5d-277044de84d7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.057,
       "chosen_action": "no-action",
@@ -5984,7 +5984,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d349d867-43ef-4055-94aa-a98e4fa0e88b",
+      "anomaly_id": "5754671c-c9cf-4d97-81c0-4f7022abc9c4",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.503,
       "chosen_action": "escalate-to-manager",
@@ -6004,7 +6004,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "594b0bab-d9f2-43e6-aeec-aec323b001e8",
+      "anomaly_id": "f8c52846-9eb9-461b-b0e1-b9ad9c781e7a",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.732,
       "chosen_action": "escalate-to-manager",
@@ -6024,7 +6024,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "0fc8f056-7ce2-4295-abdb-21ca0c62cd88",
+      "anomaly_id": "08350101-630f-4c4f-878e-b3239a46e302",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.16,
       "chosen_action": "escalate-to-manager",
@@ -6044,7 +6044,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2196ef00-0b9b-4935-86b9-ae4fdf1707a9",
+      "anomaly_id": "110025c2-10d6-471b-b94e-596f86da6f7c",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.334,
       "chosen_action": "escalate-to-manager",
@@ -6064,7 +6064,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "876a0967-68dd-4536-b6a2-7d64bcec2132",
+      "anomaly_id": "572fd951-b568-4dcd-a08b-efc1a59635e7",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.08,
       "chosen_action": "escalate-to-manager",
@@ -6084,7 +6084,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f556ecbc-aa7e-44da-8cbb-09803b1a075c",
+      "anomaly_id": "e45c24d3-1858-4640-bfae-98d2069a05f1",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.374,
       "chosen_action": "escalate-to-manager",
@@ -6104,7 +6104,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "f941ecda-4f86-42fa-98a3-e313fcd02c54",
+      "anomaly_id": "a57a40fc-016e-493f-bf4a-872edb22482f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.397,
       "chosen_action": "escalate-to-manager",
@@ -6124,7 +6124,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d7dcb193-9118-421e-aa80-47ec8857d8f9",
+      "anomaly_id": "bfc10d02-88cd-48ac-a7c9-58bfb7f23c83",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.392,
       "chosen_action": "escalate-to-manager",
@@ -6144,7 +6144,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b642ae37-de4a-40e4-800c-38b9f85805e8",
+      "anomaly_id": "731bece4-4065-4390-9c91-2d07e040effa",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.26,
       "chosen_action": "escalate-to-manager",
@@ -6164,7 +6164,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d363a599-aba2-4915-8e9e-8e7ebe8a330f",
+      "anomaly_id": "bce078a4-53d2-4a36-b8bd-cb89604b4b0b",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.155,
       "chosen_action": "escalate-to-HR",
@@ -6184,7 +6184,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "dd90391e-1602-4f12-af0a-a56a5c8f8c02",
+      "anomaly_id": "4217dbcc-e235-436d-8161-eb14f1973d1f",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.319,
       "chosen_action": "escalate-to-manager",
@@ -6204,7 +6204,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "78cf25fd-4851-4ab9-9bce-6b3a1d4a1c5a",
+      "anomaly_id": "fb244ad3-e15e-4881-a342-2f7c10d27472",
       "anomaly_type": "payroll_outlier",
       "confidence": 0.117,
       "chosen_action": "escalate-to-HR",
@@ -6224,7 +6224,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "77b8ef9f-0980-48e4-a61e-4762c3146114",
+      "anomaly_id": "0cd88774-dfba-423f-85d2-46d340fc69b6",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-manager",
@@ -6244,7 +6244,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "94caa66e-4704-4198-a85a-22ebcaec548b",
+      "anomaly_id": "815a3390-5ab8-4f70-9460-2715dfb5662c",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "escalate-to-manager",
@@ -6264,7 +6264,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "625f6d71-ab84-4ae6-8668-a370655a7fa5",
+      "anomaly_id": "953e669b-9a7d-4dc7-b641-7750de3c2038",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-manager",
@@ -6284,7 +6284,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "4bd63fd1-d9ff-4c4e-b25f-9cba56d682bc",
+      "anomaly_id": "b20c3fdc-3219-459c-9315-0cc4c1d32a87",
       "anomaly_type": "leave_abuse",
       "confidence": 0.42,
       "chosen_action": "escalate-to-manager",
@@ -6304,7 +6304,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "1afae9db-a0ce-46f5-8f71-58d27ddc6503",
+      "anomaly_id": "a9f27996-7845-4a02-9ad1-524505c46b08",
       "anomaly_type": "leave_abuse",
       "confidence": 0.564,
       "chosen_action": "auto-correct",
@@ -6324,7 +6324,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "4083c379-8b91-482b-a382-b341b99b77c2",
+      "anomaly_id": "36fe5c89-9579-4718-90fe-510c0dc8cc6e",
       "anomaly_type": "leave_abuse",
       "confidence": 0.386,
       "chosen_action": "escalate-to-manager",
@@ -6344,7 +6344,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a3067328-f16d-4684-8d1c-c76d9dace314",
+      "anomaly_id": "0061b888-52df-4034-9c9f-a04de31b8b32",
       "anomaly_type": "leave_abuse",
       "confidence": 0.553,
       "chosen_action": "escalate-to-manager",
@@ -6364,7 +6364,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "77e1bb17-dbb1-4ff3-a442-b4cfebfb941b",
+      "anomaly_id": "13f7f775-c555-45d3-a49e-e723542b2b50",
       "anomaly_type": "leave_abuse",
       "confidence": 0.387,
       "chosen_action": "escalate-to-manager",
@@ -6384,7 +6384,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2b623687-0c42-4e33-805e-0bd65df30699",
+      "anomaly_id": "6d0dbb13-f8cb-4117-b305-a734faeea5d9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.339,
       "chosen_action": "escalate-to-manager",
@@ -6404,7 +6404,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "4b23df60-df2e-4a6b-916a-485705930e1f",
+      "anomaly_id": "dbe75f84-bae3-4b25-8066-c7dd85b0d035",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "escalate-to-manager",
@@ -6424,7 +6424,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ccb8c440-581b-4c4c-9692-bca36a35b8cf",
+      "anomaly_id": "ec3a8195-5554-43e4-b396-c24f2e895f78",
       "anomaly_type": "leave_abuse",
       "confidence": 0.44,
       "chosen_action": "escalate-to-manager",
@@ -6444,7 +6444,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5676105a-58d2-4c7f-b4c0-9f3f20db4e5a",
+      "anomaly_id": "a16e911c-c299-4f0f-85fd-5ed8275d7283",
       "anomaly_type": "leave_abuse",
       "confidence": 0.48,
       "chosen_action": "flag-for-audit",
@@ -6464,7 +6464,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2627bef2-4e47-481c-ae4b-01e3a5a40884",
+      "anomaly_id": "93e184e8-2602-44b6-b443-f6b2a5c77f0f",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "escalate-to-manager",
@@ -6484,7 +6484,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "348dac2d-15cb-41a6-8c69-f83ca86e899f",
+      "anomaly_id": "9488c5e3-b3f5-42e0-adf7-df24f41b415f",
       "anomaly_type": "leave_abuse",
       "confidence": 0.29,
       "chosen_action": "escalate-to-manager",
@@ -6504,7 +6504,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "8fc3fcc0-d860-4348-8013-f0b2a1af1538",
+      "anomaly_id": "b9003316-c056-4691-a014-9abcf7744cee",
       "anomaly_type": "leave_abuse",
       "confidence": 0.339,
       "chosen_action": "escalate-to-manager",
@@ -6524,7 +6524,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "11c2651f-b38d-4777-9d3f-b6a044aecf2b",
+      "anomaly_id": "9ebfe80a-12da-47b3-bb63-ac6143442cc4",
       "anomaly_type": "leave_abuse",
       "confidence": 0.476,
       "chosen_action": "escalate-to-manager",
@@ -6544,7 +6544,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "3a7b2420-24e0-4d00-b674-4169707f7ad8",
+      "anomaly_id": "ac7f9060-b274-443d-9d0d-a5757607484e",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "escalate-to-manager",
@@ -6564,7 +6564,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a55575e6-baee-4eed-bbc4-565a700ca88e",
+      "anomaly_id": "27a01945-63fd-432c-b06d-62f2a2946da0",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "escalate-to-manager",
@@ -6584,7 +6584,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "7981ac44-d0de-4820-a61d-9c6616db657f",
+      "anomaly_id": "41ac1cb2-9680-48a8-aa3b-61dd4ced9d10",
       "anomaly_type": "leave_abuse",
       "confidence": 0.498,
       "chosen_action": "escalate-to-manager",
@@ -6604,7 +6604,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "42fbecdf-bdaa-44d4-ba3c-ee1936a7320f",
+      "anomaly_id": "297b53aa-e11e-420e-8cb8-e47d5671ef7b",
       "anomaly_type": "leave_abuse",
       "confidence": 0.392,
       "chosen_action": "escalate-to-manager",
@@ -6624,7 +6624,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5e7fe315-c5b7-460f-b9f4-3f59d61f19e4",
+      "anomaly_id": "a4bc1296-0c44-4fb2-a69c-34595c77c743",
       "anomaly_type": "leave_abuse",
       "confidence": 0.431,
       "chosen_action": "escalate-to-manager",
@@ -6644,7 +6644,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a05a78e4-3582-49db-a97d-9253fefbe2f7",
+      "anomaly_id": "31387b2a-2a94-40f7-b798-0e4cee4a9ef9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "escalate-to-manager",
@@ -6664,7 +6664,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "b32d07f1-c92f-4a29-a396-719026689dd7",
+      "anomaly_id": "cea99971-5ef6-4a9f-a33c-6582c6b25390",
       "anomaly_type": "leave_abuse",
       "confidence": 0.431,
       "chosen_action": "escalate-to-manager",
@@ -6684,7 +6684,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "10dabd67-b6cd-44e0-8e6f-a95e01ddcc9e",
+      "anomaly_id": "d9fb9c3e-1e43-42dc-ae3e-1cc747b68e44",
       "anomaly_type": "leave_abuse",
       "confidence": 0.362,
       "chosen_action": "escalate-to-manager",
@@ -6704,7 +6704,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "6829b75a-5b2b-4c0b-b196-f704623018ff",
+      "anomaly_id": "32a5dfec-46c4-463c-ace2-16644442ec01",
       "anomaly_type": "leave_abuse",
       "confidence": 0.32,
       "chosen_action": "escalate-to-manager",
@@ -6724,7 +6724,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a06264f9-28c8-4541-9bc9-7a44bf14c900",
+      "anomaly_id": "70780296-2085-4fb3-8b5a-4463ab7c2c76",
       "anomaly_type": "leave_abuse",
       "confidence": 0.589,
       "chosen_action": "escalate-to-manager",
@@ -6744,7 +6744,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "a5f28caa-7582-4cd8-b016-b1eb710cf899",
+      "anomaly_id": "ec91b85c-022e-401c-bb8b-ff2f92b569ae",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "escalate-to-manager",
@@ -6764,7 +6764,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "8b54fc9d-0343-4da7-9b07-f11c4174934d",
+      "anomaly_id": "c70ffe37-dc73-4c87-a00a-3a4212afb170",
       "anomaly_type": "leave_abuse",
       "confidence": 0.469,
       "chosen_action": "escalate-to-manager",
@@ -6784,7 +6784,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "089babed-6da6-4eb4-909d-9b90fe2e9084",
+      "anomaly_id": "02d43a22-3b62-4833-b206-2565a58d40cc",
       "anomaly_type": "leave_abuse",
       "confidence": 0.386,
       "chosen_action": "escalate-to-manager",
@@ -6804,7 +6804,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "776b0a14-a783-4763-8615-e7a729dab717",
+      "anomaly_id": "9d53777b-4823-4d01-b9b1-1b29de15d8f1",
       "anomaly_type": "leave_abuse",
       "confidence": 0.48,
       "chosen_action": "escalate-to-manager",
@@ -6824,7 +6824,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "9dd567c2-2bcd-41e9-b2a3-595ed1da08ae",
+      "anomaly_id": "ec7bad22-bc0b-4428-a80c-e3352c055aee",
       "anomaly_type": "leave_abuse",
       "confidence": 0.476,
       "chosen_action": "escalate-to-manager",
@@ -6844,7 +6844,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "2ae0b29e-6c9a-4fe2-995c-90435fca8dd0",
+      "anomaly_id": "0a6304f6-02f0-47c1-8dbd-2da078be6818",
       "anomaly_type": "leave_abuse",
       "confidence": 0.535,
       "chosen_action": "escalate-to-manager",
@@ -6864,7 +6864,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "124f0f0f-554c-4ea6-a8d4-ab8d81b4926b",
+      "anomaly_id": "65f4cd94-f5ce-4c7d-8b8d-c7c1343cb459",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "escalate-to-manager",
@@ -6884,7 +6884,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "5540d6d5-5320-43f0-9b43-5fd750b78d4f",
+      "anomaly_id": "80266e95-2fd0-4dc4-a5f6-71343db48a05",
       "anomaly_type": "leave_abuse",
       "confidence": 0.607,
       "chosen_action": "escalate-to-manager",
@@ -6904,7 +6904,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "78e48ed9-bfc2-4652-9e45-3eb53eefd9fc",
+      "anomaly_id": "9b57bfe2-e02b-4575-a7a3-6d878e05a1e9",
       "anomaly_type": "leave_abuse",
       "confidence": 0.535,
       "chosen_action": "escalate-to-manager",
@@ -6924,7 +6924,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "88135c9b-41be-4ab6-addf-18bd397c0897",
+      "anomaly_id": "5358d673-5083-45d5-9e69-872c96acc395",
       "anomaly_type": "leave_abuse",
       "confidence": 0.434,
       "chosen_action": "escalate-to-manager",
@@ -6944,7 +6944,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "818fd074-f4e1-4cc8-b035-4b19554f6e4a",
+      "anomaly_id": "5cf86dc2-5b0a-4360-ba02-1bce38cac544",
       "anomaly_type": "leave_abuse",
       "confidence": 0.365,
       "chosen_action": "escalate-to-manager",
@@ -6964,7 +6964,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "94749e2a-6ba8-4523-932c-6f5f91d47ee2",
+      "anomaly_id": "8b3707da-2749-47b1-95ab-1ecf315c4329",
       "anomaly_type": "leave_abuse",
       "confidence": 0.413,
       "chosen_action": "escalate-to-HR",
@@ -6984,7 +6984,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "20d2f807-4fa7-4824-9a21-39ef275a54fd",
+      "anomaly_id": "37bbdf2f-ac7d-43b0-be03-5a9558c72f15",
       "anomaly_type": "leave_abuse",
       "confidence": 0.24,
       "chosen_action": "escalate-to-manager",
@@ -7004,7 +7004,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "252e75ee-3afe-4f0a-9d3c-c8f5a9695596",
+      "anomaly_id": "e31da8c4-d132-40cc-acbc-c529ade636e1",
       "anomaly_type": "leave_abuse",
       "confidence": 0.42,
       "chosen_action": "no-action",
@@ -7024,7 +7024,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "d455bef2-8de7-4aff-b3ed-219b8c934cfd",
+      "anomaly_id": "e477b679-aa5a-4695-afe8-16f2d9b261cd",
       "anomaly_type": "leave_abuse",
       "confidence": 0.315,
       "chosen_action": "escalate-to-manager",
@@ -7044,7 +7044,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "853c2497-a85c-4ab8-9ee6-b1dbacff8275",
+      "anomaly_id": "e0759081-f217-42c8-b13a-f6a235f10219",
       "anomaly_type": "leave_abuse",
       "confidence": 0.409,
       "chosen_action": "no-action",
@@ -7064,7 +7064,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "ae43121e-9224-48e8-8214-94e022d688a2",
+      "anomaly_id": "a6236e5e-33a0-4bd1-a0db-2b19dac834c4",
       "anomaly_type": "leave_abuse",
       "confidence": 0.488,
       "chosen_action": "escalate-to-manager",
@@ -7084,7 +7084,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "06ce2535-d471-42cf-bab7-ed0ac0ef2313",
+      "anomaly_id": "13931656-cefb-452b-8b9b-f3dd3028154c",
       "anomaly_type": "compliance_violation",
       "confidence": 0.792,
       "chosen_action": "escalate-to-manager",
@@ -7104,7 +7104,7 @@
     },
     {
       "cycle": "cycle_2",
-      "anomaly_id": "c4fac4f5-a7e0-428f-93f4-9b2c5c609b2c",
+      "anomaly_id": "c2cf7b08-f679-470f-ba16-0b9e2e573165",
       "anomaly_type": "compliance_violation",
       "confidence": 0.8,
       "chosen_action": "flag-for-audit",

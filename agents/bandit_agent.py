@@ -10,15 +10,15 @@ DATASET_PATH = Path(__file__).resolve().parent.parent / "data" / "employees.csv"
 
 
 def bandit_agent_node(state: HROpsState) -> dict:
-    """Attaches the bandit's action recommendation alongside Section B's
-    rule-based one on every anomaly -- augmenting, not replacing it. The
-    rule-based recommendation still drives HITL/Action Agent behaviour
-    downstream; the bandit's suggestion rides along for comparison until
-    there's enough validated performance history to trust it to override
-    the rule outright.
+    """Attaches the bandit's action recommendation alongside anomaly
+    detection's rule-based one on every anomaly -- augmenting, not replacing
+    it. The rule-based recommendation still drives HITL/Action Agent
+    behaviour downstream; the bandit's suggestion rides along for comparison
+    until there's enough validated performance history to trust it to
+    override the rule outright.
 
-    The recommendation itself is "warm-started" from episodic memory
-    (Section F): before trusting its own (possibly still-untrained)
+    The recommendation itself is "warm-started" from episodic memory:
+    before trusting its own (possibly still-untrained)
     weights, it checks whether similar past incidents are on record and
     biases toward whatever action worked well for them. Inference only --
     explore=False, no exploration in the live path; that belongs in the

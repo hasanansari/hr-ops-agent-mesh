@@ -21,16 +21,17 @@ def ideal_rank(anomaly_type: str, is_true_positive: bool, evidence: dict | None 
     ground truth) would consider correct. A false positive should always
     resolve to no-action -- nothing real happened. For true positives,
     payroll always goes to HR (money needs sign-off) and leave always goes
-    to the manager who owns leave decisions, mirroring Section B's own
+    to the manager who owns leave decisions, mirroring anomaly detection's own
     rule-based design.
 
-    Compliance violations are split by sub-type to match Section E's actual
-    hard rules, not flattened to one constant -- an earlier version of this
-    function always called compliance "ideal" at auto-correct, which
-    directly contradicted Section E's TRAINING_CANNOT_BE_AUTO_CORRECTED rule
-    and made the bandit look like it was getting *worse* after learning,
-    when really two of this project's own modules just disagreed with each
-    other about what "correct" meant for that one sub-type.
+    Compliance violations are split by sub-type to match the compliance
+    engine's actual hard rules, not flattened to one constant -- an earlier
+    version of this function always called compliance "ideal" at
+    auto-correct, which directly contradicted the compliance engine's
+    TRAINING_CANNOT_BE_AUTO_CORRECTED rule and made the bandit look like it
+    was getting *worse* after learning, when really two of this project's
+    own modules just disagreed with each other about what "correct" meant
+    for that one sub-type.
     """
     if not is_true_positive:
         return ACTION_RANK[RecommendedAction.NO_ACTION]
@@ -39,9 +40,9 @@ def ideal_rank(anomaly_type: str, is_true_positive: bool, evidence: dict | None 
     if anomaly_type == "leave_abuse":
         return ACTION_RANK[RecommendedAction.ESCALATE_TO_MANAGER]
 
-    # compliance_violation -- mirrors Section B's own severity-based split
-    # for overtime, and Section E's hard rule that training can never be
-    # auto-corrected.
+    # compliance_violation -- mirrors anomaly detection's own severity-based
+    # split for overtime, and the compliance engine's hard rule that
+    # training can never be auto-corrected.
     evidence = evidence or {}
     if evidence.get("violation") == "missing_mandatory_training":
         return ACTION_RANK[RecommendedAction.ESCALATE_TO_MANAGER]

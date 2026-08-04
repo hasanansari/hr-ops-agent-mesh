@@ -1,4 +1,4 @@
-# Architecture Brief: Darwinbox Self-Healing HR Ops Platform
+# Architecture Overview: HR Ops Agent Mesh
 
 ## What it does
 

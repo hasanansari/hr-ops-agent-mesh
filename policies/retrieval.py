@@ -1,7 +1,7 @@
 """TF-IDF + cosine-similarity retrieval over the policy chunks.
 
 Deliberately not a neural embedding model, and deliberately not a vector
-database -- same reasoning as Section F's episodic memory, applied one
+database -- same reasoning as episodic memory's embeddings, applied one
 notch further this time since this corpus genuinely is text, not
 structured records: a neural embedder needs a model download (no
 guaranteed network access here) and produces a similarity score nobody can
@@ -9,7 +9,7 @@ verify by hand; TF-IDF's score is just "how much do these two documents
 share important words," fully inspectable. And at 7 chunks, brute-force
 cosine similarity is instant -- a vector database's whole reason to exist
 (approximate nearest-neighbor search over millions of vectors) buys
-nothing here. Section F's memory store earns Chroma because incidents
+nothing here. The episodic memory store earns Chroma because incidents
 accumulate indefinitely across the platform's lifetime; this corpus is a
 handful of static paragraphs rebuilt fresh every run.
 """

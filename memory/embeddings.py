@@ -31,7 +31,7 @@ Layout (6 dimensions):
                                   confidence, so this keeps them apart
     [5] tenure_normalized     -- employee tenure_months / 60, capped at 1.0;
                                   ties memory similarity to the same
-                                  probation distinction Section E's rules
+                                  probation distinction the compliance rules
                                   care about (a probation-period incident
                                   is a meaningfully different situation)
 """

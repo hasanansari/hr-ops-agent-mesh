@@ -1,6 +1,6 @@
 """Synthetic HR dataset generator for the anomaly detection pipeline.
 
-Generates one row per employee covering the four required data domains --
+Generates one row per employee covering four data domains --
 payroll, attendance, leave, performance -- with deliberate, realistic
 correlations:
   - pay scales with department base rate * level multiplier * tenure, plus

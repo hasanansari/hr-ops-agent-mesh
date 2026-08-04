@@ -10,7 +10,7 @@ TRACES_DIR = Path(__file__).resolve().parent.parent / "traces"
 
 
 def _write_trace_to_disk(result: dict) -> Path:
-    """Section G: formalizes the in-memory trace list (Section A) into a
+    """Formalizes the in-memory trace list into a
     structured JSON file on disk per run, named by timestamp so multiple
     runs don't collide. mode="json" handles enum/datetime serialization
     (AgentName -> its string value, timestamps -> ISO 8601) the same way

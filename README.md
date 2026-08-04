@@ -1,4 +1,4 @@
-# Darwinbox Self-Healing HR Ops Platform
+# HR Ops Agent Mesh
 
 A multi-agent system that triages HR requests across three trigger types (reactive employee
 queries, scheduled data scans, and system-generated alerts), routes them through specialized
@@ -24,7 +24,7 @@ including an explicit human approval, before it reaches execution.
 Every node below is a plain function: `(state) -> partial_state_update`. No node ever calls another
 node directly: the only channel between them is the shared `HROpsState` object, enforced
 structurally (agent files never import each other; only `agents/graph.py` does). Every node is
-wrapped in a timing decorator and appends to a shared trace list (**Section G**), which is
+wrapped in a timing decorator and appends to a shared trace list, which is
 serialized to `traces/*.json` after every run.
 
 ```
@@ -44,12 +44,11 @@ every request (reactive_query / scheduled_scan / system_alert)
 │+ a real Claude    │ │3 mock HR tools,   │ │+ leave pattern    │ │still a stub (no   │
 │Sonnet 4.6 call)   │ │retry-wrapped      │ │+ overtime/        │ │NLP yet to parse   │
 │                   │ │                   │ │training rules     │ │free text alerts)  │
-│Section A          │ │Section A          │ │Section B          │ │Section A          │
 └───────────────────┘ └───────────────────┘ └───────────────────┘ └───────────────────┘
           ▼                     ▼                     ▼                     ▼
          END                   END                                         END
 
-(Section A ends here for Policy / Action / the reactive Compliance stub --
+(The graph terminates here for Policy / Action / the reactive Compliance stub --
  the rest of this diagram is Anomaly Detection's pipeline, under that 3rd column)
 
                                                       ▼
@@ -58,8 +57,6 @@ every request (reactive_query / scheduled_scan / system_alert)
                                            │epsilon-greedy linear│
                                            │bandit, warm-started │
                                            │from episodic memory │
-                                           │                     │
-                                           │Section C + F        │
                                            └─────────────────────┘
                                                       ▼
                                            ┌─────────────────────┐
@@ -67,8 +64,6 @@ every request (reactive_query / scheduled_scan / system_alert)
                                            │human review via     │
                                            │Streamlit + shared   │
                                            │SQLite store         │
-                                           │                     │
-                                           │Section D            │
                                            └─────────────────────┘
                                                       ▼
                                            ┌─────────────────────┐
@@ -77,19 +72,18 @@ every request (reactive_query / scheduled_scan / system_alert)
                                            │veto -- even over an │
                                            │explicit human       │
                                            │approval             │
-                                           │Section E            │
                                            └─────────────────────┘
                                                       ▼
                               ├─ if actionable ─────▶ back to ACTION AGENT (above)
                               └─ nothing actionable ▶ END
 ```
 
-**Where Section F (episodic memory) sits:** inside the Bandit Agent, not as its own node. Before
+**Where episodic memory sits:** inside the Bandit Agent, not as its own node. Before
 trusting its own linear weights, the bandit queries a Chroma collection of past resolved incidents
 and biases toward whatever action worked well for similar ones; see
 `memory/warm_start.py`.
 
-**Where Section G (observability/eval) sits:** not in the graph at all. It wraps it. The
+**Where observability/eval sits:** not in the graph at all. It wraps it. The
 `_timed()` decorator in `agents/graph.py` stamps latency onto every node uniformly;
 `agents/demo.py` writes the full trace to disk after every invocation; `eval/test_cases.py` and
 `eval/cost_tracking.py` run independently against the same graph and dataset.
@@ -105,7 +99,7 @@ and biases toward whatever action worked well for similar ones; see
 | Agent orchestration | [LangGraph](https://github.com/langchain-ai/langgraph): `StateGraph`, conditional edges |
 | State schema | Pydantic v2 |
 | LLM | `anthropic` SDK, `claude-sonnet-4-6` (Policy Agent's RAG answer generation only) |
-| Vector store | ChromaDB (episodic memory, Section F): precomputed embeddings, no network-dependent embedding model |
+| Vector store | ChromaDB (episodic memory): precomputed embeddings, no network-dependent embedding model |
 | HITL UI | Streamlit |
 | HITL persistence | SQLite (stdlib `sqlite3`) |
 | Rules engine | PyYAML: structured `(field, operator, value)` conditions, no `eval()` |
@@ -124,8 +118,8 @@ which is the one task in the whole pipeline that's actually LLM-shaped (see
 
 ```bash
 # 1. Clone
-git clone https://github.com/hasanansari/darwinbox-hr-ops-agent.git
-cd darwinbox-hr-ops-agent
+git clone https://github.com/hasanansari/hr-ops-agent-mesh.git
+cd hr-ops-agent-mesh
 
 # 2. Install dependencies (creates .venv automatically, reads uv.lock)
 uv sync
@@ -200,7 +194,7 @@ uv run python -m eval.cost_tracking
 
 ## Key Design Decisions
 
-**1. Epsilon-greedy linear bandit over LinUCB (Section C).** LinUCB explores by maintaining and
+**1. Epsilon-greedy linear bandit over LinUCB.** LinUCB explores by maintaining and
 inverting a per-action covariance matrix to know how *uncertain* it is about each action: more
 sample-efficient, but real machinery to defend. With 5 actions and a 5-feature context, uniform
 random exploration covers the space almost as well, and the whole mechanism fits in one sentence:
@@ -208,13 +202,13 @@ score each action linearly, mostly take the best one, sometimes gamble, nudge th
 the observed reward afterward. Chose the version I could fully explain over the version that's
 marginally more sample-efficient.
 
-**2. YAML rules over code or prompts (Section E).** Conditions are structured
+**2. YAML rules over code or prompts.** Conditions are structured
 `(field, operator, value)` triples, never an `eval()`'d expression string. A rules file editable
 by a non-engineer can never become a code-injection surface. The tradeoff: no arbitrary logic, only
 the 6 comparison operators the engine recognizes. For a compliance ruleset that's the right
 tradeoff: auditability matters more than expressiveness here.
 
-**3. Structured numeric embeddings over sentence-transformers, twice (Sections F and Policy RAG).**
+**3. Structured numeric embeddings over sentence-transformers, twice (episodic memory and Policy RAG).**
 Episodic memory embeds anomalies as a 6-dimensional hand-built feature vector; Policy Agent's
 retrieval uses TF-IDF instead of a neural embedder. Same reasoning both times: no model download
 (no guaranteed network access in this environment), and a similarity score that's fully
@@ -223,20 +217,20 @@ TF-IDF retrieval missed a paraphrased query ("I just joined the company" vs. the
 "probationary period") that a real embedding model likely would have caught: a known, accepted
 limitation in exchange for explainability and zero infrastructure dependency.
 
-**4. SQLite over a flat JSON file for HITL persistence (Section D).** Two separate OS processes
+**4. SQLite over a flat JSON file for HITL persistence.** Two separate OS processes
 (the graph run and the Streamlit reviewer UI) read and write the same decisions concurrently. JSON
 has no protection against two processes writing at once; SQLite gives transactions and row-level
 locking for free while still being a single file on disk, no server to run.
 
-**5. The compliance veto can override an explicit human approval (Section E).** The brief asked for
-a hard veto overriding "the Supervisor or RL policy"; extended that to humans too, on purpose. A
+**5. The compliance veto can override an explicit human approval.** The design goal was
+a hard veto overriding the Supervisor or the learned RL policy; extended that to humans too, on purpose. A
 hard compliance rule exists specifically to catch the case where a reviewer under-reacts to
 something serious; if a human's approval could always have the final word, the veto would only be
 advisory in practice. Verified directly: an approved `flag-for-audit` on a $7,000 payroll
 discrepancy gets force-corrected to `escalate-to-HR` regardless of who signed off.
 
-**6. The bandit augments the rule-based recommendation, it doesn't replace it (Section C).** Every
-anomaly carries both `recommended_action` (Section B's tiered rule) and `bandit_action` (the
+**6. The bandit augments the rule-based recommendation, it doesn't replace it.** Every
+anomaly carries both `recommended_action` (anomaly detection's tiered rule) and `bandit_action` (the
 learned suggestion) side by side, and the gap between them is reported in the trace
 (`agreement_with_rule_based`). Early on, before much training had accumulated, agreement was as low
 as 19/178, too unreliable to trust as the sole driver of a consequential HR action. Shipping the
@@ -245,7 +239,7 @@ both ride side by side until the bandit's track record is actually validated is 
 
 **7. Sonnet 4.6, not Opus, for the one real LLM call (Policy Agent).** Grounded Q&A from a short
 retrieved excerpt is a narrow, high-volume, well-scoped task (exactly Sonnet's profile), and it's
-the same model Section G's cost analysis assumes for a platform processing millions of HR
+the same model the cost analysis assumes for a platform processing millions of HR
 transactions. Opus's extra capability would be paid for and mostly unused here.
 
 ---
@@ -260,7 +254,7 @@ whole time.
 
 **The employee dataset would be a real database, not a CSV reloaded from disk on every call.**
 `load_employees()` re-reads and re-parses the full CSV inside the Anomaly Detection, Bandit, and
-Compliance Veto nodes on every single invocation. Fine at 800 rows; at the PDF's own stated scale
+Compliance Veto nodes on every single invocation. Fine at 800 rows; at real enterprise HRMS scale
 (3M+ employees) this needs a real database with indexing, not a flat file re-parsed per request.
 
 **Episodic memory needs a retention policy.** The Chroma collection in `memory/store.py` only ever
@@ -273,16 +267,16 @@ estimates tokens at ~4 characters/token specifically to avoid live API calls. Pr
 tracking should pull from actual `usage.input_tokens` / `usage.output_tokens` on every real call
 (which `policies/rag.py` already captures when a key is configured) rather than an estimate.
 
-**Compliance overrides need their own audit trail.** Section D persists every human decision to
-SQLite; Section E's overrides currently only live in graph state for the duration of one run --
+**Compliance overrides need their own audit trail.** HITL persists every human decision to
+SQLite; the compliance veto's overrides currently only live in graph state for the duration of one run --
 there's no permanent record of "this anomaly's action was overridden from X to Y, for these
-reasons" the way there is for human decisions. That's the natural next addition for Section G's
+reasons" the way there is for human decisions. That's the natural next addition for the
 eventual evaluation harness.
 
 **The RL feedback loop needs real, sustained human data, not primarily simulated data.** The real
 HITL store today is almost entirely timeout fallbacks: there hasn't been enough actual human
 review yet to train on. `bandit/simulate_human.py`'s synthetic feedback is doing the heavy lifting
-for the current demonstration, which the brief explicitly sanctions given the sparsity, but a real
+for the current demonstration, which is a reasonable stand-in given the sparsity, but a real
 deployment needs a sustained flywheel of genuine approve/reject/modify decisions before the learned
 policy should be trusted to influence real actions.
 
@@ -296,12 +290,12 @@ the actual requester. Production needs this wired to whatever identity system fr
 
 ```
 agents/        Supervisor, all 7 graph nodes, shared Pydantic state schema
-data/          Synthetic employee dataset + generator (Section B)
-bandit/        Contextual bandit, reward function, training cycles (Section C)
-hitl/          SQLite store + Streamlit review UI (Section D)
-compliance/    YAML rules + the eval()-free rules engine (Section E)
-memory/        Episodic memory: embeddings, Chroma store, warm-start blending (Section F)
-eval/          15-test harness + LLM cost analysis (Section G)
+data/          Synthetic employee dataset + generator
+bandit/        Contextual bandit, reward function, training cycles
+hitl/          SQLite store + Streamlit review UI
+compliance/    YAML rules + the eval()-free rules engine
+memory/        Episodic memory: embeddings, Chroma store, warm-start blending
+eval/          15-test harness + LLM cost analysis
 policies/      Mock HR policy doc, chunking, TF-IDF retrieval, real RAG generation
 tools/         Mock HR self-service tool schemas + retry-wrapped implementations
 traces/        Generated per-run JSON traces (gitignored)

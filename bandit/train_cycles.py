@@ -1,8 +1,8 @@
-"""The core deliverable: run 2 feedback cycles over the real Section B
-dataset and show the bandit's recommendations measurably shift between
+"""Runs 2 feedback cycles over the real anomaly-detection
+dataset and shows the bandit's recommendations measurably shift between
 them. No matplotlib in this project's dependencies, so the "plot" is a
-clean printed table + ASCII bars -- explicitly sanctioned as the
-lower-effort alternative in the brief, and it's still screenshot-able.
+clean printed table + ASCII bars -- a deliberately lower-effort
+alternative that's still screenshot-able.
 
 Each cycle is the same loop: detect anomalies -> bandit recommends an
 action per anomaly -> a (simulated) human reviews it -> combine_reward
@@ -98,7 +98,7 @@ def run_cycle(
         )
         bandit.update(context, chosen_action, reward)
 
-        # Section F: this is the one place context+action+outcome+reward
+        # This is the one place context+action+outcome+reward
         # are all genuinely known together, so it's the natural place to
         # persist the resolution as an episodic memory -- written to the
         # same collection the live graph reads from in bandit_agent_node,
@@ -181,7 +181,7 @@ def print_report(log1: list[dict], log2: list[dict]) -> None:
     print(f"cycle 1 total reward: {reward1:+.2f}  (avg {reward1 / len(log1):+.3f} per decision over {len(log1)} decisions)")
     print(f"cycle 2 total reward: {reward2:+.2f}  (avg {reward2 / len(log2):+.3f} per decision over {len(log2)} decisions)")
 
-    print("\n=== Section E: compliance vetoes triggered by the bandit's own chosen action ===")
+    print("\n=== Compliance vetoes triggered by the bandit's own chosen action ===")
     print(f"cycle 1: {vetoes1}/{len(log1)} decisions vetoed (each costing an extra {-1.0:+.1f} reward)")
     print(f"cycle 2: {vetoes2}/{len(log2)} decisions vetoed")
     print(f"-> {'fewer vetoes after learning' if vetoes2 < vetoes1 else 'no improvement in veto rate'}")
@@ -208,11 +208,11 @@ def main() -> None:
 
     scan = run_anomaly_scan(employees)
     anomalies = scan["high_confidence_anomalies"] + scan["review_queue"]
-    print(f"running both cycles over the same {len(anomalies)} detected anomalies from the real Section B scan")
+    print(f"running both cycles over the same {len(anomalies)} detected anomalies from the real anomaly scan")
 
     bandit = LinearEpsilonGreedyBandit(epsilon=0.15, learning_rate=0.1, seed=1)
 
-    # real Section D wiring: ingest whatever has actually been decided
+    # real HITL wiring: ingest whatever has actually been decided
     # through hitl/app.py so far, before any simulated training happens.
     real_rng = np.random.default_rng(99)
     real_log = train_on_real_decisions(bandit, real_rng)
@@ -233,8 +233,8 @@ def main() -> None:
 
     bandit.save(POLICY_PATH)
 
-    # Section G: the RL diagnostics (cumulative reward curve, action
-    # distribution shift) are required to be saved to disk, not just
+    # The RL diagnostics (cumulative reward curve, action
+    # distribution shift) are saved to disk, not just
     # printed -- tee the existing print_report output to a file instead of
     # restructuring every print() call into building a string first.
     with open(DIAGNOSTICS_PATH, "w") as diagnostics_file:

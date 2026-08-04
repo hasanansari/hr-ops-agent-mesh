@@ -32,7 +32,7 @@ class TraceEntry(BaseModel):
     output: dict[str, Any]
     timestamp: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
-    # Section G: observability fields. latency_ms is populated uniformly for
+    # Observability fields. latency_ms is populated uniformly for
     # every node by a timing wrapper in graph.py -- nodes never set it
     # themselves. The rest are populated only by the nodes that actually
     # have the information: tool_calls by action_agent, rl_action_selected

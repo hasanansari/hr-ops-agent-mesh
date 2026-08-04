@@ -11,7 +11,7 @@ no-action                    26  ######                                  9  ##
 cycle 1 total reward: +27.00  (avg +0.152 per decision over 178 decisions)
 cycle 2 total reward: +44.25  (avg +0.249 per decision over 178 decisions)
 
-=== Section E: compliance vetoes triggered by the bandit's own chosen action ===
+=== Compliance vetoes triggered by the bandit's own chosen action ===
 cycle 1: 53/178 decisions vetoed (each costing an extra -1.0 reward)
 cycle 2: 52/178 decisions vetoed
 -> fewer vetoes after learning

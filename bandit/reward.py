@@ -1,6 +1,6 @@
 """Reward computation for the bandit -- combines three independent signals
 into one scalar per decision. Reuses the same 0-4 action-rank scale defined
-in hitl/models.py for Section D's edit-distance math, so "how far apart are
+in hitl/models.py for HITL's edit-distance math, so "how far apart are
 two actions" means the same thing everywhere in the codebase.
 """
 
@@ -38,7 +38,7 @@ RECURRENCE_PENALTY = -0.5
 # real (a data error or legitimate activity, not an actual incident).
 FALSE_POSITIVE_PENALTY = -0.5
 
-# Section E is wired in for real now: does `final_action` actually trigger
+# The compliance rules engine is wired in for real now: does `final_action` actually trigger
 # a hard compliance veto for this anomaly's context? If so, the policy
 # should learn to avoid it -- -1.0 puts a compliance violation on the same
 # scale as an outright human rejection, since both mean "the action picked

@@ -14,7 +14,7 @@ architectures' order of magnitude, which is the actual question here, not
 billing-grade precision.
 
 The call counts and the text fed into each prompt are real, though: pulled
-from an actual Section B scan over the actual 800-employee dataset, not
+from an actual anomaly scan over the actual 800-employee dataset, not
 invented numbers.
 """
 
@@ -211,21 +211,21 @@ def run_analysis() -> dict:
                 "total_cost": round(supervisor_cost, 6),
             },
             {
-                "name": "Per-employee anomaly check (naive equivalent of Section B's z-score)",
+                "name": "Per-employee anomaly check (naive equivalent of the z-score check)",
                 "calls": employee_check_calls,
                 "input_tokens_per_call": employee_check_in,
                 "output_tokens_per_call": out_employee_check,
                 "total_cost": round(employee_check_cost, 4),
             },
             {
-                "name": "Action selection (naive equivalent of Section C's bandit)",
+                "name": "Action selection (naive equivalent of the bandit)",
                 "calls": action_calls,
                 "input_tokens_per_call": action_in,
                 "output_tokens_per_call": out_action,
                 "total_cost": round(action_cost, 4),
             },
             {
-                "name": "Compliance veto check (naive equivalent of Section E's rules engine)",
+                "name": "Compliance veto check (naive equivalent of the rules engine)",
                 "calls": compliance_calls,
                 "input_tokens_per_call": compliance_in,
                 "output_tokens_per_call": out_compliance,
@@ -259,15 +259,15 @@ def print_report(analysis: dict) -> None:
     print(f"\n{'ACTUAL SYSTEM TOTAL':<60}{'':>8}{'':>10}{analysis['actual_total_cost']:>12.4f}")
     print(f"{'  total tokens (actual)':<60}{analysis['actual_total_tokens']:>28,}")
 
-    print(f"\nReduction: {analysis['reduction_pct']:.0f}% (required: >=20%)")
+    print(f"\nReduction: {analysis['reduction_pct']:.0f}% (target: >=20%)")
     print(
         "\nWhy 100%, not some smaller optimized number: this isn't a cost optimization\n"
-        "applied AFTER an LLM-based design -- it's the architectural decision (Sections\n"
-        "B/C/E) to not reach for an LLM at all for these four decision types, since\n"
+        "applied AFTER an LLM-based design -- it's the architectural decision\n"
+        "to not reach for an LLM at all for these four decision types, since\n"
         "z-score statistics, a linear bandit, and declarative YAML rules answer the same\n"
         "questions an LLM would, deterministically, in microseconds, for zero tokens.\n"
         "The one place a real system would legitimately need an LLM is natural-language\n"
-        "policy Q&A (Policy Agent's RAG flow) -- that's still a Section A stub, so it\n"
+        "policy Q&A (Policy Agent's RAG flow) -- that's still a stub, so it\n"
         "contributes $0 to both sides of this comparison today. Once built, that's the\n"
         "one path where the optimization is retrieval shrinking the context, not\n"
         "eliminating the LLM call -- natural language understanding is a task an LLM is\n"

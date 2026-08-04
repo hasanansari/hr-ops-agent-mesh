@@ -54,7 +54,7 @@ LEAVE_CLUSTERING_WEIGHT = 0.4
 LEAVE_CLUSTERING_FLAG_RATIO = 0.5
 
 # Mock policy constant. A real system would pull this from the YAML
-# compliance rules engine (Section E) instead of hardcoding it here -- it's
+# compliance rules engine instead of hardcoding it here -- it's
 # inlined for now since that engine doesn't exist yet.
 OVERTIME_CAP_HOURS_PER_WEEK = 12.0
 

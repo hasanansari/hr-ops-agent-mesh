@@ -1,7 +1,7 @@
-"""The required Section F deliverable: prove the same anomaly type is
-handled with higher confidence on its second occurrence than its first,
-using episodic memory alone -- not bandit training. Deliberately distinct
-from Section C's train_cycles.py demo: that script proves the bandit's OWN
+"""Proves the same anomaly type is handled with higher confidence on its
+second occurrence than its first, using episodic memory alone -- not
+bandit training. Deliberately distinct from train_cycles.py's demo: that
+script proves the bandit's OWN
 weights improve after many gradient updates. This script proves something
 different and specific to memory: a SINGLE resolved incident can
 immediately bias the very next similar one, with the bandit's weights
@@ -29,10 +29,10 @@ DEMO_COLLECTION = "warm_start_demo"
 
 
 def _pick_similar_pair(anomalies: list[dict], ground_truth_by_id: dict[str, dict]) -> tuple[dict, dict]:
-    """Finds the two real payroll_outlier anomalies from the actual Section
-    B scan whose z-scores are closest to each other -- a genuinely similar
+    """Finds the two real payroll_outlier anomalies from the actual anomaly
+    scan whose z-scores are closest to each other -- a genuinely similar
     pair pulled from real data, not a constructed example. Restricted to
-    true positives (real injected outliers, per Section B's ground truth):
+    true positives (real injected outliers, per the ground truth):
     a false positive has no "ideal" action at all, so a single resolved
     false-positive incident can only teach memory to avoid one bad choice,
     not to confidently prefer a good one -- the wrong example for proving

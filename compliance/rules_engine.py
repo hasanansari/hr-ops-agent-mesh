@@ -5,7 +5,7 @@ file can never become a code-execution risk no matter who edits it later.
 That's the actual reason conditions are (field, operator, value) tuples
 instead of e.g. a "python:" expression column.
 
-A veto here means exactly what the brief asks for: even if the Supervisor's
+A veto here means exactly what the design calls for: even if the Supervisor's
 rule-based recommendation, the bandit's learned suggestion, or a human
 reviewer's explicit decision picked an action, this engine can still force
 it up to a stricter one. That includes overriding an explicit human

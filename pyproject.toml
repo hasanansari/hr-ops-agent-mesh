@@ -1,7 +1,7 @@
 [project]
-name = "darwinbox-technicalscreen"
+name = "hr-ops-agent-mesh"
 version = "0.1.0"
-description = "Add your description here"
+description = "A self-healing, multi-agent HR operations platform: anomaly detection, a contextual bandit, a YAML compliance veto, and human-in-the-loop review, coordinated over shared graph state."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

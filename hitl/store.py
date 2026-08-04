@@ -6,7 +6,7 @@ resolution) and the Streamlit app (reading the queue, writing decisions).
 A JSON file has no protection against two processes writing at once; SQLite
 gives transactions and row-level locking essentially for free, while still
 being "just a file on disk" -- no server process to run. It also means
-querying decision history for the RL reward pipeline later (Section C) is
+querying decision history for the RL reward pipeline later (the bandit) is
 a SQL query instead of a hand-rolled file scan.
 """
 

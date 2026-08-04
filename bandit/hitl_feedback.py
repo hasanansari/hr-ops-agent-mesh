@@ -1,5 +1,5 @@
-"""Ingests REAL persisted HITL decisions (Section D's SQLite store) as
-training data -- the actual wiring point between Section D and Section C.
+"""Ingests REAL persisted HITL decisions (HITL's SQLite store) as
+training data -- the actual wiring point between human review and the bandit.
 Today the store is almost entirely timeout fallbacks (no real review has
 happened yet against this dataset), so in practice this contributes little
 training signal -- but that's exactly what should happen: timeout rows are
