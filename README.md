@@ -1,5 +1,7 @@
 # HR Ops Agent Mesh
 
+[![CI](https://github.com/hasanansari/hr-ops-agent-mesh/actions/workflows/ci.yml/badge.svg)](https://github.com/hasanansari/hr-ops-agent-mesh/actions/workflows/ci.yml)
+
 A multi-agent system that triages HR requests across three trigger types (reactive employee
 queries, scheduled data scans, and system-generated alerts), routes them through specialized
 agents that communicate only via shared graph state, and learns from human feedback over time.

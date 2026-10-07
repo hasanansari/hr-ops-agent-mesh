@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import tempfile
 from pathlib import Path
 
@@ -314,3 +315,4 @@ if __name__ == "__main__":
     with open(RESULTS_PATH, "w") as f:
         json.dump(results, f, indent=2)
     print(f"\nfull eval report written to {RESULTS_PATH}")
+    sys.exit(0 if all(r["passed"] for r in results) else 1)
